@@ -6,9 +6,11 @@
 			"element": "div#jobsByConnection > div > div > table > thead > tr > th:nth-of-type(2)",
 			"shortname": "Job Schedule Details Header",
 			"comments": [
-				"content":"`Affects 6.2 CU4 SP3 and Under`\n\nThe Timezone of the Job Monitor typically reports their results in UTC.\n\nA **hotfix** exists to show the Job Monitor with **Application Timezone** (Settings -> Application Timezone)\n\nTicket #210917\n",
-				"timestamp":1584239889
-				"author":"sprashker@securonix.com"
+				{
+					"content":"`Affects 6.2 CU4 SP3 and Under`\n\nThe Timezone of the Job Monitor typically reports their results in UTC.\n\nA **hotfix** exists to show the Job Monitor with **Application Timezone** (Settings -> Application Timezone)\n\nTicket #210917\n",
+					"timestamp":1584239889,
+					"author":"sprashker@securonix.com"
+				}
 			]
 		}
 	]
