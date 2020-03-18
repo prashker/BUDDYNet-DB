@@ -1,28 +1,50 @@
 {
-	"version": "1",
-	"signoff": "Samuel Prashker",
-	"db": [
-		{
-			"element": "div#jobsByConnection > div > div > table > thead > tr > th:nth-of-type(2)",
-			"shortname": "Job Schedule Details Header",
-			"comments": [
-				{
-					"content":"`Affects 6.2 CU4 SP3 and Under`\n\nThe Timezone of the Job Monitor typically reports their results in UTC.\n\nA **hotfix** exists to show the Job Monitor with **Application Timezone** (Settings -> Application Timezone)\n\nTicket #210917\n",
-					"timestamp":1584239889,
-					"author":"Samuel Prashker (sprashker@securonix.com)"
-				}
-			]
-		},
-		{
-		   "element":"div#validationingester",
-		   "shortname":"Console or Ingester Selector",
-		   "comments": [
-			   {
-				   "author":"Samuel Prashker (sprashker@securonix.com)",
-				   "content":"`When selecting between Console or Ingester`\n\nIt is recommended to add a datasource to a **Remote Ingestion Node** and to only use the Console in absolutely necessary scenarios. \n\nIn the event of a **Console-based import** keep an eye on Console resources and performance to ensure the import is not negatively affecting the broader system.",
-				   "timestamp":1584538742
-			   }
-		   ]
-		}
-	]
+  "version": "1",
+  "signoff": "Samuel Prashker",
+  "db": [
+    {
+      "element": "div#jobsByConnection > div > div > table > thead > tr > th:nth-of-type(2)",
+      "shortname": "Job Schedule Details Header",
+      "comments": [
+        {
+          "content": "`Affects 6.2 CU4 SP3 and Under`\n\nThe Timezone of the Job Monitor typically reports their results in UTC.\n\nA **hotfix** exists to show the Job Monitor with **Application Timezone** (Settings -> Application Timezone)\n\nTicket #210917\n",
+          "timestamp": 1584239889,
+          "author": "Samuel Prashker (sprashker@securonix.com)"
+        }
+      ]
+    },
+    {
+      "element": "div#validationingester",
+      "shortname": "Console or Ingester Selector",
+      "comments": [
+        {
+          "author": "Samuel Prashker (sprashker@securonix.com)",
+          "content": "`When selecting between Console or Ingester`\n\nIt is recommended to add a datasource to a **Remote Ingestion Node** and to only use the Console in absolutely necessary scenarios. \n\nIn the event of a **Console-based import** keep an eye on Console resources and performance to ensure the import is not negatively affecting the broader system.",
+          "timestamp": 1584538742
+        }
+      ]
+    },
+    {
+      "element": "label#lookupTableType",
+      "shortname": "Lookup Table Type",
+      "comments": [
+        {
+          "author": "Samuel Prashker (sprashker@securonix.com)",
+          "content": "`Lookup Table Types Explanation`\n\n`System` is accomplished by storing data in **Redis**\n\nLimitations:\n* None\n\n`User` is accomplished by storing data in **MySQL** \n\nLimitations:\n* \"CONTAINS\"\n* \"DOES NOT CONTAIN\"\n* \"ENDS WITH\"",
+          "timestamp": 1584561120
+        }
+      ]
+    },
+    {
+      "element": "div#tier2AnalyticalTabPane > ul:nth-of-type(1) > li:nth-of-type(2)",
+      "shortname": "Check Against Lookup Table - Policy Creation",
+      "comments": [
+        {
+          "author": "Samuel Prashker (sprashker@securonix.com)",
+          "content": "Ensure `System` Lookup Table is selected if performing `CONTAINS` `DOES NOT CONTAINS` or `ENDS WITH` queries.",
+          "timestamp": 1584561781
+        }
+      ]
+    }
+  ]
 }
