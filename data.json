@@ -9,9 +9,20 @@
 				{
 					"content":"`Affects 6.2 CU4 SP3 and Under`\n\nThe Timezone of the Job Monitor typically reports their results in UTC.\n\nA **hotfix** exists to show the Job Monitor with **Application Timezone** (Settings -> Application Timezone)\n\nTicket #210917\n",
 					"timestamp":1584239889,
-					"author":"sprashker@securonix.com"
+					"author":"Samuel Prashker (sprashker@securonix.com)"
 				}
 			]
+		},
+		{
+		   "element":"div#validationingester",
+		   "shortname":"Console or Ingester Selector",
+		   "comments": [
+			   {
+				   "author":"Samuel Prashker (sprashker@securonix.com)",
+				   "content":"`When selecting between Console or Ingester`\n\nIt is recommended to add a datasource to a **Remote Ingestion Node** and to only use the Console in absolutely necessary scenarios. \n\nIn the event of a **Console-based import** keep an eye on Console resources and performance to ensure the import is not negatively affecting the broader system.",
+				   "timestamp":1584538742
+			   }
+		   ]
 		}
 	]
 }
