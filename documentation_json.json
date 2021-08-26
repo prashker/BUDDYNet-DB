@@ -1,0 +1,3306 @@
+[
+	{
+		"vendor": "ActivIdentity",
+		"title": "ActivIdentity Physical Badging",
+		"methods": [
+			{
+				"type": "File (JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20ActivIdentity_Physical%20Badging.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20ActivIdentity_Physical%20Badging.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Akamai Technologies",
+		"title": "Akamai Web Application Firewall",
+		"methods": [
+			{
+				"type": "File (JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Akamai_Web%20Application%20Firewall.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Akamai_Web%20Application%20Firewall.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Alcatel-Lucent",
+		"title": "Omniswitch",
+		"methods": [
+			{
+				"type": "File (JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Alcatel-Lucent_Omniswitch.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Alcatel-Lucent_Omniswitch.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Allscripts",
+		"title": "Allscripts",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20AllScripts.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20AllScripts.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20AllScripts.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS Cloudtrail",
+		"methods": [
+			{
+				"type": "AWS S3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/AWS%20CloudTrail%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/AWS%20CloudTrail%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "6.2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Amazon%20Web%20Services_CloudTrail.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Amazon%20Web%20Services_CloudTrail%20Data.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS GuardDuty",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/AWS%20GuardDuty%20Deployment%20guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/AWS%20GuardDuty%20Deployment%20guide.pdf"
+			},
+			{
+				"type": "6.2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Amazon%20Web%20Services_CloudTrail.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Amazon%20Web%20Services_CloudTrail%20Data.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Apache Software Foundation",
+		"title": "Apache Web Server",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Apache_Web%20Server.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Apache_Web%20Server.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Avanan",
+		"title": "Cloud Security Platform",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Avanan_Cloud%20Security.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Avanan_Cloud%20Security.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Avecto",
+		"title": "Avecto Defendpoint ",
+		"methods": [
+			{
+				"type": "File (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Avecto_Defendpoint.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Avecto_Defendpoint.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Axway",
+		"title": "Axway SFTP",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Axway_SFTP.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Axway_SFTP.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Barracuda Networks",
+		"title": "Barracuda Networks Load Balancer",
+		"methods": [
+			{
+				"type": "Syslog (Space delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Barracuda%20Networks_Load%20Balancer.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Barracuda%20Networks_Load%20Balancer.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Badge Access",
+		"title": "Badge Access ",
+		"methods": [
+			{
+				"type": "Syslog (Comma delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Functionality%20Guide%20Badge%20Access.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Functionality%20Guide%20Badge%20Access.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "BeyondTrust",
+		"title": "PowerBroker",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20BeyondTrust_PowerBroker.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20BeyondTrust_PowerBroker.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20BeyondTrust_PowerBroker.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Bind",
+		"title": "Bind DNS",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/BIND%20DNS%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Blue Coat Proxy",
+		"methods": [
+			{
+				"type": "Syslog (Regex) and Splunk",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Bluecoat_Proxy.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Bluecoat_Proxy.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec CloudSOC CASB",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_CASB.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_CASB.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec DLP Endpoint",
+		"methods": [
+			{
+				"type": "Database",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Endpoint%20DLP.pdf"
+			},
+			{
+				"type": "Syslog (Capturing Groups)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_DLP%20Endpoint.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 (Database)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Endpoint%20DLP.pdf"
+			},
+			{
+				"type": "6.2 (Sylog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_DLP%20Endpoint.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec Endpoint Protection",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Endpoint%20Protection.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Endpoint%20Protection.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Symantec_Endpoint%20Protection.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec EPM",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Symantec%20EPM%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Symantec%20EPM%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec Messaging Security Gateway",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Messaging%20Security%20Gateway.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Messaging%20Security%20Gateway.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Symantec_Messaging%20Security%20Gateway.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec VIP",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_VIP.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_VIP.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Box, Inc",
+		"title": "Box",
+		"methods": [
+			{
+				"type": "API",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Box%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Box.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Box.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Zeek (formerly Bro)",
+		"title": "Bro",
+		"methods": [
+			{
+				"type": "Splunk",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Bro.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Bro.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black Protect",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Carbon%20Black_Predictive%20Security%20Cloud.pdf"
+			},
+			{
+				"type": "Key Value Pair (syslog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Carbon%20Black_Protection%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Carbon%20Black_Protection%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Carbon%20Black_Protect.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black Protect",
+		"methods": [
+			{
+				"type": "Syslog (JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Carbon%20Black_Protect.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Carbon%20Black_Protect.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Carbon%20Black_Protect.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black Response",
+		"methods": [
+			{
+				"type": "Syslog (JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Carbon%20Black_Response.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Carbon%20Black_Response.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "CA Technologies",
+		"title": "CA SiteMinder",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20CA%20Technologies_SiteMinder.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20CA%20Technologies_SiteMinder.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Centrify",
+		"title": "Centrify Suite",
+		"methods": [
+			{
+				"type": "Syslog (JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Centrify%20Suite.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Centrify%20Suite.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cerner",
+		"title": "Cerner",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cerner.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Carbon%20Black_Protect.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Cerner.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software Technologies",
+		"title": "Check Point Antimalware",
+		"methods": [
+			{
+				"type": "File (JSON wrapped CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Check%20Point_Anti-Malware.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Check%20Point_Anti-Malware.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software Technologies",
+		"title": "Check Point Firewall",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Check%20Point_Firewall.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Check%20Point_Firewall.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software Technologies",
+		"title": "SmartDefense",
+		"methods": [
+			{
+				"type": "File (JSON wrapped CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Check%20Point_Antivirus.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Check%20Point_Antivirus.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco Adaptive Security Appliance",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Cisco_Adaptive%20Security%20Appliance.pdf"
+			},
+			{
+				"type": "Regex (syslog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Cisco%20ASA%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Cisco_Adaptive%20Security%20Appliance.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Cisco_Adaptive%20Security%20Appliance.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco AnyConnect VPN",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_AnyConnect%20VPN.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_AnyConnect%20VPN.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco ASA Firepower URL",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_ASA%20Firepower%20URL.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_ASA%20Firepower%20URL.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco Cloud Web Security",
+		"methods": [
+			{
+				"type": "",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Cisco_Cloud%20Web%20Security.pdf"
+			},
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Cisco_Cloud%20Web%20Security.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Cisco_Cloud%20Web%20Security.pdf"
+			},
+			{
+				"type": "6.2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Cisco_Cloud%20Web%20Security.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Cisco_Cloud%20Web%20Security.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco Identity Service Engine",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Identity%20Service%20Engine.pdf"
+			},
+			{
+				"type": "Key Value Pair (file)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Cisco_ISE%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Identity%20Service%20Engine.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco Intrusion Detection System",
+		"methods": [
+			{
+				"type": "Syslog (Delimited",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Intrusion%20Detection%20System.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Intrusion%20Detection%20System.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco IOS",
+		"methods": [
+			{
+				"type": "Syslog (Capturing Groups)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Cisco_IOS.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Cisco_IOS.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco Ironport Web Security Appliance",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_IronPort%20Web%20Security%20Appliance.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_IronPort%20Web%20Security%20Appliance.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Cisco_IronPort%20Web%20Security%20Appliance.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco Meraki",
+		"methods": [
+			{
+				"type": "",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_Office%20365%20Azure.pdf"
+			},
+			{
+				"type": "Syslog (REGEX)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Cisco%20Meraki%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Cisco%20Meraki%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco NIOS",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_NIOS.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_NIOS.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco NX-OS",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_NX-OS.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_NX-OS.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco Prime Wi-Fi",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Prime%20WiFi.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Prime%20WiFi.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco Routers and Switches",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Cisco%20Router%20Switch%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Cisco%20Router%20Switch%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco Secure ACS",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Secure%20Access%20Control%20System.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Secure%20Access%20Control%20System.pdf"
+			},
+			{
+				"type": "6.2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Access%20Control%20System.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco Unified Communications",
+		"methods": [
+			{
+				"type": "File (Capturing Groups)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Unified%20Communications.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Unified%20Communications.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "SourceFire",
+		"methods": [
+			{
+				"type": "Syslog (Delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Sourcefire.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Sourcefire.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Cisco AMP",
+		"methods": [
+			{
+				"type": "API",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Cisco%20AMP%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Cisco_Wireless%20Controller%20Trap.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Wireless Controller Trap",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Cisco_Wireless%20Controller%20Trap.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Wireless%20LAN.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco Systems",
+		"title": "Wireless LAN",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cisco_Wireless%20LAN.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Citrix Systems",
+		"title": "Netscaler VPN",
+		"methods": [
+			{
+				"type": "File (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Citrix_NetScaler.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Citrix_NetScaler.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Citrix_NetScaler.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Citrix Systems",
+		"title": "ShareFile",
+		"methods": [
+			{
+				"type": "File (Delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Citrix_ShareFile.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Citrix_ShareFile.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Citrix_FileShare.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Citrix Systems",
+		"title": "Citrix VDI",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Citrix_VDI.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Citrix_VDI.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "CrowdStrike",
+		"title": "CrowdStrike Falcon",
+		"methods": [
+			{
+				"type": "API Connector (Streaming)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/CrowdStrike%20Falcon%20Streaming%20API%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "CrowdStrike",
+		"title": "CrowdStrike Falcon Data Replicator",
+		"methods": [
+			{
+				"type": "S3(JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/CloudStrike%20Falcon-Data-Replicator-Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "CyberArk",
+		"title": "Enterprise Password Vault",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/CyberArk%20Vault%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "Splunk",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20CyberArk_Enterprise%20Password%20Vault%20Splunk.pdf"
+			},
+			{
+				"type": "File (Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20CyberArk_Enterprise%20Password%20Vault%20File.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3.1 (Syslog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/CyberArk%20Vault%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "6.2+ (Syslog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20CyberArk.pdf"
+			},
+			{
+				"type": "6.2+ (Splunk)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20CyberArk_Enterprise%20Password%20Vault%20Splunk.pdf"
+			},
+			{
+				"type": "6.2+ (File)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20CyberArk_Enterprise%20Password%20Vault%20File.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20CyberArk_Enterprise%20Password%20Vault.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cybereason",
+		"title": "Endpoint Sensor",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cybereason_Endpoint%20Sensor.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cybereason_Endpoint%20Sensor.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Cylance",
+		"title": "CylancePROTECT",
+		"methods": [
+			{
+				"type": "Syslog (Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cylance_PROTECT.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Cylance_PROTECT.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Darktrace",
+		"title": "Darktrace TPI",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Darktrace_TPI%20API.pdf"
+			},
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Darktrace_TPI%20CEF.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+ (API)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Darktrace_TPI%20API.pdf"
+			},
+			{
+				"type": "6.2+ (Syslog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Darktrace_TPI%20CEF.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Gemalto (Formerly Data Security Systems Solutions)",
+		"title": "DSSS",
+		"methods": [
+			{
+				"type": "File (Capturing Groups)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Data%20Security%20Systems%20Solutions%20(DS3).pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Data%20Security%20Systems%20Solutions%20(DS3).pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Epic",
+		"title": "Epic",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Epic.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Epic.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Epic.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Epic",
+		"title": "Epic Clarity",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Epic_Clarity.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Epic_Clarity.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "PrivacyTrust (formerly eTrust)",
+		"title": "eTrust",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20eTrust.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20eTrust.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 ASM Audit",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20F5%20Networks_ASM%20Audit.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 BigIP LTM",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/F5%20BIGIP%C2%A0-%20LTM%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 DNS",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20F5%20Networks_DNS.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 BigIP ASM ",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/F5%20BIGIP%20ASM%20Syslog%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "FireEye",
+		"title": "FireEye EX",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20FireEye_EX.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "FireEye",
+		"title": "FireEye HX",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/FireEye%20HX%20(Syslog-CEF)%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "FireEye",
+		"title": "FireEye NX",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/FireEye%20NX%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Forescout Technologies",
+		"title": "Forescout CounterACT",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/ForeScout%20CounterACT%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/ForeScout%20CounterACT%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Fortinet",
+		"title": "Fortinet Firewall",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Fortinet_Firewall.pdf"
+			},
+			{
+				"type": "Key Value Pair (syslog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Fortinet_Next-Generation%20Firewall.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Fortinet_Firewall.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Gemalto (Formerly Data Security Systems Solutions)",
+		"title": "DSSS",
+		"methods": [
+			{
+				"type": "File (Capturing Groups)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Data%20Security%20Systems%20Solutions%20(DS3).pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Data%20Security%20Systems%20Solutions%20(DS3).pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Admin",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Google_Admin.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Google_Admin.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Google%20Admin.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Cloud Platform ",
+		"methods": [
+			{
+				"type": "Syslog (LEEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Google_Cloud%20Platform.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Google_Cloud%20Platform.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Directory",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Google_Login.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Google_Login.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Drive",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Google_Drive.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Google_Drive.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Google%20Drive.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Suite",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Google%20Suite%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Guidance Software",
+		"title": "EnCase Security",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20EnCase.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20EnCase.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Honeywell",
+		"title": "Honeywell Badging",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Honeywell_Card%20Badge.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Honeywell_Card%20Badge.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "Aspera File Transfer",
+		"methods": [
+			{
+				"type": "Syslog (Comma Delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20IBM_%20Aspera%20File%20Transfer.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20IBM_%20Aspera%20File%20Transfer.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "Aspera Uploads",
+		"methods": [
+			{
+				"type": "Syslog (Comma Delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20IBM_Aspera.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20IBM_Aspera.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "Guardium",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Guardium.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Guardium.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "IBM General Parallel File System",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20IBM_General%20Parallel%20File%20System.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20IBM_General%20Parallel%20File%20System.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "IBM TS4500",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20IBM_TS4500.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20IBM_TS4500.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "iboss",
+		"title": "iboss Proxy",
+		"methods": [
+			{
+				"type": "File (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20iboss_Proxy.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20iboss_Proxy.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20iboss%20Proxy.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Imperva, Inc.",
+		"title": "Imperva",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Imperva.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Imperva.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Imperva, Inc.",
+		"title": "Imperva WAF",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Imperva_Web%20Application%20Firewall.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Imperva_Web%20Application%20Firewall.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Imprivata",
+		"title": "Imprivata SSO",
+		"methods": [
+			{
+				"type": "File (Delimited-Comma)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Imprivata_SSO.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Imprivata_SSO.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Infoblox",
+		"title": "Infoblox",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Infoblox.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Infoblox.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Infoblox.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Ipswitch",
+		"title": "MOVEit",
+		"methods": [
+			{
+				"type": "Database",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/MOVEit.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/MOVEit.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "JunOS Pulse Firewall",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Junos%20Pulse%20Firewall.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Junos%20Pulse%20Firewall.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Juniper%20Networks_Junos%20Pulse%20Firewall.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "JunOS Pulse VPN",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Junos%20Pulse%20VPN.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Junos%20Pulse%20VPN.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Juniper%20Networks_Junos%20Pulse%20VPN.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "JunOS Router",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Junos%20Router.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Junos%20Router.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Netscreen HVD VPN",
+		"methods": [
+			{
+				"type": "Splunk",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Netscreen%20(Splunk).pdf"
+			},
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Netscreen%20(Syslog).pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+ (Splunk)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Netscreen%20(Splunk).pdf"
+			},
+			{
+				"type": "6.2+ (Syslog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Netscreen%20(Syslog).pdf"
+			},
+			{
+				"type": "6.1 (Splunk)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Juniper%20Networks_Netscreen%20(Splunk).pdf"
+			},
+			{
+				"type": "6.1 (Syslog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Juniper%20Networks_Netscreen%20(Syslog).pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Netscreen Firewall",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Netscreen%20Firewall%20(CEF).pdf"
+			},
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Netscreen%20Firewall%20(SyslogRegex).pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2 (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Netscreen%20Firewall%20(CEF).pdf"
+			},
+			{
+				"type": "6.2 CU2  (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_Netscreen%20Firewall%20(SyslogRegex).pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "SRX Firewall",
+		"methods": [
+			{
+				"type": "Splunk (Delimited pipe)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_SRX%20Firewall.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Juniper%20Networks_SRX%20Firewall.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Liebsoft",
+		"title": "Lieberman Identity Management ",
+		"methods": [
+			{
+				"type": "JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Lieberman_Identity%20Management.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Lieberman_Identity%20Management.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Malwarebytes Corporation",
+		"title": "Malwarebytes",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Malwarebytes.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Malwarebytes.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "ManageEngine",
+		"title": "ManageEngine ADAudit Plus",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20ManageEngine_ADAudit%20Plus.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20ManageEngine_ADAudit%20Plus.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee Advanced Threat Defense ",
+		"methods": [
+			{
+				"type": "JSON (Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Advanced%20Threat%20Defense.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Advanced%20Threat%20Defense.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee DLP",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_DLP.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_DLP.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20McAfee_DLP.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee DLP v10",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_DLP%20v10.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_DLP%20v10.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee ePolicy Orchestrator (EPO)",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_ePolicy%20Orchestrator.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_ePolicy%20Orchestrator.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee EPO HIDS/HIP",
+		"methods": [
+			{
+				"type": "Database",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_ePolicy%20Orchestrator%20HIDS%20HIP.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_ePolicy%20Orchestrator%20HIDS%20HIP.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20McAfee_ePolicy%20Orchestrator%20HIDS%20HIP.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee EPO VirusScan",
+		"methods": [
+			{
+				"type": "Syslog (CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_ePolicy%20Orchestrator%20VirusScan.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_ePolicy%20Orchestrator%20VirusScan.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee IronMail Email Gateway",
+		"methods": [
+			{
+				"type": "File (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_IronMail%20Email%20Gateway.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_IronMail%20Email%20Gateway.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee Network DLP",
+		"methods": [
+			{
+				"type": "Syslog (Pipe Delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Network%20DLP.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Network%20DLP.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee Network IPS",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/McAfee%20NIPs%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/McAfee%20NIPs%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Network-based%20Intrustion%20Prevention%20System.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee Sidewinder",
+		"methods": [
+			{
+				"type": "JSON (Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Sidewinder.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Sidewinder.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee Web Gateway",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Web%20Gateway.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Web%20Gateway.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20McAfee_Web%20Gateway.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee Web Gateway",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Web%20Gateway.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20McAfee_Web%20Gateway.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20McAfee_Web%20Gateway.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Intel Security / McAfee Inc.",
+		"title": "McAfee MVision Cloud CASB",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/McAfee%20MVision%20Cloud%20CASB%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Medicity, Inc.",
+		"title": "Medicity",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Medicity_HIE.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Medicity_HIE.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Medicity, Inc.",
+		"title": "Medicity Admin",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Medicity_HIE%20Admin.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Medicity_HIE%20Admin.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Mellanox Technologies",
+		"title": "Mellanox Technologies Switch",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Mellanox%20Technologies_Switch.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Mellanox%20Technologies_Switch.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Active Directory Federation Services",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Microsoft%20Windows_Active%20Directory%20Federation%20Services.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Microsoft%20Windows_Active%20Directory%20Federation%20Services.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Active Directory ",
+		"methods": [
+			{
+				"type": "User Import",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Azure%20AD%20-%20User%20Import%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "Activity Import (API)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft_Azure%20Active%20Directory.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+ (API)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft_Azure%20Active%20Directory.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft DNS",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20DNS%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20DNS%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "6.2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_DNS.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Windows",
+		"methods": [
+			{
+				"type": "Snare",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Windows%20-%20NXLogs%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "Splunk",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_Active%20Directory%20(WinEvents%20and%20Splunk).pdf"
+			},
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_Active%20Directory%20(CEF).pdf"
+			},
+			{
+				"type": "Syslog (psloglist)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_PSLogLists.pdf"
+			},
+			{
+				"type": "Syslog (logrhythm)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_%20LogRhythm.pdf"
+			},
+			{
+				"type": "Winevent",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_Active%20Directory%20(WEC).pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+ (Splunk)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_Active%20Directory%20(WinEvents%20and%20Splunk).pdf"
+			},
+			{
+				"type": "6.2+ (logrhythm)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_%20LogRhythm.pdf"
+			},
+			{
+				"type": "6.2+ (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_Active%20Directory%20(CEF).pdf"
+			},
+			{
+				"type": "6.2+ (psloglist)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_PSLogLists.pdf"
+			},
+			{
+				"type": "6.2+ (Snare)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_Active%20Directory%20(Snare).pdf"
+			},
+			{
+				"type": "6.2+ (Winevent)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_Active%20Directory%20(WEC).pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Forefront Threat Management Gateway ",
+		"methods": [
+			{
+				"type": "File (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft_Forefront%20Threat%20Management%20Gateway.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft_Forefront%20Threat%20Management%20Gateway.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Forefront Threat Management Gateway Firewall",
+		"methods": [
+			{
+				"type": "File (Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft_Forefront%20TMG%20Firewall.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft_Forefront%20TMG%20Firewall.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Windows IIS ",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20IIS%20Web%20Server%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20IIS%20Web%20Server%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Windows Print Server",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_Print%20and%20Server.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Microsoft%20Windows_Print%20and%20Server.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Office 365 Azure / Exchange / SharePoint",
+		"methods": [
+			{
+				"type": "API (O365)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Office%20365%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Office%20365%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Office 365 Outlook",
+		"methods": [
+			{
+				"type": "API (API)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Office%20365%20Outlook%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Office%20365%20Outlook%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "MSSQL Audit ",
+		"methods": [
+			{
+				"type": "Delimited-pipe (Database)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/MSSQL_Audit%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "NXLog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/MSSQL%20via%20NXLog%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3.1 (DB)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Office%20365%20Outlook%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "6.3.1 (NXLog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/MSSQL%20via%20NXLog%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft DNS ",
+		"methods": [
+			{
+				"type": "",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Office%20365%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20DNS%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Exchange (On-Prem)",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Exchange%20(On-Prem)%20%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Windows Defender ATP",
+		"methods": [
+			{
+				"type": "",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Office%20365%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "API(JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Microsoft%20Windows%20Defender%20ATP%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "MobileIron",
+		"title": "MobileIron",
+		"methods": [
+			{
+				"type": "File (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/MobileIron.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/MobileIron.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "NetApp",
+		"title": "NetApp Admin",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20NetApp_Admin.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20NetApp_Admin.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "NETSCOUT Systems, Inc.",
+		"title": "NETSCOUT nGenious",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20NETSCOUT_nGenious.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20NETSCOUT_nGenious.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
+		"title": "Netskope",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Netskope.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Netskope.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Netskope.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "ObserveIT",
+		"title": "ObserveIT",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20ObserveIT.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20ObserveIT.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20ObserveIT.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Okta",
+		"title": "Okta Authentication",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Okta%20Authentication%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "OpenStack",
+		"title": "OpenStack",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Openstack_Cloud.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Openstack_Cloud.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle",
+		"title": "Oracle Access Manager",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Oracle_Access%20Manager.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Oracle_Access%20Manager.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle",
+		"title": "Oracle PeopleSoft",
+		"methods": [
+			{
+				"type": "Database",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Oracle_PeopleSoft.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Oracle_PeopleSoft.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle",
+		"title": "Oracle SysDatabase",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Oracle_SysDatabase.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Oracle_SysDatabase.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle",
+		"title": "Oracle Database",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Oracle_Database.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Oracle_Database.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Palo Alto Networks",
+		"title": "Palo Alto Network Next-Generation Firewall",
+		"methods": [
+			{
+				"type": "Regex (syslog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Palo%20Alto_Next-Generation%20Firewall.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Palo%20Alto_Next-Generation%20Firewall.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Panda Security",
+		"title": "Panda Security Endpoint Protection",
+		"methods": [
+			{
+				"type": "Syslog(LEEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Panda%20Security_Endpoint%20Protection.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Panda%20Security_Endpoint%20Protection.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "PaperCut",
+		"title": "PaperCut Print Logger",
+		"methods": [
+			{
+				"type": "",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20eTrust.pdf"
+			},
+			{
+				"type": "Syslog (Comma Delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20PaperCut_Print%20Logger.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20PaperCut_Print%20Logger.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "PrivacyTrust (formerly eTrust)",
+		"title": "eTrust",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20eTrust.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20eTrust.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint",
+		"title": "Proofpoint Email Gateway",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Proofpoint_Email%20Gateway.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint",
+		"title": "Proofpoint Threat Response™ Auto Pull",
+		"methods": [
+			{
+				"type": "Syslog (Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Proofpoint_Threat%20Response%20Auto%20Pull.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint",
+		"title": "Proofpoint TAP",
+		"methods": [
+			{
+				"type": "API (JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/ProofPoint%20Targeted%20Attack%20Protection%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint",
+		"title": "Proofpoint On-Demand",
+		"methods": [
+			{
+				"type": "API (JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Proofpoint%20OnDemand%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Qualys, Inc.",
+		"title": "Qualys",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Qualys%20API%20Datasource%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Qualys.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Qualys.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Qualys, Inc.",
+		"title": "Qualys Vulnerability Scanner",
+		"methods": [
+			{
+				"type": "Splunk (Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Qualys_Vulnerability%20Scanner.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Qualys_Vulnerability%20Scanner.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Rapid7",
+		"title": "Nexpose Vulnerability Manager",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Rapid7_Nexpose.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Rapid7_Nexpose.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Rapid7_Nexpose%20Vulnerability%20Manager.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "RedHat Software",
+		"title": "RedHat OpenShift CaaS",
+		"methods": [
+			{
+				"type": "Syslog (LEEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Red%20Hat_OpenShift.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Red%20Hat_OpenShift.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "RSA Security, Inc.",
+		"title": "RSA Aveksa",
+		"methods": [
+			{
+				"type": "Database",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/SNYPR%206.3/Cloud/PDF%20Guides/6.3.1%20Cloud_Data%20Integration%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/SNYPR%206.3/Cloud/PDF%20Guides/6.3.1%20Cloud_Data%20Integration%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "RSA Security, Inc.",
+		"title": "RSA SecurID Authentication Manager",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20RSA_SecurID%20Authentication%20Manager.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20RSA_SecurID%20Authentication%20Manager.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Sailpoint",
+		"title": "Sailpoint",
+		"methods": [
+			{
+				"type": "Database",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/SNYPR%206.3/Cloud/PDF%20Guides/6.3.1%20Cloud_Data%20Integration%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/SNYPR%206.3/Cloud/PDF%20Guides/6.3.1%20Cloud_Data%20Integration%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "SAP Software Solutions",
+		"title": "SAP WHE ERP",
+		"methods": [
+			{
+				"type": "Syslog (Tab delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20SAP_WHE%20ERP.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20SAP_WHE%20ERP.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Salesforce",
+		"title": "Salesforce Users",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Salesforce%20API%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Salesforce%20API%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Securelink, Inc.",
+		"title": "Securelink",
+		"methods": [
+			{
+				"type": "File (Capturing Groups)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20SecureLink.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20SecureLink.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Secureworks",
+		"title": "Secureworks iSensor",
+		"methods": [
+			{
+				"type": "File (Capturing Groups)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20SecureWorks_iSensor.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20SecureWorks_iSensor.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "SentinelOne",
+		"title": "SentinelOne - Audit",
+		"methods": [
+			{
+				"type": "API (JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/SentinelOne-Audit%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "SentinelOne",
+		"title": "SentinelOne - Threat",
+		"methods": [
+			{
+				"type": "API (JSON)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/SentinelOne-Threat%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Slack",
+		"title": "Slack Audit",
+		"methods": [
+			{
+				"type": "API",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Slack%20Audit_Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.4",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Slack%20Audit_Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Snort",
+		"title": "Snort IDS",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Snort_Intrustion%20Detection%20System.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Snort_Intrustion%20Detection%20System.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "SonicWall",
+		"title": "Sonicwall Global Management System",
+		"methods": [
+			{
+				"type": "Syslog (Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20SonicWall_GMS.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20SonicWall_GMS.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Blue Coat Proxy",
+		"methods": [
+			{
+				"type": "Syslog (Regex) and Splunk",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Bluecoat_Proxy.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Bluecoat_Proxy.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec CloudSOC CASB",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_CASB.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_CASB.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec DLP Endpoint",
+		"methods": [
+			{
+				"type": "Database",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Endpoint%20DLP.pdf"
+			},
+			{
+				"type": "Syslog (Capturing Groups)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_DLP%20Endpoint.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 (Database)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Endpoint%20DLP.pdf"
+			},
+			{
+				"type": "6.2 (Sylog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_DLP%20Endpoint.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec Endpoint Protection",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Endpoint%20Protection.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Endpoint%20Protection.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Symantec_Endpoint%20Protection.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec EPM",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Symantec%20EPM%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Symantec%20EPM%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec Messaging Security Gateway",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Messaging%20Security%20Gateway.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_Messaging%20Security%20Gateway.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Symantec_Messaging%20Security%20Gateway.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec / Blue Coat Systems",
+		"title": "Symantec VIP",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_VIP.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Symantec_VIP.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Squid Proxy",
+		"title": "Squid Proxy",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Squid%20Proxy%20Deployment%20Guide.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Squid%20Proxy%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Sophos",
+		"title": "Sophos - Events",
+		"methods": [
+			{
+				"type": "API",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Sophos%20Central%20-%20Events%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Sophos",
+		"title": "Sophos - Alert",
+		"methods": [
+			{
+				"type": "API",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Sophos%20Central%20-%20Alert%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Tanium",
+		"title": "Tanium",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tanium.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tanium.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Tanium.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Tenable",
+		"title": "Nessus Vulnerability Scanner",
+		"methods": [
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tenable%20Nessus_Vulnerability%20Scanner.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tenable%20Nessus_Vulnerability%20Scanner.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Deep Discovery Inspector",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Trend%20Micro_Deep%20Discovery%20Inspector.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Trend%20Micro_Deep%20Discovery%20Inspector.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Deep Security Agent",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Trend%20Micro%20Control%20Manager%20DSA%20Syslog%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Trend%20Micro_Control%20Manager.pdf"
+			},
+			{
+				"type": "Syslog (CEF and Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Trend%20Micro_Deep%20Security%20Agent.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.3+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Trend%20Micro%20Control%20Manager%20DSA%20Syslog%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Trend%20Micro_Deep%20Security%20Agent.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Trend%20Micro_Deep%20Security%20Agent.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Deep Security Manager",
+		"methods": [
+			{
+				"type": "Syslog (CEF and Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Trend%20Micro_Deep%20Security%20Manager.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Trend%20Micro_Deep%20Security%20Manager.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Trend%20Micro_Deep%20Security%20Manager.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Control Manager",
+		"methods": [
+			{
+				"type": "Syslog (CEF and Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Trend%20Micro_Control%20Manager.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2 CU2",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Trend%20Micro_Control%20Manager.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Deep Security",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Trend%20Micro%20Control%20Manager%20DSA%20Syslog%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Tipping Point IPS - LSM",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Trend%20Micro%20Tipping%20Point%20IPS%20-%20LSM%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Tripwire",
+		"title": "Tripwire IP360",
+		"methods": [
+			{
+				"type": "Syslog (CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tripwire_IP360.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tripwire_IP360.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Tyco Security Products",
+		"title": "Tyco C-Cure Badging",
+		"methods": [
+			{
+				"type": "API Connector",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tyco_Badging%20(API).pdf"
+			},
+			{
+				"type": "Database",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tyco_Badging%20(Database).pdf"
+			},
+			{
+				"type": "File (Delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tyco_Badging%20Delimited%20(File).pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+ (API)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tyco_Badging%20(API).pdf"
+			},
+			{
+				"type": "6.2+ (Database)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tyco_Badging%20(Database).pdf"
+			},
+			{
+				"type": "6.2+ (Delimited)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Tyco_Badging%20Delimited%20(File).pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Unix",
+		"title": "Unix",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/UNIX%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "Syslog",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Unix%20(Syslog).pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+ (Syslog)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Unix%20(Syslog).pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Varonis Systems",
+		"title": "Varonis",
+		"methods": [
+			{
+				"type": "Syslog (Key Value Pair)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Varonis.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Varonis.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Veriato",
+		"title": "Veriato 360",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Veriato_360.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Veriato_360.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "VMware ESXi",
+		"methods": [
+			{
+				"type": "Syslog (Regex)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/VMware_ESXi.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "VMware Horizon",
+		"methods": [
+			{
+				"type": "Syslog (Capturing Groups)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/VMware_Horizon.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "VMware Workspace ONE",
+		"methods": [
+			{
+				"type": "Syslog (Capturing Groups)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/VMware_Workspace%20ONE.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "VMware Center",
+		"methods": [
+			{
+				"type": "Syslog (REGEX)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/VMware%20vCenter%20Deployment%20Guide.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Raytheon / Websense",
+		"title": "Websense Triton DLP",
+		"methods": [
+			{
+				"type": "Syslog (CEF / LEEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Websense_Triton%20DLP.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/Websense_Triton%20DLP.pdf"
+			},
+			{
+				"type": "6.1",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.1%20Datasource%20Guide%20Websense_Triton%20DLP.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Zeek (formerly Bro)",
+		"title": "Bro",
+		"methods": [
+			{
+				"type": "Splunk",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Bro.pdf"
+			}
+		],
+		"versions": [
+			{
+				"type": "6.2+",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Old%20Datasource%20Guides/SNYPR%206.2%20Deployment%20Guide%20Bro.pdf"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler",
+		"methods": [
+			{
+				"type": "Syslog(CEF)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Zscaler_Proxy%20Deployment%20Guide.pdf"
+			}
+		]
+	}
+]
