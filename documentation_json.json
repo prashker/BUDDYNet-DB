@@ -962,6 +962,10 @@
 			{
 				"type": "API Connector (Streaming)",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/CrowdStrike%20Falcon%20Streaming%20API%20Deployment%20Guide.pdf"
+			},
+			{
+				"type": "API Connector (Query)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/CrowdStrike%20Falcon%20Query%20API.pdf"
 			}
 		]
 	},
