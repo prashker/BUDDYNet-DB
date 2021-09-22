@@ -1339,11 +1339,11 @@
 	},
 	{
 		"vendor": "Google",
-		"title": "Google Suite",
+		"title": "Google Suite Audit Activity",
 		"methods": [
 			{
 				"type": "API Connector",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/Google%20Suite%20Deployment%20Guide.pdf"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/Content/Datasource%20Deployment%20Guides/PDF%20Deployment%20Guides/GSuite%20Audit%20Activity%20Deployment%20Guide.pdf"
 			}
 		]
 	},
