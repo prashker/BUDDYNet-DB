@@ -431,45 +431,11 @@
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "Azure Network Security Groups",
-		"methods": [
-			{
-				"type": "Eventhub/JSON",
-				"link": "http://www.support.securonix.com/"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
 		"title": "Defender ATP",
 		"methods": [
 			{
 				"type": "Msftdefenderatp (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-atp-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "ForeFront Threat Management Gateway Firewall",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "http://www.support.securonix.com/"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "ForeFront Threat Management Gateway Proxy",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "http://www.support.securonix.com/"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "http://www.support.securonix.com/"
 			}
 		]
 	},
@@ -535,43 +501,11 @@
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "MicrosoftWindows",
-		"methods": [
-			{
-				"type": "BEATS/BEATS",
-				"link": "http://www.support.securonix.com/"
-			},
-			{
-				"type": "File/Regex",
-				"link": "http://www.support.securonix.com/"
-			},
-			{
-				"type": "Syslog/LOGRHYTHM",
-				"link": "http://www.support.securonix.com/"
-			},
-			{
-				"type": "Syslog/WINDOWSRSA",
-				"link": "http://www.support.securonix.com/"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
 		"title": "MicrosoftWindows AppLocker",
 		"methods": [
 			{
 				"type": "Azureloganalytics (API)/Delimited-pipe",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft%20windows%20applocker-azureloganalytics-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "MicrosoftWindows EPV",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "http://www.support.securonix.com/"
 			}
 		]
 	},
@@ -587,61 +521,11 @@
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "Microsoft Windows Print Server",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "http://www.support.securonix.com/"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "MicrosoftWindows PSLOGLIST",
-		"methods": [
-			{
-				"type": "Syslog/PSLOGLIST",
-				"link": "http://www.support.securonix.com/"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
 		"title": "Microsoft Windows SNARE",
 		"methods": [
 			{
 				"type": "Syslog/Snare",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-security-logs-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Microsoft Windows SNARE - Application",
-		"methods": [
-			{
-				"type": "Syslog/Snare",
-				"link": "http://www.support.securonix.com/"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "MicrosoftWindows SNARE - System",
-		"methods": [
-			{
-				"type": "Syslog/Snare",
-				"link": "http://www.support.securonix.com/"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Microsoft Windows WINEVENT",
-		"methods": [
-			{
-				"type": "Syslog/WINEVENT",
-				"link": "http://www.support.securonix.com/"
 			}
 		]
 	},
@@ -722,16 +606,6 @@
 			{
 				"type": "Azureloganalytics (API)/Delimited-pipe",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-security-auditing-azureloganalytics-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft\n                                                        ",
-		"title": "Microsoft Windows Print Service",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "http://www.support.securonix.com/"
 			}
 		]
 	},
