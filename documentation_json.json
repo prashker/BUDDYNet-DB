@@ -10,6 +10,16 @@
 		]
 	},
 	{
+		"vendor": "Apache Software Foundation",
+		"title": "Webserver",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/apache-webserver-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Aruba Networks",
 		"title": "Aruba Clear Pass",
 		"methods": [
@@ -51,11 +61,11 @@
 	},
 	{
 		"vendor": "Carbon Black, Inc",
-		"title": "Protect",
+		"title": "Carbon Black PROTECT",
 		"methods": [
 			{
-				"type": "Syslog/JSON",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/carbon-black-protection-syslog.htm"
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/carbon-black-protection-syslog.htm"
 			}
 		]
 	},
@@ -86,6 +96,16 @@
 			{
 				"type": "Fireamp (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-fireamp-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "FTD",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/cisco-firepower-threat-defense-syslog.htm"
 			}
 		]
 	},
@@ -170,6 +190,16 @@
 		]
 	},
 	{
+		"vendor": "Cylance",
+		"title": "CylancePROTECT",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/cylanceprotect-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Dell/Secureworks Inc.",
 		"title": "SonicWall Global Management System",
 		"methods": [
@@ -206,6 +236,16 @@
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-ip-asm-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "F5",
+		"title": "F5 Big-IP APM",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/f5-big-ip-apm-syslog-regex.htm"
 			}
 		]
 	},
@@ -391,21 +431,21 @@
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "Azure Application Gateway",
+		"title": "Azure Active Directory Sign In",
 		"methods": [
 			{
-				"type": "eventhub/Delimited-comma",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-azure-application-gateway-eventhub.htm"
+				"type": "Azurereport (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-ad-reporting-sign-in-api.htm"
 			}
 		]
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "Azure Application Service",
+		"title": "Azure Firewall",
 		"methods": [
 			{
-				"type": "eventhub/Delimited-comma",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-azure-application-services-eventhub.htm"
+				"type": "eventhub (API)",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-azure-firewall-eventhub.htm"
 			}
 		]
 	},
@@ -426,6 +466,16 @@
 			{
 				"type": "Azureactivitylogs/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft%20azure%20monitor%20(api).htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft",
+		"title": "Azure Network Security Groups",
+		"methods": [
+			{
+				"type": "Eventhub/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-azure-network-security-groups-event-hub.htm"
 			}
 		]
 	},
@@ -605,7 +655,7 @@
 		"methods": [
 			{
 				"type": "Azureloganalytics (API)/Delimited-pipe",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-security-auditing-azureloganalytics-api.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-security-auditing-azure-log-analytics-api.htm"
 			}
 		]
 	},
@@ -810,6 +860,16 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-monitoring.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Tanium",
+		"title": "Endpoint",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/tanium-endpoint-syslog.htm"
 			}
 		]
 	},
