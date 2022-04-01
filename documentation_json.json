@@ -2436,6 +2436,10 @@
 			{
 				"type": "Msftdefenderatp (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-atp-api.htm"
+			},
+			{
+				"type": "Event Hub/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-atp-eventhub.htm"
 			}
 		]
 	},
@@ -3638,16 +3642,6 @@
 	{
 		"vendor": "Sophos",
 		"title": "Sophos SG Firewall",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Sophos",
-		"title": "Sophos UTM",
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
