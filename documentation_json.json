@@ -10,224 +10,22 @@
 		]
 	},
 	{
-		"vendor": "ActivIdentity",
-		"title": "ActivIdentity",
+		"vendor": "Amazon",
+		"title": "AWS Network Load Balancer",
 		"methods": [
 			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "ActivIdentity",
-		"title": "ActivIdentity HID Global",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Akamai Technologies",
-		"title": "Akamai Web Application Firewall",
-		"methods": [
-			{
-				"type": "Akamai (API)/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Alert Logic",
-		"title": "Alert Logic",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Allscripts",
-		"title": "Allscripts",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
+				"type": "awssqss3/Delimited-space",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/amazon-aws-network-load-balancer-awssqss3.htm"
 			}
 		]
 	},
 	{
 		"vendor": "Amazon",
-		"title": "AWS Cloudwatch",
+		"title": "AWS Elastic Load Balancer",
 		"methods": [
 			{
-				"type": "Awssqss3 (API)/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS Cloud Trail",
-		"methods": [
-			{
-				"type": "Awssqss3 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS EKS Audit",
-		"methods": [
-			{
-				"type": "Awscloudwatch (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS EKS Authenticator",
-		"methods": [
-			{
-				"type": "Awscloudwatch (API)/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS EKS Controller Manager",
-		"methods": [
-			{
-				"type": "Awscloudwatch (API)/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS EKS Load Balancer",
-		"methods": [
-			{
-				"type": "Awscloudwatch (API)/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS Foundry",
-		"methods": [
-			{
-				"type": "File/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS GuardDuty",
-		"methods": [
-			{
-				"type": "Awsguardduty (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS Jump Server",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS Linux",
-		"methods": [
-			{
-				"type": "Awscloudwatch (API)/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Awscloudwatch (API)/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS OGW",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS Redshift",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS VPC FLOW",
-		"methods": [
-			{
-				"type": "Awssqss3 (API)/Delimited-space",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Awscloudwatch (API)/Delimited-space",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS WAF",
-		"methods": [
-			{
-				"type": "awssqss3 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Anaplan",
-		"title": "Anaplan Audit",
-		"methods": [
-			{
-				"type": "Anaplan (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Apache Software Foundation",
-		"title": "SVN",
-		"methods": [
-			{
-				"type": "Svn (API)/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
+				"type": "Awssqss3/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/amazon-aws-elastic-load-balancer-api.htm"
 			}
 		]
 	},
@@ -242,122 +40,12 @@
 		]
 	},
 	{
-		"vendor": "Arista Networks/Mojo Networks Inc.",
-		"title": "Mojo Network Events",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Arista Networks/Mojo Networks Inc.",
-		"title": "Mojo Network Authentication",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-comma",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Aruba Networks",
-		"title": "Aruba Authentication",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "Aruba Networks",
 		"title": "Aruba Clear Pass",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/aruba-clearpass-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Asus",
-		"title": "Object Storage",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Atlassian Corporation Plc",
-		"title": "Bitbucket",
-		"methods": [
-			{
-				"type": "File/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Atlassian Corporation Plc",
-		"title": "Jira",
-		"methods": [
-			{
-				"type": "Jira (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Attivo Networks",
-		"title": "Attivo BOTsink",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Avanan, Inc.",
-		"title": "Avanan",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Avecto",
-		"title": "Avecto Defendpoint",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "AvePoint",
-		"title": "AvePoint Compliance Guardian",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "BeyondTrust",
-		"title": "Powerbroker",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -372,100 +60,12 @@
 		]
 	},
 	{
-		"vendor": "BitDefender",
-		"title": "BitDefender EDR",
-		"methods": [
-			{
-				"type": "File/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Bitglass",
-		"title": "Bitglass CASB - Access",
-		"methods": [
-			{
-				"type": "Bitglass (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Bitglass",
-		"title": "Bitglass CASB - Admin",
-		"methods": [
-			{
-				"type": "Bitglass (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Bitglass",
-		"title": "Bitglass CASB Audit",
-		"methods": [
-			{
-				"type": "Bitglass (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "Blue Coat",
 		"title": "Bluecoat Proxy",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/blue-coat-proxy-syslog.htm"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Bluecat Networks Inc.",
-		"title": "Bluecat_DHCP",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Boeing",
-		"title": "FSM",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Boeing",
-		"title": "Network Interface Module",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Boeing",
-		"title": "Onboard Network System",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -476,70 +76,6 @@
 			{
 				"type": "BoxContent (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/box-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Brivo",
-		"title": "Brivo OnAir - Access",
-		"methods": [
-			{
-				"type": "Brivoonair (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "CA Technologies",
-		"title": "eTrust",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "CA Technologies",
-		"title": "Site Minder",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Carbon Black, Inc",
-		"title": "Carbon Black Defense",
-		"methods": [
-			{
-				"type": "Carbonblack (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Carbonblack (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Carbon Black, Inc",
-		"title": "Carbon Black Defense V2",
-		"methods": [
-			{
-				"type": "Carbonblack (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Carbon Black, Inc",
-		"title": "Carbon Black Defense - Alert",
-		"methods": [
-			{
-				"type": "Carbonblack (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -555,65 +91,11 @@
 	},
 	{
 		"vendor": "Carbon Black, Inc",
-		"title": "Protect",
+		"title": "CarbonBlack Response",
 		"methods": [
 			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Carbon Black, Inc",
-		"title": "Carbon Black Response",
-		"methods": [
-			{
-				"type": "Carbonblackalerts (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cerner",
-		"title": "Cerner",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Check Point Software Technologies",
-		"title": "Check Point Antimalware",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Check Point Software Technologies",
-		"title": "Check Point Antivirus",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Check Point Software Technologies",
-		"title": "Check Point Application control",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
+				"type": "Carbonblackalerts/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/carbon-black-response-carbonblack.htm"
 			}
 		]
 	},
@@ -622,32 +104,8 @@
 		"title": "Check Point Firewall",
 		"methods": [
 			{
-				"type": "Syslog/CHECKPOINT",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/check-point-firewall-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Check Point Software Technologies",
-		"title": "Check Point Identity Awareness",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Check Point Software Technologies",
-		"title": "Check Point SmartDefense",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -668,10 +126,6 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-asa-syslog.htm"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -716,20 +170,6 @@
 			{
 				"type": "File/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-identity-services-engine-file.htm"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
-		"title": "Cisco Meraki Switch",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -745,95 +185,11 @@
 	},
 	{
 		"vendor": "Cisco",
-		"title": "Cisco NXOS",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
-		"title": "Cisco Prime Infrastructure",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
-		"title": "Cisco Remote Connect",
-		"methods": [
-			{
-				"type": "File/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
-		"title": "Cisco Router",
-		"methods": [
-			{
-				"type": "File/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
 		"title": "Cisco Router and Switch",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-router-and-switch-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
-		"title": "Cisco Secure ACS",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
-		"title": "Cisco ScanSafe",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
-		"title": "Cisco SourceFire Intrusion Sensor",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
-		"title": "Cisco Umbrella",
-		"methods": [
-			{
-				"type": "Ciscoumbrella (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -849,16 +205,6 @@
 	},
 	{
 		"vendor": "Cisco",
-		"title": "Unified Communications",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
 		"title": "Cisco Wireless LAN Controller TRAP",
 		"methods": [
 			{
@@ -869,29 +215,11 @@
 	},
 	{
 		"vendor": "Cisco",
-		"title": "IronPort Web Security Appliance",
+		"title": "Cisco Sourcefire IDS",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Citrix Systems",
-		"title": "Citrix Sharefile",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-sourcefire-ids-syslog.htm"
 			}
 		]
 	},
@@ -902,20 +230,6 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/citrix-netscaler-vpn-syslog.htm"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cloudera",
-		"title": "Cloudera",
-		"methods": [
-			{
-				"type": "Clouderaaudit (API)/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -926,86 +240,6 @@
 			{
 				"type": "Cloudflarefirewall (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cloudflare-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "CloudKnox",
-		"title": "CloudKnox Activities",
-		"methods": [
-			{
-				"type": "Cloudknox (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "CloudKnox",
-		"title": "CloudKnox Alerts",
-		"methods": [
-			{
-				"type": "Cloudknox (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Code 42",
-		"title": "Code 42 - File Events",
-		"methods": [
-			{
-				"type": "Code42 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cofense",
-		"title": "Cofense PhishMe",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-comma",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cofense",
-		"title": "O365 Cofense",
-		"methods": [
-			{
-				"type": "Office365phishingmailbox (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Corelight",
-		"title": "Network Traffic Analytics",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Courion/Core-Security",
-		"title": "Courion IAM",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "CrowdStrike",
-		"title": "Alerts Query",
-		"methods": [
-			{
-				"type": "Crowdstrikequery (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -1030,26 +264,6 @@
 		]
 	},
 	{
-		"vendor": "Cyber Haven",
-		"title": "Cyber Haven Endpoint DLP",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Cyber X Inc.",
-		"title": "CyberX",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "CyberArk",
 		"title": "CyberArk Enterprise Password Vault",
 		"methods": [
@@ -1060,36 +274,12 @@
 		]
 	},
 	{
-		"vendor": "Cybereason",
-		"title": "Cybereason",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "Cylance",
 		"title": "CylancePROTECT",
 		"methods": [
 			{
-				"type": "Cylance (API)/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/cylanceprotect-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Cynet",
-		"title": "Cynet EDR",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -1104,102 +294,12 @@
 		]
 	},
 	{
-		"vendor": "Deep Instinct",
-		"title": "Deep Instinct",
-		"methods": [
-			{
-				"type": "Deepinstinctevents (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Dell/Secureworks Inc.",
-		"title": "Powerconnect",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Dell/Secureworks Inc.",
-		"title": "Secureworks iSensor",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "Dell/Secureworks Inc.",
 		"title": "SonicWall Global Management System",
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/sonicwall-global-management-system-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Devo",
-		"title": "Devo API",
-		"methods": [
-			{
-				"type": "Devoapi (API)/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Diamond IP/BT",
-		"title": "Diamond IPAM",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Digital Guardian",
-		"title": "Digital Guardian",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Digital Guardian",
-		"title": "Digital Guardian Arc Export",
-		"methods": [
-			{
-				"type": "Digitalguardianexport (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Dropbox",
-		"title": "Dropbox API",
-		"methods": [
-			{
-				"type": "Dropbox (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Dtex Systems",
-		"title": "Dtex",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -1224,63 +324,9 @@
 		]
 	},
 	{
-		"vendor": "DUO Security",
-		"title": "Duo Telephony",
-		"methods": [
-			{
-				"type": "Duo (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "DUO Security",
-		"title": "Duo MFA Authentication",
-		"methods": [
-			{
-				"type": "File/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Epic",
-		"title": "Epic",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Epic",
-		"title": "Epic Auth",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "F-Secure",
-		"title": "F-Secure Endpoint Security",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "F5 Networks",
 		"title": "F5 ASM Web Application Firewall",
 		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-ip-asm-syslog.htm"
@@ -1299,51 +345,11 @@
 	},
 	{
 		"vendor": "F5 Networks",
-		"title": "F5 Big-IP GTM",
-		"methods": [
-			{
-				"type": "File/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "F5 Networks",
 		"title": "F5 Big-IP Load Balancer",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-ip-ltm-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "F5 Networks",
-		"title": "F5 Big-IP Traffic Manager - RSA",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "F5 Networks",
-		"title": "F5 DNS",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "F5 Networks",
-		"title": "F5 ASM Audit",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -1354,36 +360,6 @@
 			{
 				"type": "Syslog/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fastly-waf-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Fidelis Cybersecurity",
-		"title": "Fidelis Network DLP",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "FireEye",
-		"title": "FireEye Audit Events",
-		"methods": [
-			{
-				"type": "File/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "FireEye",
-		"title": "FireEye Email Security",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -1428,43 +404,9 @@
 		]
 	},
 	{
-		"vendor": "Gemalto",
-		"title": "DS3 Authentication Server",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Gigamon",
-		"title": "Gigamon Network Traffic Analytics",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Gigya",
-		"title": "Gigya",
-		"methods": [
-			{
-				"type": "Gigyaauditsearch (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "GitHub",
 		"title": "GitHub",
 		"methods": [
-			{
-				"type": "File/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
 			{
 				"type": "File/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/github-file.htm"
@@ -1473,91 +415,11 @@
 	},
 	{
 		"vendor": "Google",
-		"title": "Access Transparency",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
 		"title": "Alert Center",
 		"methods": [
 			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "GCP Audit",
-		"methods": [
-			{
-				"type": "Googlecloudsub (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "GCP Bigquery",
-		"methods": [
-			{
-				"type": "Googlecloudsub (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "GCP Firewall",
-		"methods": [
-			{
-				"type": "Googlecloudsub (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "GCP GKE",
-		"methods": [
-			{
-				"type": "Googlecloudsub (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "GCP IAAS",
-		"methods": [
-			{
-				"type": "Googlecloudsub (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "GCP VPC",
-		"methods": [
-			{
-				"type": "Googlecloudsub (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "GMAIL",
-		"methods": [
-			{
-				"type": "Bigquery (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
+				"type": "Googlealerts (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/google-alerts-center-api.htm"
 			}
 		]
 	},
@@ -1573,91 +435,11 @@
 	},
 	{
 		"vendor": "Google",
-		"title": "Google Chat",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
 		"title": "Google Drive",
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-gsuite-audit-activity-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google Calendar",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google Directory",
-		"methods": [
-			{
-				"type": "Google Directory API",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google GCE",
-		"methods": [
-			{
-				"type": "Googlecloudsub (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google GCP",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google G-Plus",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google Groups",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google Groups Enterprise",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -1673,223 +455,21 @@
 	},
 	{
 		"vendor": "Google",
-		"title": "Google Meet",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google Mobile",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google Rules",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google SAML",
-		"methods": [
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google SCC",
-		"methods": [
-			{
-				"type": "Googlescc (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
 		"title": "Google Token",
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-gsuite-audit-activity-api.htm"
-			},
-			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
 	{
 		"vendor": "Google",
-		"title": "Users Accounts",
+		"title": "Cloud Platform",
 		"methods": [
 			{
-				"type": "Googlereport2 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "GTB Technology",
-		"title": "GTB_DLP",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "HAProxy",
-		"title": "HA Proxy",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-space",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Hitachi ID Systems",
-		"title": "Bravura Privilege",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "IBM",
-		"title": "IBM AIX",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "IBM",
-		"title": "IBM General Parallel File System",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "IBM",
-		"title": "IBM Guardium",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "IBM",
-		"title": "IBM IDS/IPS",
-		"methods": [
-			{
-				"type": "Syslog/LEEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "IBM",
-		"title": "IBM RACF",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "IBM",
-		"title": "IBM System i/AS400",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "IBM",
-		"title": "IBM Tape Device",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "iboss",
-		"title": "iBoss Web Gateway",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-comma",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "IBPort",
-		"title": "IBPort IB SW",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Imperva",
-		"title": "Imperva",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Imperva",
-		"title": "Imperva WAF",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
+				"type": "googlecloudsub/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-cloud-platform-googlecloudsub.htm"
 			}
 		]
 	},
@@ -1904,72 +484,12 @@
 		]
 	},
 	{
-		"vendor": "Imprivata",
-		"title": "Imprivata Single Sign-On",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-comma",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "Infoblox",
 		"title": "Infoblox",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/infoblox-nios-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Informatica",
-		"title": "Informatica Authentication",
-		"methods": [
-			{
-				"type": "Informatica (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Informatica",
-		"title": "Informatica Catalina",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Informatica",
-		"title": "Informatica Exceptions",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Informatica",
-		"title": "Informatica Node",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Ipswitch, Inc.",
-		"title": "MOVEit",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -1985,63 +505,11 @@
 	},
 	{
 		"vendor": "Juniper",
-		"title": "Juniper Junos Pulse Firewall",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Juniper",
 		"title": "Juniper Junos Pulse VPN",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/juniper-junos-pulse-secure-vpn-syslog.htm"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Juniper",
-		"title": "Juniper Junos Router",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Juniper",
-		"title": "Juniper Netscreen HVD VPN",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Juniper",
-		"title": "Juniper Secure Access VPN",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -2056,62 +524,12 @@
 		]
 	},
 	{
-		"vendor": "Kronos Inc.",
-		"title": "Kronos",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-comma",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Last Pass",
-		"title": "Last Pass Password Management",
-		"methods": [
-			{
-				"type": "Lastpassenterprise (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Lieberman Software",
-		"title": "Lieberman Identity Management",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Malwarebytes",
-		"title": "Malwarebytes AntiVirus",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "ManageEngine",
 		"title": "Manage AD AuditPlus",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/manageengine-ad-auditplus-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "ManageEngine",
-		"title": "Password Manager Pro",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -2137,83 +555,11 @@
 	},
 	{
 		"vendor": "McAfee",
-		"title": "McAfee DAM",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
-		"title": "McAfee Endpoint DLP",
-		"methods": [
-			{
-				"type": "File/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
 		"title": "McAfee ePO Hips",
 		"methods": [
 			{
 				"type": "Database/Delimited-pipe",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-epo-hips-database.htm"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
-		"title": "McAfee ePO VirusScan",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
-		"title": "McAfee Firewall",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
-		"title": "McAfee IronMail Email Gateway",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
-		"title": "McAfee Network DLP",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -2229,143 +575,11 @@
 	},
 	{
 		"vendor": "McAfee",
-		"title": "McAfee Unified DLP",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
 		"title": "McAfee Web Gateway",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Delimited-comma",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
-		"title": "McAfee SkyHigh CASB",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Medicity",
-		"title": "Medicity",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Medicity",
-		"title": "Medicity Admin",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Mellanox Technologies",
-		"title": "Mellanox Switch",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Menlo Security",
-		"title": "Menlo Security Isolation Platform",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Menlo Security",
-		"title": "Menlo Web Proxy",
-		"methods": [
-			{
-				"type": "Menlo/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Active Directory",
-		"methods": [
-			{
-				"type": "LDAP/LDAP",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Application Audit",
-		"methods": [
-			{
-				"type": "Azureloganalytics (API)/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Azureactivitylogs (API)/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Azure Active Directory",
-		"methods": [
-			{
-				"type": "Office365 (API)/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Azure Active Directory - Audit",
-		"methods": [
-			{
-				"type": "Azurereport (API)/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Azure EDR",
-		"methods": [
-			{
-				"type": "Office365 (API)/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/mcafee-web%20gateway-syslog.htm"
 			}
 		]
 	},
@@ -2386,16 +600,6 @@
 			{
 				"type": "Msftgraphsecurityalerts (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-identity-protection-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Azure Key Vault",
-		"methods": [
-			{
-				"type": "Azurekeyvaultstorage (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -2445,35 +649,11 @@
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "ForeFront Threat Management Gateway Firewall",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "ForeFront Threat Management Gateway Proxy",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Microsoft Defender",
+		"title": "Microsoft Defender for Endpoint",
 		"methods": [
 			{
 				"type": "Syslog/SNARE",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dhcp-syslog.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-endpoint-syslog.htm"
 			}
 		]
 	},
@@ -2484,10 +664,6 @@
 			{
 				"type": "Syslog/Delimited-comma",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dhcp-syslog.htm"
-			},
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -2506,10 +682,6 @@
 		"title": "Microsoft Exchange Server",
 		"methods": [
 			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-exchange-on-prem-syslog.htm"
 			}
@@ -2519,10 +691,6 @@
 		"vendor": "Microsoft",
 		"title": "Microsoft IIS Server",
 		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-iis-syslog.htm"
@@ -2551,43 +719,11 @@
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "MicrosoftWindows",
-		"methods": [
-			{
-				"type": "BEATS/BEATS",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "File/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/LOGRHYTHM",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/WINDOWSRSA",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
 		"title": "MicrosoftWindows AppLocker",
 		"methods": [
 			{
 				"type": "Azureloganalytics (API)/Delimited-pipe",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft%20windows%20applocker-azureloganalytics-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "MicrosoftWindows EPV",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -2603,26 +739,6 @@
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "Microsoft Windows Print Server",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "MicrosoftWindows PSLOGLIST",
-		"methods": [
-			{
-				"type": "Syslog/PSLOGLIST",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
 		"title": "Microsoft Windows SNARE",
 		"methods": [
 			{
@@ -2633,65 +749,11 @@
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "Microsoft Windows SNARE - Application",
-		"methods": [
-			{
-				"type": "Syslog/Snare",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "MicrosoftWindows SNARE - System",
-		"methods": [
-			{
-				"type": "Syslog/Snare",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Microsoft Windows Sysmon",
-		"methods": [
-			{
-				"type": "Syslog/Snare",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Microsoft Windows WINEVENT",
-		"methods": [
-			{
-				"type": "Syslog/WINEVENT",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "MS XML",
-		"methods": [
-			{
-				"type": "XML/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
 		"title": "MSSQL Audit",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-sql-audit-nxlog-syslog.htm"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -2757,81 +819,11 @@
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "PAM Index",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "RADIUS_NPS",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-comma",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
 		"title": "SharePoint",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-sharepoint-on-prem-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Windows ADFS",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Windows CEF",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Windows DNS Server",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Windows JSON",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Windows MSSQL",
-		"methods": [
-			{
-				"type": "Syslog/SNARE",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -2847,41 +839,11 @@
 	},
 	{
 		"vendor": "Microsoft",
-		"title": "Microsoft Windows Print Service",
+		"title": "Microsoft Defender for Cloud Apps",
 		"methods": [
 			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "MobileIron",
-		"title": "MobileIron",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "MobileIron",
-		"title": "Mobile Threat Defense",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Mulesoft",
-		"title": "Mulesoft",
-		"methods": [
-			{
-				"type": "Mulesoft (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-cloud%20apps-syslog.htm"
 			}
 		]
 	},
@@ -2892,16 +854,6 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/netapp%20admin-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "NETSCOUT",
-		"title": "Arbor PeakFlow",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -2917,45 +869,11 @@
 	},
 	{
 		"vendor": "Netskope",
-		"title": "NetskopeAlerts",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Netskope",
 		"title": "NetskopeEvents",
 		"methods": [
 			{
 				"type": "Netskope (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/netskope-api.htm"
-			},
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Netskope",
-		"title": "NetskopeNGenius",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "ObserveIT",
-		"title": "ObserveIT Security",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -2966,140 +884,6 @@
 			{
 				"type": "Okta (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/okta-authentication-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Okta",
-		"title": "Okta System Authentications",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Okta",
-		"title": "Okta Users",
-		"methods": [
-			{
-				"type": "Okta (API)/Okta",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "One Login",
-		"title": "One Login API",
-		"methods": [
-			{
-				"type": "Onelogin (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Oracle Corporation",
-		"title": "Oracle Access Management",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Oracle Corporation",
-		"title": "Oracle Database",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Oracle Corporation",
-		"title": "Oracle Gemini",
-		"methods": [
-			{
-				"type": "Database/Delimited-comma",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Oracle Corporation",
-		"title": "Oracle Pager Duty",
-		"methods": [
-			{
-				"type": "Pagerdutyincidents (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Oracle Corporation",
-		"title": "Oracle Palantir Audit",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Oracle Corporation",
-		"title": "Oracle Peoplesoft",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-comma",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Oracle Corporation",
-		"title": "Oracle OIA",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Oracle Corporation",
-		"title": "OS Query Logs",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Oracle Corporation",
-		"title": "Oracle Sun Solaris",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Oracle Corporation",
-		"title": "SysDB",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -3124,52 +908,12 @@
 		]
 	},
 	{
-		"vendor": "Palo Alto Networks",
-		"title": "Prisma Access",
-		"methods": [
-			{
-				"type": "Prismacloud (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Panda Security",
-		"title": "Panda Security Endpoint Protection",
-		"methods": [
-			{
-				"type": "Syslog/LEEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "PingFederate",
 		"title": "PingFederate",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ping-identity-federate-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "PostgreSQL",
-		"title": "PostgreSQL",
-		"methods": [
-			{
-				"type": "awssqss3 (API) /Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Proofpoint, Inc.",
-		"title": "Proofpoint, Inc. Email API",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -3185,16 +929,6 @@
 	},
 	{
 		"vendor": "Proofpoint, Inc.",
-		"title": "Proofpoint, Inc. Email Isolation",
-		"methods": [
-			{
-				"type": "Proofpointisolation (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Proofpoint, Inc.",
 		"title": "Proofpoint, Inc. On-Demand",
 		"methods": [
 			{
@@ -3205,179 +939,11 @@
 	},
 	{
 		"vendor": "Proofpoint, Inc.",
-		"title": "Proofpoint, Inc. Security Awareness Training",
-		"methods": [
-			{
-				"type": "Proofpointsat (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Proofpoint, Inc.",
 		"title": "Proofpoint, Inc. TAP",
 		"methods": [
 			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
 				"type": "Proofpointtap (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/proofpoint-targeted-attack-protection-api-json.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Proofpoint, Inc.",
-		"title": "Proofpoint, Inc. TRAP",
-		"methods": [
-			{
-				"type": "Proofpointtrap (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Protectwise",
-		"title": "ProtectWiseNDR",
-		"methods": [
-			{
-				"type": "Awssqss3 (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Proview",
-		"title": "Monitoring",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Qualys",
-		"title": "Qualys Vulnerability Scanner",
-		"methods": [
-			{
-				"type": "Syslog/Key Value Pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Quanta Cloud Technology",
-		"title": "Quanta Artificial Intelligence",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Quest Inc.",
-		"title": "Active Role Server",
-		"methods": [
-			{
-				"type": "Syslog/Delimited-comma",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Rapid7",
-		"title": "Nexpose Vulnerability Scanner",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Raytheon",
-		"title": "Forcepoint DLP",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Raytheon",
-		"title": "SureView Email",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Raytheon",
-		"title": "SureView File",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Raytheon",
-		"title": "SureView HTTP",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Raytheon",
-		"title": "SureView Logon",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Raytheon",
-		"title": "SureView Print",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Raytheon",
-		"title": "Websense Web Proxy",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Raytheon",
-		"title": "Websense Proxy",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -3392,76 +958,12 @@
 		]
 	},
 	{
-		"vendor": "Red Hat Software",
-		"title": "RedHat DHCP",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Red Hat Software",
-		"title": "RedHat OpenShift CaaS",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "RSA",
-		"title": "Aveksa",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "RSA",
 		"title": "RSA SecurID Authentication Manager",
 		"methods": [
 			{
-				"type": "File/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/rsa-secureid-authentication%20manager-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "SailPoint",
-		"title": "Sailpoint",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Salesforce",
-		"title": "SalesForce Audit Trial",
-		"methods": [
-			{
-				"type": "Salesforce (API)/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Salesforce",
-		"title": "Salesforce Salesforce Authentication",
-		"methods": [
-			{
-				"type": "Salesforce (API)/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -3472,86 +974,6 @@
 			{
 				"type": "Salesforce (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/salesforce-eventlog-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Salesforce",
-		"title": "Salesforce Users",
-		"methods": [
-			{
-				"type": "Salesforce (API)/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "SecureAuth",
-		"title": "SecureAuth Authentication",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "SecureLink",
-		"title": "SecureAuth Audit",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "SecurityScorecard, Inc.",
-		"title": "Security Scorecard - Company Grade",
-		"methods": [
-			{
-				"type": "Securityscorecard (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "SecurityScorecard, Inc.",
-		"title": "Security Scorecard - Company risk category score",
-		"methods": [
-			{
-				"type": "Securityscorecard (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Securonix, Inc.",
-		"title": "ControlsDS1",
-		"methods": [
-			{
-				"type": "File/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Securonix, Inc.",
-		"title": "ControlsDS2",
-		"methods": [
-			{
-				"type": "File/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Securonix, Inc.",
-		"title": "Securonix Audit",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -3582,16 +1004,6 @@
 			{
 				"type": "Slack (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/slack-audit-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Snort",
-		"title": "Snort Network IDS",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -3641,11 +1053,11 @@
 	},
 	{
 		"vendor": "Sophos",
-		"title": "Sophos SG Firewall",
+		"title": "Sophos UTM",
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/sophos-utm-syslog.htm"
 			}
 		]
 	},
@@ -3660,16 +1072,6 @@
 		]
 	},
 	{
-		"vendor": "Sophos",
-		"title": "Sophos Proxy",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "Squid",
 		"title": "Squid Proxy",
 		"methods": [
@@ -3680,154 +1082,12 @@
 		]
 	},
 	{
-		"vendor": "SWIFT",
-		"title": "SWIFT Transactions",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec CASB",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec CloudSOC",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec Critical System Protection",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec Data Center Security",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec DLP",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec DLP Endpoint",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec DLP Network",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "Symantec",
 		"title": "Symantec Endpoint Protection",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-monitoring.htm"
-			},
-			{
-				"type": "Symantecendpoint (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec IPS",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec MessageLabs",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec Message Security Gateway",
-		"methods": [
-			{
-				"type": "Syslog/LEEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Symantecmessaging (API)/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec PGP Server",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Symantec",
-		"title": "Symantec Web Security Service",
-		"methods": [
-			{
-				"type": "Symantecwss (API)/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -3838,66 +1098,6 @@
 			{
 				"type": "Syslog/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/tanium-endpoint-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Tanium",
-		"title": "Tanium",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Tanium",
-		"title": "Tanium Detect",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Tenable",
-		"title": "Nessus Vulnerability Scanner",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Tenable",
-		"title": "Tenable Response",
-		"methods": [
-			{
-				"type": "Tenable (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Threat Stack",
-		"title": "Threat Stack - Alerts",
-		"methods": [
-			{
-				"type": "Threatstack (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Threat Stack",
-		"title": "Threat Stack - Audit",
-		"methods": [
-			{
-				"type": "Threatstack (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -3913,61 +1113,11 @@
 	},
 	{
 		"vendor": "Trend Micro",
-		"title": "Trend Micro Audit",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Trend Micro",
-		"title": "Trend Micro Control Manager",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Trend Micro",
-		"title": "Trend Micro Deep Discovery Inspector",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Trend Micro",
 		"title": "Trend Micro Deep Security Agent",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend-micro-deep-security-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Trend Micro",
-		"title": "Trend Micro Deep Security Manager",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Trend Micro",
-		"title": "Trend Micro Security Risk",
-		"methods": [
-			{
-				"type": "Trendmicrocas (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -3982,50 +1132,6 @@
 		]
 	},
 	{
-		"vendor": "Tripwire",
-		"title": "Tripwire Enterprise",
-		"methods": [
-			{
-				"type": "File/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Tripwire",
-		"title": "Tripwire IP360 Vulnerability Scanner",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "TrustWave",
-		"title": "TrustWave",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Tyco International",
-		"title": "Tyco C-Cure",
-		"methods": [
-			{
-				"type": "Database/Delimited-pipe",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Tycoccure (API)/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "Unix",
 		"title": "Unix",
 		"methods": [
@@ -4034,56 +1140,18 @@
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-azureloganalytics-api.htm"
 			},
 			{
-				"type": "Syslog/CEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-syslog.htm"
 			}
 		]
 	},
 	{
-		"vendor": "Unix",
-		"title": "Unix Cron Events",
+		"vendor": "Vectra",
+		"title": "Vectra Brain",
 		"methods": [
 			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Varonis Systems",
-		"title": "Varonis File Share",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Veriato",
-		"title": "Veriato Alerts",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "VitalQIP",
-		"title": "DHCP",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vectra-brain-syslog.htm"
 			}
 		]
 	},
@@ -4094,30 +1162,6 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware%20esxi-syslog-regex.htm"
-			}
-		]
-	},
-	{
-		"vendor": "VMware",
-		"title": "VMware NSX-T",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "VMware",
-		"title": "VMware Unified Access Gateway",
-		"methods": [
-			{
-				"type": "File/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	},
@@ -4142,120 +1186,12 @@
 		]
 	},
 	{
-		"vendor": "Workday",
-		"title": "Workday Audit",
-		"methods": [
-			{
-				"type": "Workday (API)Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Workday",
-		"title": "Workday Unidentified Sign-on",
-		"methods": [
-			{
-				"type": "Workdayidentitymanagement (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Workday",
-		"title": "Workday Account Sign-on",
-		"methods": [
-			{
-				"type": "Workdayidentitymanagement (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "XEDI",
-		"title": "XEDI Oracle",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Zeek",
-		"title": "Bro Network Security",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Zimperium",
-		"title": "ZimperiumMobile",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Zoom",
-		"title": "Zoom API",
-		"methods": [
-			{
-				"type": "Zoom (API)/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Zscaler",
-		"title": "Zscaler IPS",
-		"methods": [
-			{
-				"type": "Syslog/LEEF",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Zscaler",
-		"title": "Zscaler Private Access",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
 		"vendor": "Zscaler",
 		"title": "Zscaler Proxy",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-internet-access-syslog.htm"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			},
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
-			}
-		]
-	},
-	{
-		"vendor": "Zscaler",
-		"title": "Zscaler VPN",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://securonix.atlassian.net/servicedesk/customer/portal/12/group/98/create/129"
 			}
 		]
 	}
