@@ -215,7 +215,7 @@
 	},
 	{
 		"vendor": "Cisco",
-		"title": "Cisco Sourcefire IDS",
+		"title": "Cisco Sourcefire Intrusion Sensor",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
