@@ -175,6 +175,16 @@
 	},
 	{
 		"vendor": "Cisco",
+		"title": "Cisco Meraki Switch",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-meraki-switch-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
 		"title": "Cisco Meraki Firewall",
 		"methods": [
 			{
@@ -420,16 +430,6 @@
 			{
 				"type": "Googlealerts (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/google-alerts-center-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "GMAIL",
-		"methods": [
-			{
-				"type": "Bigquery (API)/JSON",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-gmail-bigquery.htm"
 			}
 		]
 	},
@@ -858,16 +858,6 @@
 		]
 	},
 	{
-		"vendor": "Mulesoft",
-		"title": "Mulesoft",
-		"methods": [
-			{
-				"type": "Mulesoft (API)/JSON",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mulesoft-api.htm"
-			}
-		]
-	},
-	{
 		"vendor": "NetApp",
 		"title": "NetApp Admin",
 		"methods": [
@@ -1170,12 +1160,18 @@
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-azureloganalytics-api.htm"
 			},
 			{
-				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-syslog-cef.htm"
-			},
-			{
 				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-syslog-regex.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Varonis Systems",
+		"title": "Varonis File Share",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/varonis-file-share-syslog.htm"
 			}
 		]
 	},
