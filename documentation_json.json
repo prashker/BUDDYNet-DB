@@ -41,11 +41,31 @@
 	},
 	{
 		"vendor": "Aruba Networks",
+		"title": "Aruba Authentication",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/aruba-authentication-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Aruba Networks",
 		"title": "Aruba Clear Pass",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/aruba-clearpass-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Atlassian Corporation Plc",
+		"title": "Bitbucket",
+		"methods": [
+			{
+				"type": "File/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/atlassian-bitbucket-file.htm"
 			}
 		]
 	},
@@ -80,7 +100,17 @@
 		]
 	},
 	{
-		"vendor": "Carbon Black, Inc",
+		"vendor": "Carbon Black",
+		"title": "Carbon Black Defense V2",
+		"methods": [
+			{
+				"type": "Carbonblack (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/carbon-black-defense-v2-carbonblack.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
 		"title": "Carbon Black PROTECT",
 		"methods": [
 			{
@@ -90,7 +120,7 @@
 		]
 	},
 	{
-		"vendor": "Carbon Black, Inc",
+		"vendor": "Carbon Black",
 		"title": "CarbonBlack Response",
 		"methods": [
 			{
@@ -178,7 +208,7 @@
 		"title": "Cisco Meraki Switch",
 		"methods": [
 			{
-				"type": "Syslog/Regex",
+				"type": "Syslog/CEF[Syslog]",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-meraki-switch-syslog.htm"
 			}
 		]
@@ -195,6 +225,16 @@
 	},
 	{
 		"vendor": "Cisco",
+		"title": "Cisco NX-OS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-nxos-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
 		"title": "Cisco Router and Switch",
 		"methods": [
 			{
@@ -205,10 +245,20 @@
 	},
 	{
 		"vendor": "Cisco",
-		"title": "Cisco Umbrella DNS",
+		"title": "Cisco Umbrella",
 		"methods": [
 			{
 				"type": "AWS/Delimited-comma",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Umbrella DNS",
+		"methods": [
+			{
+				"type": "Ciscoumbrella (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-dns-aws.htm"
 			}
 		]
@@ -364,6 +414,16 @@
 		]
 	},
 	{
+		"vendor": "F5 Networks",
+		"title": "F5 Big Switch",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-switch-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Fastly",
 		"title": "Fastly WAF",
 		"methods": [
@@ -484,6 +544,16 @@
 		]
 	},
 	{
+		"vendor": "IBM",
+		"title": "IBM Guardium",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-guardium-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Imperva",
 		"title": "Imperva Web Application Firewall",
 		"methods": [
@@ -530,6 +600,16 @@
 			{
 				"type": "Syslog/Key Value Pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/juniper-srx-firewall-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Switch",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/juniper-switch-syslog.htm"
 			}
 		]
 	},
@@ -615,6 +695,16 @@
 	},
 	{
 		"vendor": "Microsoft",
+		"title": "Azure Key Vault",
+		"methods": [
+			{
+				"type": "Azurekeyvaultstorage (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-key-vault-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft",
 		"title": "Azure Monitor",
 		"methods": [
 			{
@@ -673,7 +763,11 @@
 		"methods": [
 			{
 				"type": "Syslog/Delimited-comma",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dhcp-syslog.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dhcp-syslog-delimited-comma.htm"
+			},
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dhcp-syslog-key-value-pair.htm"
 			}
 		]
 	},
@@ -1216,12 +1310,32 @@
 		]
 	},
 	{
+		"vendor": "Zoom",
+		"title": "Zoom API",
+		"methods": [
+			{
+				"type": "Zoom (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zoom-api.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Zscaler",
 		"title": "Zscaler Proxy",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-internet-access-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-firewall-syslog.htm"
 			}
 		]
 	}
