@@ -344,6 +344,16 @@
 		]
 	},
 	{
+		"vendor": "Cynerio",
+		"title": "Cynerio",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cynerio-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Darktrace",
 		"title": "Darktrace",
 		"methods": [
@@ -535,6 +545,16 @@
 	},
 	{
 		"vendor": "Google",
+		"title": "Google Gmail",
+		"methods": [
+			{
+				"type": "Bigquery/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-gmail-bigquery.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
 		"title": "Cloud Platform",
 		"methods": [
 			{
@@ -549,7 +569,11 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-guardium-syslog.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-guardium-database-audit-syslog.htm"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-guardium-database-monitoring-syslog.htm"
 			}
 		]
 	},
@@ -670,6 +694,10 @@
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/mcafee-web%20gateway-syslog.htm"
+			},
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-web-gateway-syslog.htm"
 			}
 		]
 	},
@@ -715,6 +743,16 @@
 	},
 	{
 		"vendor": "Microsoft",
+		"title": "Azure Front Door Web Application Firewall",
+		"methods": [
+			{
+				"type": "Eventhub/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-front-door.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft",
 		"title": "Azure Network Security Groups",
 		"methods": [
 			{
@@ -730,20 +768,6 @@
 			{
 				"type": "msftgraphsecurityalerts (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-security-center-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
-		"title": "Defender ATP",
-		"methods": [
-			{
-				"type": "Msftdefenderatp (API)/JSON",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-atp-api.htm"
-			},
-			{
-				"type": "Event Hub/JSON",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-atp-eventhub.htm"
 			}
 		]
 	},
@@ -943,6 +967,20 @@
 	},
 	{
 		"vendor": "Microsoft",
+		"title": "Defender ATP",
+		"methods": [
+			{
+				"type": "API/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-365-defender-api.htm"
+			},
+			{
+				"type": "Event Hub/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-atp-eventhub.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft",
 		"title": "Microsoft Defender for Cloud Apps",
 		"methods": [
 			{
@@ -1048,6 +1086,16 @@
 			{
 				"type": "Proofpointtap (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/proofpoint-targeted-attack-protection-api-json.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Pure Storage",
+		"title": "Pure Storage",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/pure-storage-syslog.htm"
 			}
 		]
 	},
@@ -1192,6 +1240,16 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/squid-proxy-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec DLP",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-data-loss-protection-syslog.htm"
 			}
 		]
 	},
