@@ -70,6 +70,16 @@
 		]
 	},
 	{
+		"vendor": "Barracuda Networks",
+		"title": "Barracuda Email Security Gateway",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/barracuda-email-security-gateway-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "BIND",
 		"title": "BIND DNS",
 		"methods": [
@@ -146,6 +156,16 @@
 			{
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/check-point-firewall-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software Technologies",
+		"title": "Check Point SmartDefense",
+		"methods": [
+			{
+				"type": "Syslog/CHECKPOINT",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-smartdefense-syslog.htm"
 			}
 		]
 	},
@@ -445,6 +465,16 @@
 	},
 	{
 		"vendor": "F5 Networks",
+		"title": "F5 Big-IP DNS",
+		"methods": [
+			{
+				"type": "File/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-ip-dns-file.htm"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
 		"title": "F5 Big-IP Load Balancer",
 		"methods": [
 			{
@@ -584,16 +614,6 @@
 		]
 	},
 	{
-		"vendor": "Google",
-		"title": "Cloud Platform",
-		"methods": [
-			{
-				"type": "googlecloudsub/JSON",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-cloud-platform-googlecloudsub.htm"
-			}
-		]
-	},
-	{
 		"vendor": "IBM",
 		"title": "IBM Guardium",
 		"methods": [
@@ -727,12 +747,16 @@
 			},
 			{
 				"type": "Syslog/Delimited-comma",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-web-gateway-syslog.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-web-gateway-syslog-delimited-comma.htm"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-web-gateway-syslog-regex.htm"
 			}
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Azure Firewall",
 		"methods": [
 			{
@@ -742,7 +766,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Azure Identity Protection",
 		"methods": [
 			{
@@ -752,7 +776,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Azure Key Vault",
 		"methods": [
 			{
@@ -762,7 +786,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Azure Monitor",
 		"methods": [
 			{
@@ -772,7 +796,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Azure Front Door Web Application Firewall",
 		"methods": [
 			{
@@ -782,7 +806,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Azure Network Security Groups",
 		"methods": [
 			{
@@ -792,7 +816,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Azure Security Centre",
 		"methods": [
 			{
@@ -802,8 +826,8 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "Microsoft Defender for Endpoint",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Defender for Endpoint",
 		"methods": [
 			{
 				"type": "Syslog/SNARE",
@@ -812,8 +836,8 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "Microsoft DHCP",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation DHCP",
 		"methods": [
 			{
 				"type": "Syslog/Delimited-comma",
@@ -826,8 +850,8 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "Microsoft DNS Server",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation DNS Server",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
@@ -836,9 +860,17 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "Microsoft Exchange Server",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Exchange Server",
 		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-exchange-on-prem-syslog-cef.htm"
+			},
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-exchange-on-prem-syslog.htm"
+			},
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-exchange-on-prem-syslog.htm"
@@ -846,9 +878,13 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "Microsoft IIS Server",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation IIS Server",
 		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-iis-syslog.htm"
+			},
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-iis-syslog.htm"
@@ -856,7 +892,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Microsoft Print Service",
 		"methods": [
 			{
@@ -866,8 +902,8 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "MicrosoftSysmon",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft CorporationSysmon",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
@@ -876,8 +912,8 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "MicrosoftWindows AppLocker",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft CorporationWindows AppLocker",
 		"methods": [
 			{
 				"type": "Azureloganalytics (API)/Delimited-pipe",
@@ -886,8 +922,8 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "Microsoft Windows Powershell",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Windows Powershell",
 		"methods": [
 			{
 				"type": "Syslog/WINDOWSPOWERSHELL",
@@ -896,8 +932,8 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "Microsoft Windows SNARE",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Windows SNARE",
 		"methods": [
 			{
 				"type": "Syslog/Snare",
@@ -906,7 +942,17 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Windows SNARE - Application",
+		"methods": [
+			{
+				"type": "Syslog/Snare",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-snare-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "MSSQL Audit",
 		"methods": [
 			{
@@ -920,17 +966,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "Office 365 Azure API",
-		"methods": [
-			{
-				"type": "Office365 (API)/Key-value pair",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-api.htm"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Office 365 DLP",
 		"methods": [
 			{
@@ -940,7 +976,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Office 365 Exchange API",
 		"methods": [
 			{
@@ -950,7 +986,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Office 365 Outlook",
 		"methods": [
 			{
@@ -960,7 +996,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Office 365 SharePoint API",
 		"methods": [
 			{
@@ -970,7 +1006,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "O365 Audit General",
 		"methods": [
 			{
@@ -980,7 +1016,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "SharePoint",
 		"methods": [
 			{
@@ -990,7 +1026,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Windows ADFS",
 		"methods": [
 			{
@@ -1000,7 +1036,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Windows Security Auditing",
 		"methods": [
 			{
@@ -1010,7 +1046,7 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
+		"vendor": "Microsoft Corporation",
 		"title": "Defender ATP",
 		"methods": [
 			{
@@ -1024,8 +1060,8 @@
 		]
 	},
 	{
-		"vendor": "Microsoft",
-		"title": "Microsoft Defender for Cloud Apps",
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Defender for Cloud Apps",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
@@ -1080,6 +1116,16 @@
 			{
 				"type": "Okta (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/okta-authentication-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Cloud Infrastructure",
+		"methods": [
+			{
+				"type": "Ociaudit/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/oracle-cloud-infrastructure-ociaudit.htm"
 			}
 		]
 	},
@@ -1308,6 +1354,26 @@
 		]
 	},
 	{
+		"vendor": "Suricata",
+		"title": "Suricata IDS",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/suricata-ids-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec CloudSOC",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-cloudsoc-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Symantec",
 		"title": "Symantec DLP",
 		"methods": [
@@ -1376,6 +1442,10 @@
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-azureloganalytics-api.htm"
 			},
 			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-cef-syslog.htm"
+			},
+			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-syslog.htm"
 			}
@@ -1417,7 +1487,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-unified-access-gateway-syslog.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-unified-access-gateway-file.htm"
 			}
 		]
 	},
