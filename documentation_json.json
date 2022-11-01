@@ -305,6 +305,16 @@
 	},
 	{
 		"vendor": "Cisco",
+		"title": "Unified Communications",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-unified-communications-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
 		"title": "Cisco Wireless LAN Controller TRAP",
 		"methods": [
 			{
