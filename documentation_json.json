@@ -1398,6 +1398,10 @@
 		"title": "Symantec Endpoint Protection",
 		"methods": [
 			{
+				"type": "Syslog/Key Value Pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-monitoring.htm"
+			},
+			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-monitoring.htm"
 			}
