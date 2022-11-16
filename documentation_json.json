@@ -21,6 +21,16 @@
 	},
 	{
 		"vendor": "Amazon",
+		"title": "AWS WAF",
+		"methods": [
+			{
+				"type": "awssqss3 (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/amazon-aws-waf-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
 		"title": "AWS Elastic Load Balancer",
 		"methods": [
 			{
@@ -60,6 +70,16 @@
 		]
 	},
 	{
+		"vendor": "Aruba Networks",
+		"title": "ArubaOS-CX Switch",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/arubaos-cx-switch-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Atlassian Corporation Plc",
 		"title": "Bitbucket",
 		"methods": [
@@ -70,12 +90,52 @@
 		]
 	},
 	{
+		"vendor": "Atlassian Corporation Plc",
+		"title": "Jira",
+		"methods": [
+			{
+				"type": "Jira (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/jira-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Attivo Networks",
+		"title": "Attivo BOTsink",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/attivo-botsink-via-syslog-cef.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Barracuda Networks",
+		"title": "Barracuda WAF",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/barracuda-waf-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Barracuda Networks",
 		"title": "Barracuda Email Security Gateway",
 		"methods": [
 			{
 				"type": "Syslog/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/barracuda-email-security-gateway-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "BeyondTrust",
+		"title": "Powerbroker",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/beyondtrust-powerbroker-syslog.htm"
 			}
 		]
 	},
@@ -96,6 +156,10 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/blue-coat-proxy-syslog.htm"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/bluecoat-proxy-syslog.htm"
 			}
 		]
 	},
@@ -116,6 +180,16 @@
 			{
 				"type": "BoxContent (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/box-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "CA Technologies",
+		"title": "Site Minder",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ca-site-minder-syslog.htm"
 			}
 		]
 	},
@@ -141,6 +215,26 @@
 	},
 	{
 		"vendor": "Carbon Black",
+		"title": "Carbon Black Protect",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/carbon-black-protect-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black App Control",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/carbon-black-app-control-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
 		"title": "CarbonBlack Response",
 		"methods": [
 			{
@@ -153,6 +247,10 @@
 		"vendor": "Check Point Software Technologies",
 		"title": "Check Point Firewall",
 		"methods": [
+			{
+				"type": "Syslog/CHECKPOINT",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-firewall-syslog.htm"
+			},
 			{
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/check-point-firewall-syslog.htm"
@@ -215,7 +313,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/cisco-firepower-threat-defense-syslog.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-ftd-syslog-regex.htm"
 			}
 		]
 	},
@@ -229,7 +327,11 @@
 			},
 			{
 				"type": "File/Key-value pair",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-identity-services-engine-file.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-identity-services-engine-file-kvp.htm"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-identity-service-engine-syslog.htm"
 			}
 		]
 	},
@@ -335,6 +437,16 @@
 	},
 	{
 		"vendor": "Cisco",
+		"title": "IronPort Web Security Appliance",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-ironport-web-security-appliance-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
 		"title": "Cisco Sourcefire Intrusion Sensor",
 		"methods": [
 			{
@@ -354,12 +466,32 @@
 		]
 	},
 	{
+		"vendor": "Claroty",
+		"title": "Claroty CTD",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/claroty-ctd-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Cloudflare",
 		"title": "Cloudflare",
 		"methods": [
 			{
 				"type": "Cloudflarefirewall (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cloudflare-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Corelight",
+		"title": "Network Traffic Analytics",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/corelight-network-traffic-analytics-syslog.htm"
 			}
 		]
 	},
@@ -425,6 +557,16 @@
 	},
 	{
 		"vendor": "Dell/Secureworks Inc.",
+		"title": "Powerconnect",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/powerconnect-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Dell/Secureworks Inc.",
 		"title": "SonicWall Global Management System",
 		"methods": [
 			{
@@ -450,6 +592,26 @@
 			{
 				"type": "Duo (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/duo-security-applications-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "DUO Security",
+		"title": "Duo Telephony",
+		"methods": [
+			{
+				"type": "Duo (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/duo-security-applications-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "F-Secure",
+		"title": "F-Secure Endpoint Security",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f-secure-endpoint-security-syslog.htm"
 			}
 		]
 	},
@@ -504,12 +666,32 @@
 		]
 	},
 	{
+		"vendor": "F5 Networks",
+		"title": "F5 ASM Audit",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-asm-audit-syslog-regex.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Fastly",
 		"title": "Fastly WAF",
 		"methods": [
 			{
 				"type": "Syslog/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fastly-waf-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Fidelis Cybersecurity",
+		"title": "Fidelis Network DLP",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fidelis-dlp-syslog.htm"
 			}
 		]
 	},
@@ -534,6 +716,16 @@
 		]
 	},
 	{
+		"vendor": "Forcepoint / Websense",
+		"title": "Forcepoint DLP",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/forcepoint-dlp-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "ForeScout Technologies",
 		"title": "CounterACT",
 		"methods": [
@@ -550,6 +742,16 @@
 			{
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fortinet-fortigate-firewall-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Gigamon",
+		"title": "Gigamon Network Traffic Analytics",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/gigamon-network-traffic-analytics-syslog.htm"
 			}
 		]
 	},
@@ -625,6 +827,16 @@
 	},
 	{
 		"vendor": "IBM",
+		"title": "IBM General Parallel File System",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-gpfs-scale-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
 		"title": "IBM Guardium",
 		"methods": [
 			{
@@ -634,6 +846,26 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-guardium-database-monitoring-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "IBM System i/AS400",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-system-i-as400-iseries-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Imperva",
+		"title": "Imperva",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/imperva-database-audit-syslogcef.htm"
 			}
 		]
 	},
@@ -658,6 +890,16 @@
 		]
 	},
 	{
+		"vendor": "Ivanti",
+		"title": "Ivanti Virtual Traffic Manager",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ivanti-virtual-traffic-manager-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "JumpCloud",
 		"title": "JumpCloud SSO",
 		"methods": [
@@ -669,11 +911,31 @@
 	},
 	{
 		"vendor": "Juniper",
+		"title": "Juniper Junos Pulse Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/juniper-junos-pulse-firewall-via-syslog-regex.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
 		"title": "Juniper Junos Pulse VPN",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/juniper-junos-pulse-secure-vpn-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Junos Router",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/juniper-junos-router-syslog.htm"
 			}
 		]
 	},
@@ -698,12 +960,46 @@
 		]
 	},
 	{
+		"vendor": "Juniper",
+		"title": "Juniper Secure Services Gateway",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/juniper-secure-services-gateway-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Malwarebytes",
+		"title": "MalwarebytesAntiVirus",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/malwarebytes-antivirus-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "ManageEngine",
 		"title": "Manage AD AuditPlus",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/manageengine-ad-auditplus-syslog.htm"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/manageengine-ad-auditplus-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "ManageEngine",
+		"title": "Password Manager Pro",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/manageengine-password-manager-pro-syslog.htm"
 			}
 		]
 	},
@@ -724,6 +1020,26 @@
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-mvision-cloud-casb.htm"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee DAM",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/database-activity-monitoring-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee Endpoint DLP",
+		"methods": [
+			{
+				"type": "File/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-endpoint-dlp-file.htm"
 			}
 		]
 	},
@@ -762,6 +1078,76 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-web-gateway-syslog-regex.htm"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee McAfee MVISION",
+		"methods": [
+			{
+				"type": "Mcafeemvision/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-mvision-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee ePO VirusScan",
+		"methods": [
+			{
+				"type": "Syslog/XMLPARSER",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-epo-virusscan-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Active Directory",
+		"methods": [
+			{
+				"type": "Office365 (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Active Directory - Audit",
+		"methods": [
+			{
+				"type": "Azurereport (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-ad-reporting-audit-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Active Directory Sign In",
+		"methods": [
+			{
+				"type": "Azurereport (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-ad-reporting-sign-in-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Application Gateway",
+		"methods": [
+			{
+				"type": "eventhub/Delimited-comma",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-azure-application-gateway-eventhub.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Application Service",
+		"methods": [
+			{
+				"type": "eventhub/Delimited-comma",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-azure-application-services-eventhub.htm"
 			}
 		]
 	},
@@ -837,6 +1223,30 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Cloudapp Security - Alerts",
+		"methods": [
+			{
+				"type": "microsoftcloudappsecurity/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-cloudapp-security-alerts-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "ForeFront Threat Management Gateway Proxy",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/forefront-threat-management-gateway-syslog.htm"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/forefront-threat-management-gateway-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "Microsoft Corporation Defender for Endpoint",
 		"methods": [
 			{
@@ -879,7 +1289,7 @@
 			},
 			{
 				"type": "Syslog/Delimited-comma",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-exchange-on-prem-syslog.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-exchange-syslog.htm"
 			},
 			{
 				"type": "Syslog/Regex",
@@ -907,17 +1317,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Snare",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/Microsoft%20Print%20Service%20(Syslog).htm"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft Corporation",
-		"title": "Microsoft CorporationSysmon",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-system-monitor-syslog.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-print-service-syslog-nxlog-snare.htm"
 			}
 		]
 	},
@@ -963,6 +1363,16 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Windows Sysmon",
+		"methods": [
+			{
+				"type": "Syslog/Snare",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-system-monitor-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "MSSQL Audit",
 		"methods": [
 			{
@@ -1001,7 +1411,7 @@
 		"methods": [
 			{
 				"type": "Outlook (API)/Key-value pair",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-outlook-api.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-outlook-api-kvp.htm"
 			}
 		]
 	},
@@ -1047,6 +1457,16 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "Windows DNS Server",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dns-server-syslog-kvp.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "Windows Security Auditing",
 		"methods": [
 			{
@@ -1080,12 +1500,32 @@
 		]
 	},
 	{
+		"vendor": "Microsoft Corporation",
+		"title": "O365 Defender",
+		"methods": [
+			{
+				"type": "microsofto365defender (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-o365-defender-api.htm"
+			}
+		]
+	},
+	{
 		"vendor": "MobileIron",
 		"title": "MobileIron",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mobileiron-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Mulesoft",
+		"title": "Mulesoft",
+		"methods": [
+			{
+				"type": "Mulesoft (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mulesoft-api.htm"
 			}
 		]
 	},
@@ -1120,6 +1560,16 @@
 		]
 	},
 	{
+		"vendor": "Nozomi Networks",
+		"title": "Nozomi Networks",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/nozomi-networks-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Okta",
 		"title": "Okta System Authentication",
 		"methods": [
@@ -1130,12 +1580,62 @@
 		]
 	},
 	{
+		"vendor": "One Login",
+		"title": "One Login API",
+		"methods": [
+			{
+				"type": "Onelogin (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/one-login-api.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Oracle Corporation",
 		"title": "Oracle Cloud Infrastructure",
 		"methods": [
 			{
 				"type": "Ociaudit/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/oracle-cloud-infrastructure-ociaudit.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Database",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/oracle-db-audit-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Pager Duty",
+		"methods": [
+			{
+				"type": "Pagerdutyincidents (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/pager-duty-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "OS Query Logs",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/os-query-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Sun Solaris",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/oracle-sun-solaris-syslog.htm"
 			}
 		]
 	},
@@ -1166,6 +1666,36 @@
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/paloalto-cortex-xdr-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Palo Alto Networks",
+		"title": "Prisma Access",
+		"methods": [
+			{
+				"type": "Prismacloud (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/prisma%20access-api-json.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Panda Security",
+		"title": "Panda Security Endpoint Protection",
+		"methods": [
+			{
+				"type": "Syslog/LEEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/panda-security-security-endpoint-protection-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Ping Identity",
+		"title": "PingOne",
+		"methods": [
+			{
+				"type": "pingone(API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/pingone-audit-api.htm"
 			}
 		]
 	},
@@ -1210,12 +1740,32 @@
 		]
 	},
 	{
+		"vendor": "Proofpoint, Inc.",
+		"title": "Proofpoint, Inc. TRAP",
+		"methods": [
+			{
+				"type": "Proofpointtrap (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/proofpoint-trap-api.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Pure Storage",
 		"title": "Pure Storage",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/pure-storage-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Raytheon",
+		"title": "Websense Proxy",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/websense-proxy-syslog-regex.htm"
 			}
 		]
 	},
@@ -1256,6 +1806,16 @@
 			{
 				"type": "Sentinelone (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/sentinelone-activities-api-json.htm"
+			}
+		]
+	},
+	{
+		"vendor": "SentinelOne",
+		"title": "Sentinel One - Audit",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/sentinel-one-audit-syslog.htm"
 			}
 		]
 	},
@@ -1399,11 +1959,11 @@
 		"methods": [
 			{
 				"type": "Syslog/Key Value Pair",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-monitoring.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-protection-syslog-kvp.htm"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-monitoring.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-protection-syslog.htm"
 			}
 		]
 	},
@@ -1418,12 +1978,32 @@
 		]
 	},
 	{
+		"vendor": "Tanium",
+		"title": "Tanium",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/tanium-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Thycotic",
 		"title": "Thycotic Server",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/thycotic-secret-server-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Control Manager",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend%20micro-control-manager-syslog.htm"
 			}
 		]
 	},
@@ -1448,6 +2028,16 @@
 		]
 	},
 	{
+		"vendor": "UniFi",
+		"title": "Unifi Wireless LAN Controller",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unifi-wireless-lan-controller-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Unix",
 		"title": "Unix",
 		"methods": [
@@ -1462,6 +2052,20 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-syslog.htm"
+			},
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unixlinux-syslog-json.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Varonis Systems",
+		"title": "Varonis DatAdvantage",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/varonis-datadvantage-syslog.htm"
 			}
 		]
 	},
@@ -1486,6 +2090,26 @@
 		]
 	},
 	{
+		"vendor": "Versa Networks, Inc.",
+		"title": "Versa Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/versa-firewall-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Versa Networks, Inc.",
+		"title": "Versa Threat",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/versa-threat-syslog.htm"
+			}
+		]
+	},
+	{
 		"vendor": "VMware",
 		"title": "VMware ESXi",
 		"methods": [
@@ -1497,11 +2121,25 @@
 	},
 	{
 		"vendor": "VMware",
-		"title": "VMware Unified Access Gateway",
+		"title": "VMware NSX-T",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-nsx-t-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "VMware Unified Access Gateway",
+		"methods": [
+			{
+				"type": "File/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-unified-access-gateway-file.htm"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-unified-access-gateway-syslog.htm"
 			}
 		]
 	},
@@ -1522,6 +2160,16 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-vcenter-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Vormetric Inc.",
+		"title": "VMware Vormetric Data Security Manager",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vormetric-data-security-manager-syslog.htm"
 			}
 		]
 	},
@@ -1556,6 +2204,16 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-firewall-syslog-regex.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler Private Access",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-private-access-syslog.htm"
 			}
 		]
 	}
