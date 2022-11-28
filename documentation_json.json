@@ -245,8 +245,22 @@
 	},
 	{
 		"vendor": "Check Point Software Technologies",
+		"title": "Check Point Antimalware",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-antimalware-syslog-json.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software Technologies",
 		"title": "Check Point Firewall",
 		"methods": [
+			{
+				"type": "Syslog/CHECKPOINT",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-next-generation-firewall-syslog.htm"
+			},
 			{
 				"type": "Syslog/CHECKPOINT",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-firewall-syslog.htm"
@@ -846,6 +860,10 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-guardium-database-monitoring-syslog.htm"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-guardium-syslog-cef.htm"
 			}
 		]
 	},
@@ -1467,6 +1485,16 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "Windows MSSQL",
+		"methods": [
+			{
+				"type": "Syslog/SNARE",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-mssql-snare-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "Windows Security Auditing",
 		"methods": [
 			{
@@ -1646,6 +1674,16 @@
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/oracle-sysdb-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Palo Alto Networks",
+		"title": "Cortex Data Lake - Firewall",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/palo-alto-cortex-data-lake-firewall.htm"
 			}
 		]
 	},
@@ -1968,6 +2006,16 @@
 		]
 	},
 	{
+		"vendor": "Symantec",
+		"title": "Symantec Message Security Gateway",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-message-security-gateway-syslog-cef.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Tanium",
 		"title": "Endpoint",
 		"methods": [
@@ -1984,6 +2032,16 @@
 			{
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/tanium-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Tenable",
+		"title": "Nessus Vulnerability Scanner",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/nessus-vulnerability-scanner-syslog.htm"
 			}
 		]
 	},
@@ -2180,6 +2238,16 @@
 			{
 				"type": "Zoom (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zoom-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler IPS",
+		"methods": [
+			{
+				"type": "Syslog/LEEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-ips-syslog.htm"
 			}
 		]
 	},
