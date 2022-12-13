@@ -80,6 +80,16 @@
 		]
 	},
 	{
+		"vendor": "Asus",
+		"title": "Object Storage",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/asus-object-storage-syslog-regex.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Atlassian Corporation Plc",
 		"title": "Bitbucket",
 		"methods": [
@@ -240,6 +250,16 @@
 			{
 				"type": "Carbonblackalerts/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/carbon-black-response-carbonblack.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Cerner",
+		"title": "Cerner",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-pipe",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cerner-syslog.htm"
 			}
 		]
 	},
@@ -1729,6 +1749,16 @@
 	},
 	{
 		"vendor": "Ping Identity",
+		"title": "Ping ID",
+		"methods": [
+			{
+				"type": "Ping ID (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ping-identity-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Ping Identity",
 		"title": "PingOne",
 		"methods": [
 			{
@@ -1783,7 +1813,7 @@
 		"methods": [
 			{
 				"type": "Proofpointtrap (API)/JSON",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/proofpoint-trap-api.htm"
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/Proofpoint-TRAP-API.htm"
 			}
 		]
 	},
@@ -2144,6 +2174,16 @@
 			{
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vectra-brain-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Veeva",
+		"title": "Veeva Vault Audit",
+		"methods": [
+			{
+				"type": "Veeva Vault Audit/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/veeva-vault-api-audit.htm"
 			}
 		]
 	},
