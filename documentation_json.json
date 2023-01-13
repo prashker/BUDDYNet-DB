@@ -120,6 +120,16 @@
 		]
 	},
 	{
+		"vendor": "AvePoint",
+		"title": "AvePoint Compliance Guardian",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/avepoint-compliance-guardian-syslog-cef.htm"
+			}
+		]
+	},
+	{
 		"vendor": "Barracuda Networks",
 		"title": "Barracuda WAF",
 		"methods": [
@@ -270,6 +280,16 @@
 			{
 				"type": "Syslog/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-antimalware-syslog-json.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software Technologies",
+		"title": "Check Point Antivirus",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-antivirus-syslog.htm"
 			}
 		]
 	},
@@ -496,6 +516,10 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/citrix-netscaler-vpn-syslog.htm"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/citrix-gateway-vpn-syslog-cef.htm"
 			}
 		]
 	},
@@ -1043,16 +1067,6 @@
 	},
 	{
 		"vendor": "McAfee",
-		"title": "McAfeeATD",
-		"methods": [
-			{
-				"type": "Syslog/Key-value pair",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-atd-syslog.htm"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
 		"title": "McAfee CASB",
 		"methods": [
 			{
@@ -1411,6 +1425,16 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Intune",
+		"methods": [
+			{
+				"type": "Event Hub(API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-intune-api.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "MSSQL Audit",
 		"methods": [
 			{
@@ -1628,6 +1652,16 @@
 		]
 	},
 	{
+		"vendor": "Okta",
+		"title": "Auth0",
+		"methods": [
+			{
+				"type": "awssqss3\n/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/okta-auth0-api.htm"
+			}
+		]
+	},
+	{
 		"vendor": "One Login",
 		"title": "One Login API",
 		"methods": [
@@ -1714,6 +1748,10 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/palo-alto-next-generation-firewall-syslog.htm"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/palo-alto-next-generation-firewall-syslog-cef.htm"
 			}
 		]
 	},
@@ -1998,6 +2036,16 @@
 			{
 				"type": "Syslog/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/suricata-ids-syslog.htm"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec CASB",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-cloudasb-syslog-kvp.htm"
 			}
 		]
 	},
