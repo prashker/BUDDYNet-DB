@@ -48,9 +48,9 @@
 		"title": "AWS Cloud Trail",
 		"methods": [
 			{
-				"type": "Awssqss3 (API)/JSON",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/amazon-aws-cloud-trail-api.htm",
-				"parser": "SCNX_AMAZON_AWSDATALAKE_CSA_AWS_JSO_COMM"
+				"type": "Awssqss3 (API)/OCSF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/amazon-aws-cloud-trail-api-ocsf%20.htm",
+				"parser": "SCNX_AMAZON_AWSCLOUDTRAIL_CSA_AWS_JSO_COMM"
 			}
 		]
 	},
@@ -552,12 +552,28 @@
 	},
 	{
 		"vendor": "Cisco",
+		"title": "Cisco Secure ACS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-secure-acs-syslog-regex.htm",
+				"parser": "SCNX_CISCO_CISCOSECUREACS_NAC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
 		"title": "Cisco Umbrella",
 		"methods": [
 			{
 				"type": "Ciscoumbrella (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-api.htm",
 				"parser": "SCNX_CISCO_CISCOUMBRELLA_DNS_CIS_JSO"
+			},
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-syslog-json.htm",
+				"parser": "SCNX_CISCO_CISCOUMBRELLA_DNS_SYS_JSO"
 			}
 		]
 	},
