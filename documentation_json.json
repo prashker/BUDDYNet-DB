@@ -1,5 +1,27 @@
 [
 	{
+		"vendor": "1Password",
+		"title": "One Password",
+		"methods": [
+			{
+				"type": "Onepassword/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/one-password-signin-attempts-json.htm",
+				"parser": "SCNX_1PASSW_ONEPASSWORD_AIM_ONE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "1Password",
+		"title": "One Password - Item Usages",
+		"methods": [
+			{
+				"type": "Onepassword/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/one-password-item-usage-json.htm",
+				"parser": "SCNX_1PASSW_ONEPASSWORDITEMUSAGES_AIM_ONE_JSO_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Acalvio Technologies, Inc.",
 		"title": "Acalvio ShadowPlex",
 		"methods": [
@@ -18,6 +40,17 @@
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/actividentity-hid-syslog-kvp.htm",
 				"parser": "SCNX_ACTIVI_ACTIVIDENTITY_PHY_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Akamai Technologies",
+		"title": "Akamai Web Application Firewall",
+		"methods": [
+			{
+				"type": "Akamai",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/akamai-web-application-firewall-api.htm",
+				"parser": "SCNX_AKAMAI_AKAMAIWEBAPPLICATIONFIREWALL_WAF_AKA_KEY"
 			}
 		]
 	},
@@ -415,6 +448,17 @@
 		]
 	},
 	{
+		"vendor": "Check Point Software Technologies",
+		"title": "Avanan",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-cloud-application-security-broker-kvp.htm",
+				"parser": "SCNX_AVANAN_AVANAN_CASB_SYS_KEY"
+			}
+		]
+	},
+	{
 		"vendor": "Cisco",
 		"title": "Cisco Anyconnect",
 		"methods": [
@@ -758,6 +802,17 @@
 		]
 	},
 	{
+		"vendor": "Cyber X Inc.",
+		"title": "CyberX",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-iot-syslog-regex.htm",
+				"parser": "SCNX_CYBERX_CYBERX_OTS_SYS_REG_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "CyberArk",
 		"title": "CyberArk Enterprise Password Vault",
 		"methods": [
@@ -787,6 +842,17 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cynerio-syslog.htm",
 				"parser": "SCNX_CYNERI_CYNERIO_HAA_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cynet",
+		"title": "Cynet EDR",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cynet-edr-syslog-cef.htm",
+				"parser": "SCNX_CYNET_CYNETEDR_EDR_SYS_CEF"
 			}
 		]
 	},
@@ -897,6 +963,11 @@
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-ip-asm-syslog.htm",
 				"parser": "SCNX_F5NET_F5ASMWEBAPPLICATIONFIREWALL_WAF_SYS_CEF"
+			},
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-asm-web-application-firewall-syslog.htm",
+				"parser": "SCNX_F5NET_F5ASMWEBAPPLICATIONFIREWALL_WAF_SYS_JSO_COMM"
 			}
 		]
 	},
@@ -941,6 +1012,39 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-switch-syslog.htm",
 				"parser": "SCNX_F5NETW_F5BIGSWITCH_NAC_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 Silverline WAF",
+		"methods": [
+			{
+				"type": "Syslog/Key Value Pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-switch-syslog.htm",
+				"parser": "SCNX_F5NET_F5SILVERLINEWAF_WAF_SYS_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 Big-IP Traffic Manager - RSA",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-ip-traffic-manager-syslog.htm",
+				"parser": "SCNX_F5NET_F5BIGIPTRAFFICMANAGERRSA_TM_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 DNS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-dns-syslog.htm",
+				"parser": "SCNX_F5NET_F5DNS_DNS_SYS_REG"
 			}
 		]
 	},
@@ -1749,6 +1853,17 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "Office 365 Outlook",
+		"methods": [
+			{
+				"type": "Outlook (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-outlook-api-kvp.htm",
+				"parser": "SCNX_MICROS_OFFICE365OUTLOOK_CEML_OUT_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "Office 365 DLP",
 		"methods": [
 			{
@@ -1766,28 +1881,6 @@
 				"type": "Office365 (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-api.htm",
 				"parser": "SCNX_MICROS_OFFICE365EXCHANGEAPI_CAAU_OFF_KEY"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft Corporation",
-		"title": "Office 365 Outlook",
-		"methods": [
-			{
-				"type": "Outlook (API)/Key-value pair",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-outlook-api-kvp.htm",
-				"parser": "SCNX_MICROS_OFFICE365OUTLOOK_CEML_OUT_KEY"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft Corporation",
-		"title": "Office 365 SharePoint API",
-		"methods": [
-			{
-				"type": "Office365 (API)/Key-value pair",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-api.htm",
-				"parser": "SCNX_MICROS_OFFICE365SHAREPOINTAPI_CCMS_OFF_KEY"
 			}
 		]
 	},
@@ -2187,7 +2280,7 @@
 		"methods": [
 			{
 				"type": "Proofpointtrap (API)/JSON",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/Proofpoint-TRAP-API.htm",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/proofpoint_trap-api.htm",
 				"parser": "SCNX_PROOF_PROOFPOINTTRAP_EML_PRO_JSO"
 			}
 		]
@@ -2244,6 +2337,17 @@
 				"type": "Salesforce (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/salesforce-eventlog-api.htm",
 				"parser": "SCNX_SALESF_SALESFORCEEVENTLOGAPI_CSSO_SAL_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Secureworks",
+		"title": "Secureworks iSensor",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/dell-secureworks-isensor-syslog.htm",
+				"parser": "SCNX_DELL_SECUREWORKSISENSOR_EDR_SYS_REG"
 			}
 		]
 	},
@@ -2818,6 +2922,17 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-private-access-syslog.htm",
 				"parser": "SCNX_ZSCALE_ZSCALERPRIVATEACCESS_AIM_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler ZIA NSS",
+		"methods": [
+			{
+				"type": "File",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-zia-nss-file-delimited-comma.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERZIANSS_NGF_FIL_DEL_COMM"
 			}
 		]
 	}
