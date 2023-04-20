@@ -477,11 +477,6 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-asa-syslog.htm",
 				"parser": "SCNX_CISCO_CISCOASA_NGF_SYS_REG"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-asa-syslog-cef.htm",
-				"parser": "SCNX_CISCO_CISCOASA_NGF_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -694,22 +689,6 @@
 	},
 	{
 		"vendor": "Cisco",
-		"title": "IronPort Web Security Appliance",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-ironport-web-security-regex.htm",
-				"parser": "SCNX_CISCO_IRONPORTWEBSECURITYAPPLIANCE_PXY_SYS_REG"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-ironport-web-security-appliance-syslog.htm",
-				"parser": "SCNX_CISCO_IRONPORTWEBSECURITYAPPLIANCE_PXY_SYS_CEF_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
 		"title": "Cisco Sourcefire Intrusion Sensor",
 		"methods": [
 			{
@@ -802,17 +781,6 @@
 		]
 	},
 	{
-		"vendor": "Cyber X Inc.",
-		"title": "CyberX",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-iot-syslog-regex.htm",
-				"parser": "SCNX_CYBERX_CYBERX_OTS_SYS_REG_COMM"
-			}
-		]
-	},
-	{
 		"vendor": "CyberArk",
 		"title": "CyberArk Enterprise Password Vault",
 		"methods": [
@@ -842,17 +810,6 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cynerio-syslog.htm",
 				"parser": "SCNX_CYNERI_CYNERIO_HAA_SYS_REG_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "Cynet",
-		"title": "Cynet EDR",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cynet-edr-syslog-cef.htm",
-				"parser": "SCNX_CYNET_CYNETEDR_EDR_SYS_CEF"
 			}
 		]
 	},
@@ -1707,17 +1664,6 @@
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dhcp-syslog-key-value-pair.htm",
 				"parser": "SCNX_MICROS_MICROSOFTDHCP_DNS_SYS_KEY"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft Corporation",
-		"title": "Microsoft Corporation DNS Server",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dns-server-syslog-regex.htm",
-				"parser": "SCNX_MICROS_MICROSOFTDNSSERVER_DNS_SYS_REG"
 			}
 		]
 	},
