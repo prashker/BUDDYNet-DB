@@ -781,6 +781,17 @@
 		]
 	},
 	{
+		"vendor": "Cyber X Inc.",
+		"title": "CyberX",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-iot-syslog-regex.htm",
+				"parser": "SCNX_CYBERX_CYBERX_OTS_SYS_REG_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "CyberArk",
 		"title": "CyberArk Enterprise Password Vault",
 		"methods": [
@@ -810,6 +821,17 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cynerio-syslog.htm",
 				"parser": "SCNX_CYNERI_CYNERIO_HAA_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cynet",
+		"title": "Cynet EDR",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cynet-edr-syslog-cef.htm",
+				"parser": "SCNX_CYNET_CYNETEDR_EDR_SYS_CEF"
 			}
 		]
 	},
@@ -1429,6 +1451,22 @@
 	},
 	{
 		"vendor": "McAfee",
+		"title": "McAfee ePO VirusScan",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-epo-virusscan-cef.htm",
+				"parser": "SCNX_INTEL_MCAFEEEPOVIRUSSCAN_EDR_SYS_CEF"
+			},
+			{
+				"type": "Syslog/XMLPARSER",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-epo-virusscan-syslog.htm",
+				"parser": "SCNX_INTEL_MCAFEEEPOVIRUSSCAN_EDR_SYS_XML_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
 		"title": "McAfee NIPS",
 		"methods": [
 			{
@@ -1467,17 +1505,6 @@
 				"type": "Mcafeemvision/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-mvision-api.htm",
 				"parser": "SCNX_INTEL_MCAFEEMVISION_EDLP_MCA_JSO_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
-		"title": "McAfee ePO VirusScan",
-		"methods": [
-			{
-				"type": "Syslog/XMLPARSER",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-epo-virusscan-syslog.htm",
-				"parser": "SCNX_INTEL_MCAFEEEPOVIRUSSCAN_EDR_SYS_XML_COMM"
 			}
 		]
 	},
@@ -1669,6 +1696,17 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation DNS Server",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dns-server-syslog-regex.htm",
+				"parser": "SCNX_MICROS_MICROSOFTDNSSERVER_DNS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "Microsoft Corporation Exchange Server",
 		"methods": [
 			{
@@ -1783,6 +1821,17 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Windows WINEVENT",
+		"methods": [
+			{
+				"type": "Syslog/WINEVENT",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-winevent-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTWINDOWSWINEVENT_WEL_SYS_WIN"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "MSSQL Audit",
 		"methods": [
 			{
@@ -1838,6 +1887,17 @@
 				"type": "Office365 (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-api.htm",
 				"parser": "SCNX_MICROS_O365AUDITGENERAL_O365_OFF_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "RADIUS_NPS",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-radius-nps-delimited-comma.htm",
+				"parser": "SCNX_MICROS_RADIUS_NPS_AW_SYS_DEL"
 			}
 		]
 	},
@@ -2244,6 +2304,17 @@
 	},
 	{
 		"vendor": "Raytheon",
+		"title": "Websense Web Proxy",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/websense-webproxy-cef.htm",
+				"parser": "SCNX_RAYTHE_WEBSENSEWEBPROXY_PXY_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Raytheon",
 		"title": "Websense Proxy",
 		"methods": [
 			{
@@ -2584,6 +2655,17 @@
 	},
 	{
 		"vendor": "Trend Micro",
+		"title": "Trend Micro Deep Discovery Inspector",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend%20micro-deep-discovery-inspector-cef.htm",
+				"parser": "SCNX_TREND_TRENDMICRODEEPDISCOVERYINSPECTOR_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
 		"title": "Trend Micro Deep Security Agent",
 		"methods": [
 			{
@@ -2595,12 +2677,34 @@
 	},
 	{
 		"vendor": "Trend Micro",
+		"title": "Trend Micro Deep Security Manager",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend-micro-deep-security-manager-cef.htm",
+				"parser": "SCNX_TREND_TRENDMICRODEEPSECURITYMANAGER_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
 		"title": "TippingPoint IPS",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend-micro-tipping-point-ips-lsm-syslog.htm",
 				"parser": "SCNX_TREND_TIPPINGPOINTIPS_ITD_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Vision One Alert",
+		"methods": [
+			{
+				"type": "Trendmicroxdr/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend%20micro-version-one-alert-api.htm",
+				"parser": "SCNX_TRENDM_TRENDMICROVISIONONEALERT_CEDR_TRE_JSO_COMM"
 			}
 		]
 	},
