@@ -242,6 +242,17 @@
 		]
 	},
 	{
+		"vendor": "BitDefender",
+		"title": "BitDefender Email Security Gateway",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/bit-defender-syslog-json.htm",
+				"parser": "SCNX_BITDEF_BITDEFENDEREDR_CEDR_SYS_JSO"
+			}
+		]
+	},
+	{
 		"vendor": "Blue Coat",
 		"title": "Bluecoat Proxy",
 		"methods": [
@@ -424,6 +435,11 @@
 		"vendor": "Check Point Software Technologies",
 		"title": "Check Point Identity Awareness",
 		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-identity-awareness-json.htm",
+				"parser": "SCNX_CHECKP_CHECKPOINTIDENTITYAWARENESS_AIM_SYS_JSO_COMM"
+			},
 			{
 				"type": "Syslog/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-identity-awareness-json.htm",
@@ -808,7 +824,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/cylanceprotect-syslog.htm",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cylanceprotect-syslog.htm",
 				"parser": "SCNX_CYLANC_CYLANCEPROTECT_CEDR_SYS_KEY_COMM"
 			}
 		]
@@ -1062,6 +1078,17 @@
 	},
 	{
 		"vendor": "FireEye",
+		"title": "FireEye Email Security",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fire-eye-email-security-cef.htm",
+				"parser": "SCNX_FIREEY_FIREEYEEMAILSECURITY_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "FireEye",
 		"title": "FireEye Endpoint Security",
 		"methods": [
 			{
@@ -1101,6 +1128,17 @@
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/forescout-counteract-syslog.htm",
 				"parser": "SCNX_FORESC_FORESCOUTCOUNTERACT_NAC_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "ForeScout Technologies",
+		"title": "Forescouts NAC",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/forescouts-nac-kvp.htm",
+				"parser": "SCNX_FORESC_FORESCOUTSNAC_NAC_SYS_KEY_COMM"
 			}
 		]
 	},
@@ -1204,6 +1242,17 @@
 		]
 	},
 	{
+		"vendor": "HAProxy",
+		"title": "HA Proxy",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-space",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ha-proxy-syslog-ds.htm",
+				"parser": "SCNX_HAPROX_HAPROXY_PXY_SYS_DEL"
+			}
+		]
+	},
+	{
 		"vendor": "IBM",
 		"title": "IBM General Parallel File System",
 		"methods": [
@@ -1247,6 +1296,17 @@
 		]
 	},
 	{
+		"vendor": "iboss",
+		"title": "iBoss Web Gateway",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/iboss-web-gateway-syslog-dc.htm",
+				"parser": "SCNX_IBOSS_IBOSSWEBGATEWAY_PXY_SYS_DEL"
+			}
+		]
+	},
+	{
 		"vendor": "Imperva",
 		"title": "Imperva",
 		"methods": [
@@ -1265,6 +1325,22 @@
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/imperva-web-application-firewall-syslogcef.htm",
 				"parser": "SCNX_IMPERV_IMPERVAWEBAPPLICATIONFIREWALL_WAF_SYS_CEF_COMM"
+			},
+			{
+				"type": "Impervacloudwaf/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/imperva-web-application-firewall-cef-api.htm",
+				"parser": "SCNX_IMPERV_IMPERVAWEBAPPLICATIONFIREWALL_WAF_IMP_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Imprivata",
+		"title": "Imprivata Single Sign-On",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/imprivara-single-signon-dc.htm",
+				"parser": "SCNX_IMPRIV_IMPRIVATASINGLESIGNON_CSSO_SYS_DEL"
 			}
 		]
 	},
@@ -2041,6 +2117,17 @@
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/nozomi-networks-syslog.htm",
 				"parser": "SCNX_NOZOMI_NOZOMINETWORKS_OTS_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "ObserveIT",
+		"title": "ObserveIT Security",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/observeit-security-syslog-cef.htm",
+				"parser": "SCNX_OBSERV_OBSERVEITSECURITY_EDLP_SYS_CEF"
 			}
 		]
 	},
@@ -2945,6 +3032,16 @@
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-internet-access-syslog.htm",
 				"parser": "SCNX_ZSCALER_ZSCALERPROXY_PXY_SYS_CEF"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-proxy-syslog-regex.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERPROXY_PXY_SYS_REG"
+			},
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-proxy-syslog-kvp.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERPROXY_PXY_SYS_KEY"
 			}
 		]
 	},
@@ -2971,7 +3068,7 @@
 			{
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-private-access-syslog.htm",
-				"parser": "SCNX_ZSCALE_ZSCALERPRIVATEACCESS_AIM_SYS_REG_COMM"
+				"parser": "SCNX_ZSCALE_ZSCALERPRIVATEACCESS_IAM_SYS_REG"
 			}
 		]
 	},
