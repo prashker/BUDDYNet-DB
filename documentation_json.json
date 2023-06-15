@@ -823,6 +823,11 @@
 		"title": "CylancePROTECT",
 		"methods": [
 			{
+				"type": "Cylance (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cylance-protect-api-kvp.htm",
+				"parser": "SCNX_CYLANC_CYLANCEPROTECT_CEDR_CYL_KEY"
+			},
+			{
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cylanceprotect-syslog.htm",
 				"parser": "SCNX_CYLANC_CYLANCEPROTECT_CEDR_SYS_KEY_COMM"
@@ -903,17 +908,6 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fortra-digital-guardian-regex.htm",
 				"parser": "SCNX_DIGITA_DIGITALGUARDIAN_EDLP_SYS_REG"
-			}
-		]
-	},
-	{
-		"vendor": "DUO Security",
-		"title": "Duo Administrator",
-		"methods": [
-			{
-				"type": "Duo (API)/JSON",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/duo-security-applications-api.htm",
-				"parser": "SCNX_DUOSE_DUOSECURITYTELEPHONY_CAAU_DUO_JSO"
 			}
 		]
 	},
@@ -1511,6 +1505,17 @@
 				"type": "File/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-endpoint-dlp-file.htm",
 				"parser": "SCNX_INTEL_MCAFEEENDPOINTDLP_EDLP_FIL_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee Mvision ePO",
+		"methods": [
+			{
+				"type": "mcafeemvisionepo/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-mvision-epo-api-json.htm",
+				"parser": "SCNX_INTEL_MCAFEEMVISIONEPO_EDLP_MCA_JSO_COMM"
 			}
 		]
 	},
@@ -2549,11 +2554,6 @@
 		"methods": [
 			{
 				"type": "Sophos (API)/Key-value pair",
-				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/sophos-alert-api.htm",
-				"parser": "SCNX_SOPHOS_SOPHOSENDPOINT_EDR_SOP_KEY"
-			},
-			{
-				"type": "Sophos (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/sophos-events-api.htm",
 				"parser": "SCNX_SOPHOS_SOPHOSENDPOINT_EDR_SOP_KEY"
 			}
@@ -2671,6 +2671,11 @@
 				"type": "Symantecendpoint (API)/JSON",
 				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-protection-api-json.htm",
 				"parser": "SCNX_SYMANT_SYMANTECENDPOINTPROTECTIONSTREM_EDR_SYM_JSO_COMM"
+			},
+			{
+				"type": "Symantecendpoint (API)/JSON",
+				"link": "https://documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-protection-api-json.htm",
+				"parser": "SCNX_SYMANT_SYMANTECENDPOINTPROTECTIONSTREAM_EDR_SYM_JSO_COMM"
 			}
 		]
 	},
