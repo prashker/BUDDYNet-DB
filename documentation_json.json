@@ -1,33 +1,11 @@
 [
 	{
-		"vendor": "1Password",
-		"title": "One Password",
-		"methods": [
-			{
-				"type": "Onepassword/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/one-password-signin-attempts-json.htm",
-				"parser": "SCNX_1PASSW_ONEPASSWORD_AIM_ONE_JSO_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "1Password",
-		"title": "One Password - Item Usages",
-		"methods": [
-			{
-				"type": "Onepassword/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/one-password-item-usage-json.htm",
-				"parser": "SCNX_1PASSW_ONEPASSWORDITEMUSAGES_AIM_ONE_JSO_COMM"
-			}
-		]
-	},
-	{
 		"vendor": "Acalvio Technologies, Inc.",
 		"title": "Acalvio ShadowPlex",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/acalvio%20shadowplex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/acalvio_shadowplex.htm",
 				"parser": "SCNX_ACALVI_ACALVIOSHADOWPLEX_OTS_SYS_CEF_COMM"
 			}
 		]
@@ -38,7 +16,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/actividentity-hid-syslog-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/actividentity-hid-syslog-kvp.htm",
 				"parser": "SCNX_ACTIVI_ACTIVIDENTITY_PHY_SYS_KEY"
 			}
 		]
@@ -48,31 +26,14 @@
 		"title": "Akamai Web Application Firewall",
 		"methods": [
 			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/akamai-web-application-firewall-syslog.htm",
+				"parser": "SCNX_AKAMAI_AKAMAIWEBAPPLICATIONFIREWALL_WAF_SYS_CEF"
+			},
+			{
 				"type": "Akamai",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/akamai-web-application-firewall-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/akamai-web-application-firewall-api.htm",
 				"parser": "SCNX_AKAMAI_AKAMAIWEBAPPLICATIONFIREWALL_WAF_AKA_KEY"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS Network Load Balancer",
-		"methods": [
-			{
-				"type": "awssqss3/Delimited-space",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/amazon-aws-network-load-balancer-awssqss3.htm",
-				"parser": "SCNX_AMAZON_AWSNETWORKLOADBALANCER_TM_AWS_DEL_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "Amazon",
-		"title": "AWS WAF",
-		"methods": [
-			{
-				"type": "awssqss3 (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/amazon-aws-waf-api.htm",
-				"parser": "SCNX_AMAZON_AWSWAF_WAF_AWS_JSO_COMM"
 			}
 		]
 	},
@@ -81,8 +42,13 @@
 		"title": "AWS Cloud Trail",
 		"methods": [
 			{
+				"type": "Awssqss3 (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/amazon-aws-cloudtrail-api.htm",
+				"parser": "SCNX_AMAZON_AWSCLOUDTRAIL_CSA_AWS_JSO"
+			},
+			{
 				"type": "Awssqss3 (API)/OCSF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/amazon-aws-cloud-trail-api-ocsf%20.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/amazon-aws-cloud-trail-api-ocsf_.htm",
 				"parser": "SCNX_AMAZON_AWSCLOUDTRAIL_CSA_AWS_JSO_COMM"
 			}
 		]
@@ -93,8 +59,41 @@
 		"methods": [
 			{
 				"type": "Awssqss3/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/amazon-aws-elastic-load-balancer-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/amazon-aws-elastic-load-balancer-api.htm",
 				"parser": "SCNX_AMAZON_AWSELASTICLOADBALANCER_TM_AWS_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS GuardDuty",
+		"methods": [
+			{
+				"type": "Awsguardduty (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/amazon-aws-guardduty-api.htm",
+				"parser": "SCNX_AMAZON_AWSGUARDDUTY_ITD_AWS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS Network Load Balancer",
+		"methods": [
+			{
+				"type": "awssqss3/Delimited-space",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/amazon-aws-network-load-balancer-awssqss3.htm",
+				"parser": "SCNX_AMAZON_AWSNETWORKLOADBALANCER_TM_AWS_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS WAF",
+		"methods": [
+			{
+				"type": "awssqss3 (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/amazon-aws-waf-api.htm",
+				"parser": "SCNX_AMAZON_AWSWAF_WAF_AWS_JSO_COMM"
 			}
 		]
 	},
@@ -104,18 +103,18 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/apache-web-server-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/apache-web-server-syslog.htm",
 				"parser": "SCNX_APACHE_APACHEWEBSERVER_WEB_SYS_JSO"
 			}
 		]
 	},
 	{
-		"vendor": "Aruba Networks",
+		"vendor": "Armis",
 		"title": "Aruba Authentication",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/aruba-authentication-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/aruba-authentication-syslog-cef.htm",
 				"parser": "SCNX_ARUBA_ARUBAAUTHENTICATION_AW_SYS_CEF_COMM"
 			}
 		]
@@ -126,7 +125,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/aruba-clearpass-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/aruba-clearpass-syslog.htm",
 				"parser": "SCNX_ARUBA_ARUBACLEARPASS_NAC_SYS_REG"
 			}
 		]
@@ -137,7 +136,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/arubaos-cx-switch-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/arubaos-cx-switch-syslog.htm",
 				"parser": "SCNX_ARUBA_ARUBAOSCXSWITCH_NAC_SYS_REG_COMM"
 			}
 		]
@@ -148,8 +147,19 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/asus-object-storage-syslog-regex.htm",
+				"link": "file:///C:/SECURONIX/Securonix_Connectors/Content/Active-Deployment-Guides/Asus-Object-Storage-syslog-Regex.htm",
 				"parser": "SCNX_ASUS_OBJECTSTORAGE_UNX_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Attivo Networks",
+		"title": "Attivo BOTsink",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/attivo-botsink-via-syslog-cef.htm",
+				"parser": "SCNX_ATTIVO_ATTIVOBOTSINK_ITD_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -159,7 +169,7 @@
 		"methods": [
 			{
 				"type": "File/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/atlassian-bitbucket-file.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/atlassian-bitbucket-file.htm",
 				"parser": "SCNX_ATLASS_BITBUCKET_SCR_FIL_JSO_COMM"
 			}
 		]
@@ -170,19 +180,8 @@
 		"methods": [
 			{
 				"type": "Jira (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/jira-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/jira-api.htm",
 				"parser": "SCNX_ATLASS_JIRA_ISM_JIR_JSO"
-			}
-		]
-	},
-	{
-		"vendor": "Attivo Networks",
-		"title": "Attivo BOTsink",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/attivo-botsink-via-syslog-cef.htm",
-				"parser": "SCNX_ATTIVO_ATTIVOBOTSINK_ITD_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -192,19 +191,8 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/avepoint-compliance-guardian-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/avepoint-compliance-guardian-syslog-cef.htm",
 				"parser": "SCNX_AVEPOI_AVEPOINTCOMPLIANCEGUARDIAN_CAAU_SYS_CEF"
-			}
-		]
-	},
-	{
-		"vendor": "Barracuda Networks",
-		"title": "Barracuda WAF",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/barracuda-waf-syslog.htm",
-				"parser": "SCNX_BARRAC_BARRACUDAWAF_WAF_SYS_REG_COMM"
 			}
 		]
 	},
@@ -214,8 +202,19 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/barracuda-email-security-gateway-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/barracuda-email-security-gateway-syslog.htm",
 				"parser": "SCNX_BARRAC_BARRACUDAEMAILGATEWAY_EML_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Barracuda Networks",
+		"title": "Barracuda WAF",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/barracuda-waf-syslog.htm",
+				"parser": "SCNX_BARRAC_BARRACUDAWAF_WAF_SYS_REG_COMM"
 			}
 		]
 	},
@@ -225,7 +224,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/beyondtrust-powerbroker-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/beyondtrust-powerbroker-syslog.htm",
 				"parser": "SCNX_BEYOND_POWERBROKER_APU_SYS_REG"
 			}
 		]
@@ -236,7 +235,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/bind-dns-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/bind-dns-syslog.htm",
 				"parser": "SCNX_BINDD_BINDDNS_DNS_SYS_REG"
 			}
 		]
@@ -247,24 +246,8 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/bit-defender-syslog-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/bit-defender-syslog-json.htm",
 				"parser": "SCNX_BITDEF_BITDEFENDEREDR_CEDR_SYS_JSO"
-			}
-		]
-	},
-	{
-		"vendor": "Blue Coat",
-		"title": "Bluecoat Proxy",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/blue-coat-proxy-syslog.htm",
-				"parser": "SCNX_SYMANT_BLUECOATPROXY_PXY_SYS_REG"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/bluecoat-proxy-syslog.htm",
-				"parser": "SCNX_SYMANT_BLUECOATPROXY_PXY_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -274,8 +257,24 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/bluecat-dhcp-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/bluecat-dhcp-syslog.htm",
 				"parser": "SCNX_BLUECA_BLUECAT_DHCP_DNS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Blue Coat",
+		"title": "Bluecoat Proxy",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/blue-coat-proxy-syslog.htm",
+				"parser": "SCNX_SYMANT_BLUECOATPROXY_PXY_SYS_REG"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/bluecoat-proxy-syslog.htm",
+				"parser": "SCNX_SYMANT_BLUECOATPROXY_PXY_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -285,7 +284,7 @@
 		"methods": [
 			{
 				"type": "BoxContent (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/box-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/box-api.htm",
 				"parser": "SCNX_BOXIN_BOX_CCMS_BOX_KEY"
 			}
 		]
@@ -296,8 +295,19 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ca-site-minder-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ca-site-minder-syslog.htm",
 				"parser": "SCNX_CATEC_SITEMINDER_CSSO_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black App Control",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/carbon-black-app-control-syslog.htm",
+				"parser": "SCNX_CARBON_CARBONBLACKAPPCONTROL_APP_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -307,7 +317,7 @@
 		"methods": [
 			{
 				"type": "Carbonblack (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/carbon-black-defense-v2-carbonblack.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/carbon-black-protect-syslog.htm",
 				"parser": "SCNX_CARBON_CARBONBLACKDEFENSEV2_EMS_CAR_JSO"
 			}
 		]
@@ -318,7 +328,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/carbon-black-protection-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/carbon-black-protection-syslog.htm",
 				"parser": "SCNX_CARBON_CARBONBLACKPROTECT_EMS_SYS_CEF_COMM"
 			}
 		]
@@ -329,19 +339,8 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/carbon-black-protect-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/carbon-black-protect-syslog.htm",
 				"parser": "SCNX_CARBON_CARBONBLACKPROTECT_EMS_SYS_JSO"
-			}
-		]
-	},
-	{
-		"vendor": "Carbon Black",
-		"title": "Carbon Black App Control",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/carbon-black-app-control-syslog.htm",
-				"parser": "SCNX_CARBON_CARBONBLACKAPPCONTROL_APP_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -351,7 +350,7 @@
 		"methods": [
 			{
 				"type": "Carbonblackalerts/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/carbon-black-response-carbonblack.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/carbon-black-response-carbonblack.htm",
 				"parser": "SCNX_CARBON_CARBONBLACKRESPONSE_EDR_CAR_JSO"
 			}
 		]
@@ -362,7 +361,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cerner-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cerner-syslog.htm",
 				"parser": "SCNX_CERNER_CERNER_HAA_SYS_DEL"
 			}
 		]
@@ -373,7 +372,7 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-antimalware-syslog-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-antimalware-syslog-json.htm",
 				"parser": "SCNX_CHECK_CHECKPOINTANTIMALWARE_EDR_SYS_JSO"
 			}
 		]
@@ -384,12 +383,12 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-antivirus-syslog-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-antivirus-syslog-json.htm",
 				"parser": "SCNX_CHECK_CHECKPOINTANTIVIRUS_EDR_SYS_JSO"
 			},
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-antivirus-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-antivirus-syslog.htm",
 				"parser": "SCNX_CHECKP_CHECKPOINTANTIVIRUS_EDR_SYS_KEY_COMM"
 			}
 		]
@@ -400,7 +399,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-application-control-syslog-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-application-control-syslog-kvp.htm",
 				"parser": "SCNX_CHECK_CHECKPOINTAPPLICATIONCONTROL_EDR_SYS_KEY"
 			}
 		]
@@ -411,22 +410,22 @@
 		"methods": [
 			{
 				"type": "Syslog/CHECKPOINT",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-next-generation-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-next-generation-firewall-syslog.htm",
 				"parser": "SCNX_CHECK_CHECKPOINTNEXTGENERATIONFIREWALL_NGF_SYS_KEY_COMM"
 			},
 			{
 				"type": "Syslog/CHECKPOINT",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-firewall-syslog.htm",
 				"parser": "SCNX_CHECK_CHECKPOINTFIREWALL_IFW_SYS_CHE_COMM"
 			},
 			{
-				"type": "Syslog/\nCEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-firewall-syslog.htm",
+				"type": "Syslog/ CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-firewall-syslog.htm",
 				"parser": "SCNX_CHECK_CHECKPOINTFIREWALL_IFW_SYS_CEF_COMM"
 			},
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/check-point-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/check-point-firewall-syslog.htm",
 				"parser": "SCNX_CHECK_CHECKPOINTFIREWALL_IFW_SYS_KEY"
 			}
 		]
@@ -437,12 +436,7 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-identity-awareness-json.htm",
-				"parser": "SCNX_CHECKP_CHECKPOINTIDENTITYAWARENESS_AIM_SYS_JSO_COMM"
-			},
-			{
-				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-identity-awareness-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-identity-awareness-json.htm",
 				"parser": "SCNX_CHECK_CHECKPOINTIDENTITYAWARENESS_IAM_SYS_JSO"
 			}
 		]
@@ -453,12 +447,12 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-smartdefense-syslog-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-smartdefense-syslog-json.htm",
 				"parser": "SCNX_CHECK_CHECKPOINTSMARTDEFENSE_EDR_SYS_JSO"
 			},
 			{
 				"type": "Syslog/CHECKPOINT",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-smartdefense-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-smartdefense-syslog.htm",
 				"parser": "SCNX_CHECKP_CHECKPOINTSMARTDEFENCE_ITD_SYS_CHE_COMM"
 			}
 		]
@@ -469,7 +463,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/check-point-cloud-application-security-broker-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/check-point-cloud-application-security-broker-kvp.htm",
 				"parser": "SCNX_AVANAN_AVANAN_CASB_SYS_KEY"
 			}
 		]
@@ -480,7 +474,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-anyconnect-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-systems-anyconnect-syslog.htm",
 				"parser": "SCNX_CISCO_CISCOANYCONNECT_VPN_SYS_REG"
 			}
 		]
@@ -491,7 +485,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-asa-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-systems-asa-syslog.htm",
 				"parser": "SCNX_CISCO_CISCOASA_NGF_SYS_REG"
 			}
 		]
@@ -502,7 +496,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-asa-firepower-url-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-asa-firepower-url-syslog.htm",
 				"parser": "SCNX_CISCO_CISCOASAFIREPOWERURL_NGF_SYS_REG"
 			}
 		]
@@ -513,7 +507,7 @@
 		"methods": [
 			{
 				"type": "Fireamp (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-fireamp-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-systems-fireamp-api.htm",
 				"parser": "SCNX_CISCO_CISCOFIREAMP_EDR_FIR_KEY"
 			}
 		]
@@ -524,7 +518,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-ftd-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-systems-ftd-syslog-regex.htm",
 				"parser": "SCNX_CISCO_CISCOFTD_NGF_SYS_REG"
 			}
 		]
@@ -535,17 +529,17 @@
 		"methods": [
 			{
 				"type": "Ciscoise/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-identity-services-engine-ciscoise.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-identity-services-engine-ciscoise.htm",
 				"parser": "SCNX_CISCO_CISCOIDENTITYSERVICEENGINE_NAC_CIS_KEY"
 			},
 			{
 				"type": "File/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-identity-services-engine-file-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-identity-services-engine-file-kvp.htm",
 				"parser": "SCNX_CISCO_CISCOIDENTITYSERVICEENGINE_NAC_FIL_KEY"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-identity-service-engine-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-identity-service-engine-syslog.htm",
 				"parser": "SCNX_CISCO_CISCOIDENTITYSERVICEENGINE_NAC_SYS_REG"
 			}
 		]
@@ -556,7 +550,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF[Syslog]",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-meraki-switch-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-meraki-switch-syslog.htm",
 				"parser": "SCNX_CISCO_CISCOMERAKISWITCH_NAC_SYS_REG_COMM"
 			}
 		]
@@ -567,7 +561,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-meraki-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-systems-meraki-firewall-syslog.htm",
 				"parser": "SCNX_CISCO_CISCOMERAKIFIREWALL_NGF_SYS_REG"
 			}
 		]
@@ -578,7 +572,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-nxos-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-nxos-syslog.htm",
 				"parser": "SCNX_CISCO_CISCONXOS_NAC_SYS_REG"
 			}
 		]
@@ -589,7 +583,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-prime-infrastructure-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-prime-infrastructure-syslog.htm",
 				"parser": "SCNX_CISCO_CISCOPRIMEINFRASTRUCTURE_AW_SYS_CEF"
 			}
 		]
@@ -600,7 +594,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-router-and-switch-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-systems-router-and-switch-syslog.htm",
 				"parser": "SCNX_CISCO_CISCOROUTERANDSWITCH_NAC_SYS_REG"
 			}
 		]
@@ -611,8 +605,19 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-secure-acs-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-secure-acs-syslog-regex.htm",
 				"parser": "SCNX_CISCO_CISCOSECUREACS_NAC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Sourcefire Intrusion Sensor",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-sourcefire-ids-syslog.htm",
+				"parser": "SCNX_CISCO_SOURCEFIREINTRUSIONSENSOR_EDR_SYS_REG"
 			}
 		]
 	},
@@ -622,12 +627,12 @@
 		"methods": [
 			{
 				"type": "Ciscoumbrella (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-umbrella-api.htm",
 				"parser": "SCNX_CISCO_CISCOUMBRELLA_DNS_CIS_JSO"
 			},
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-syslog-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-umbrella-syslog-json.htm",
 				"parser": "SCNX_CISCO_CISCOUMBRELLA_DNS_SYS_JSO"
 			}
 		]
@@ -638,13 +643,8 @@
 		"methods": [
 			{
 				"type": "Ciscoumbrella (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-api-v2.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-umbrella-api-v2.htm",
 				"parser": "SCNX_CISCO_CISCOUMBRELLAPROXY_PXY_CIS_JSO"
-			},
-			{
-				"type": "AWS/Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-api-aws-dc.htm",
-				"parser": "SCNX_CISCO_CISCOUMBRELLAPROXY_PXY_AWS_DEL_COMM"
 			}
 		]
 	},
@@ -654,7 +654,7 @@
 		"methods": [
 			{
 				"type": "Ciscoumbrella (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-firewall-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-umbrella-firewall-api.htm",
 				"parser": "CISCO_CISCOUMBRELLAFIREWALL_IFW_CIS_JSO_COMM"
 			}
 		]
@@ -665,12 +665,12 @@
 		"methods": [
 			{
 				"type": "AWS / Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-api-aws-dc.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-umbrella-dns-aws.htm",
 				"parser": "SCNX_CISCOS_CISCOUMBRELLADNS_DNS_AWS_DEL_COMM"
 			},
 			{
 				"type": "Ciscoumbrella (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-umbrella-dns-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-umbrella-dns-api.htm",
 				"parser": "CISCO_CISCOUMBRELLADNS_DNS_CIS_JSO_COMM"
 			}
 		]
@@ -681,7 +681,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-systems-unified-communications-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-systems-unified-communications-syslog.htm",
 				"parser": "SCNX_CISCO_CISCOUNIFIEDCOMMUNICATIONS_IP_SYS_REG"
 			}
 		]
@@ -692,7 +692,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/cisco-wireless-lan-controller.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/cisco-wireless-lan-controller.htm",
 				"parser": "SCNX_CISCO_CISCOWIRELESSLANCONTROLLERTRAP_NAC_FIL_REG"
 			}
 		]
@@ -703,19 +703,8 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-ironport-email-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-ironport-email-syslog.htm",
 				"parser": "SCNX_CISCO_IRONPORTEMAIL_EML_SYS_CEF_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "Cisco",
-		"title": "Cisco Sourcefire Intrusion Sensor",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cisco-sourcefire-ids-syslog.htm",
-				"parser": "SCNX_CISCO_SOURCEFIREINTRUSIONSENSOR_EDR_SYS_REG"
 			}
 		]
 	},
@@ -725,7 +714,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/citrix-sharefile-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/citrix-sharefile-syslog-regex.htm",
 				"parser": "SCNX_CITRIX_CITRIXSHAREFILE_CCMS_SYS_REG"
 			}
 		]
@@ -736,12 +725,12 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/citrix-netscaler-vpn-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/citrix-netscaler-vpn-syslog.htm",
 				"parser": "SCNX_CITRIX_NETSCALERVPN_VPN_SYS_REG"
 			},
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/citrix-gateway-vpn-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/citrix-gateway-vpn-syslog-cef.htm",
 				"parser": "SCNX_CITRIX_NETSCALERVPN_VPN_SYS_CEF_COMM"
 			}
 		]
@@ -752,7 +741,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/claroty-ctd-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/claroty-ctd-syslog.htm",
 				"parser": "SCNX_CLAROT_CLAROTYCTD_OTS_SYS_CEF_COMM"
 			}
 		]
@@ -763,7 +752,7 @@
 		"methods": [
 			{
 				"type": "Cloudflarefirewall (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cloudflare-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cloudflare-api.htm",
 				"parser": "SCNX_CLOUDF_CLOUDFLARE_IFW_CLO_JSO"
 			}
 		]
@@ -774,7 +763,7 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/corelight-network-traffic-analytics-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/corelight-network-traffic-analytics-syslog.htm",
 				"parser": "SCNX_CORELI_NETWORKTRAFFICANALYTICS_NTA_SYS_JSO"
 			}
 		]
@@ -785,7 +774,7 @@
 		"methods": [
 			{
 				"type": "Crowdstrikestreaming (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/crowdstrike-falcon-streaming-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/crowdstrike-falcon-streaming-api.htm",
 				"parser": "SCNX_CROWDS_CROWDSTRIKEALERTSSTREAMING_CEDR_CRO_KEY"
 			}
 		]
@@ -796,19 +785,8 @@
 		"methods": [
 			{
 				"type": "Awssqss3 (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/crowdstrike-falcon-data-replicator-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/crowdstrike-falcon-data-replicator-api.htm",
 				"parser": "SCNX_CROWDS_CROWDSTRIKEFALCON_EMS_AWS_JSO"
-			}
-		]
-	},
-	{
-		"vendor": "Cyber X Inc.",
-		"title": "CyberX",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-iot-syslog-regex.htm",
-				"parser": "SCNX_CYBERX_CYBERX_OTS_SYS_REG_COMM"
 			}
 		]
 	},
@@ -818,8 +796,19 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cyberark-vault-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cyberark-vault-syslog.htm",
 				"parser": "SCNX_CYBERA_CYBERARKENTERPRISEPASSWORDVAULT_APU_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Cyber X Inc.",
+		"title": "CyberX",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-defender-iot-syslog-regex.htm",
+				"parser": "SCNX_CYBERX_CYBERX_OTS_SYS_REG_COMM"
 			}
 		]
 	},
@@ -829,12 +818,12 @@
 		"methods": [
 			{
 				"type": "Cylance (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cylance-protect-api-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/Cylance-Protect-API-KVP.htm",
 				"parser": "SCNX_CYLANC_CYLANCEPROTECT_CEDR_CYL_KEY"
 			},
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cylanceprotect-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cylanceprotect-syslog.htm",
 				"parser": "SCNX_CYLANC_CYLANCEPROTECT_CEDR_SYS_KEY_COMM"
 			}
 		]
@@ -845,7 +834,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cynerio-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cynerio-syslog.htm",
 				"parser": "SCNX_CYNERI_CYNERIO_HAA_SYS_REG_COMM"
 			}
 		]
@@ -856,7 +845,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/cynet-edr-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cynet-edr-syslog-cef.htm",
 				"parser": "SCNX_CYNET_CYNETEDR_EDR_SYS_CEF"
 			}
 		]
@@ -867,7 +856,7 @@
 		"methods": [
 			{
 				"type": "Syslog/LEEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/darktrace-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/darktrace-syslog.htm",
 				"parser": "SCNX_DARKTR_DARKTRACE_ITD_SYS_LEE"
 			}
 		]
@@ -878,7 +867,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/powerconnect-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/powerconnect-syslog.htm",
 				"parser": "SCNX_DELL_POWERCONNECT_NAC_SYS_REG_COMM"
 			}
 		]
@@ -889,7 +878,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/sonicwall-global-management-system-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/sonicwall-global-management-system-syslog.htm",
 				"parser": "SCNX_DELL_SONICWALLGLOBALMANAGEMENTSYSTEM_NGF_SYS_KEY"
 			}
 		]
@@ -899,8 +888,8 @@
 		"title": "Dell Switch",
 		"methods": [
 			{
-				"type": "Syslog\n/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/dell-switch-syslog-regex.htm",
+				"type": "Syslog /Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/dell-switch-syslog-regex.htm",
 				"parser": "SCNX_DELL_DELLSWITCH_NAC_SYS_REG_COMM"
 			}
 		]
@@ -911,7 +900,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fortra-digital-guardian-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/fortra-digital-guardian-regex.htm",
 				"parser": "SCNX_DIGITA_DIGITALGUARDIAN_EDLP_SYS_REG"
 			}
 		]
@@ -922,7 +911,7 @@
 		"methods": [
 			{
 				"type": "Duo (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/duo-security-applications-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/duo-security-applications-api.htm",
 				"parser": "SCNX_DUOSE_DUOSECURITYAUTHENTICATION_CSSO_DUO_JSO"
 			}
 		]
@@ -933,7 +922,7 @@
 		"methods": [
 			{
 				"type": "Duo (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/duo-security-applications-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/duo-security-applications-api.htm",
 				"parser": "SCNX_DUOSE_DUOSECURITYTELEPHONY_CAAU_DUO_JSO"
 			}
 		]
@@ -944,8 +933,19 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f-secure-endpoint-security-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/f-secure-endpoint-security-syslog.htm",
 				"parser": "SCNX_F-SECU_F-SECURE ENDPOINT SECURITY_EDR_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 ASM Audit",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/f5-asm-audit-syslog-regex.htm",
+				"parser": "SCNX_F5NET_F5ASMAUDIT_AA_SYS_REG"
 			}
 		]
 	},
@@ -955,12 +955,12 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-ip-asm-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/f5-big-ip-asm-syslog.htm",
 				"parser": "SCNX_F5NET_F5ASMWEBAPPLICATIONFIREWALL_WAF_SYS_CEF"
 			},
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-asm-web-application-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/f5-asm-web-application-firewall-syslog.htm",
 				"parser": "SCNX_F5NET_F5ASMWEBAPPLICATIONFIREWALL_WAF_SYS_JSO_COMM"
 			}
 		]
@@ -971,7 +971,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/f5-big-ip-apm-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/f5-big-ip-apm-syslog-regex.htm",
 				"parser": "SCNX_F5NETW_F5BIGIPAPM_APU_SYS_REG_COMM"
 			}
 		]
@@ -982,7 +982,7 @@
 		"methods": [
 			{
 				"type": "File/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-ip-dns-file.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/f5-big-ip-dns-file.htm",
 				"parser": "SCNX_F5NET_F5BIGIPGTM_TM_FIL_REG"
 			}
 		]
@@ -993,7 +993,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-ip-ltm-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/f5-big-ip-ltm-syslog.htm",
 				"parser": "SCNX_F5NET_F5BIGIPLOADBALANCER_TM_SYS_REG"
 			}
 		]
@@ -1004,7 +1004,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-switch-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/f5-big-switch-syslog.htm",
 				"parser": "SCNX_F5NETW_F5BIGSWITCH_NAC_SYS_REG_COMM"
 			}
 		]
@@ -1015,7 +1015,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key Value Pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-switch-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/f5-big-switch-syslog.htm",
 				"parser": "SCNX_F5NET_F5SILVERLINEWAF_WAF_SYS_KEY_COMM"
 			}
 		]
@@ -1026,7 +1026,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-big-ip-traffic-manager-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/f5-big-ip-traffic-manager-syslog.htm",
 				"parser": "SCNX_F5NET_F5BIGIPTRAFFICMANAGERRSA_TM_SYS_REG"
 			}
 		]
@@ -1037,19 +1037,19 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-dns-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/f5-dns-syslog.htm",
 				"parser": "SCNX_F5NET_F5DNS_DNS_SYS_REG"
 			}
 		]
 	},
 	{
-		"vendor": "F5 Networks",
-		"title": "F5 ASM Audit",
+		"vendor": "Secureworks",
+		"title": "Secureworks iSensor",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/f5-asm-audit-syslog-regex.htm",
-				"parser": "SCNX_F5NET_F5ASMAUDIT_AA_SYS_REG"
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/dell-secureworks-isensor-syslog.htm",
+				"parser": "SCNX_DELL_SECUREWORKSISENSOR_EDR_SYS_REG"
 			}
 		]
 	},
@@ -1059,7 +1059,7 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fastly-waf-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/fastly-waf-syslog.htm",
 				"parser": "SCNX_FASTLY_FASTLYWAF_WAF_SYS_JSO_COMM"
 			}
 		]
@@ -1070,7 +1070,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fidelis-dlp-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/fidelis-dlp-syslog.htm",
 				"parser": "SCNX_FIDELI_FIDELISNETWORKDLP_DLP_SYS_REG"
 			}
 		]
@@ -1081,7 +1081,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fire-eye-email-security-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/fire-eye-email-security-cef.htm",
 				"parser": "SCNX_FIREEY_FIREEYEEMAILSECURITY_EDR_SYS_CEF"
 			}
 		]
@@ -1092,7 +1092,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/fireeye-endpoint-security-hx-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/fireeye-endpoint-security-hx-syslog.htm",
 				"parser": "SCNX_FIREEY_FIREEYEENDPOINTSECURITY_EDR_SYS_CEF"
 			}
 		]
@@ -1103,7 +1103,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fireeye-network-security-nx-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/fireeye-network-security-nx-syslog.htm",
 				"parser": "SCNX_FIREEY_FIREEYENETWORKSECURITY_EDR_SYS_CEF"
 			}
 		]
@@ -1114,7 +1114,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/forcepoint-dlp-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/forcepoint-dlp-syslog.htm",
 				"parser": "SCNX_RAYTHE_FORCEPOINTDLP_EDLP_SYS_CEF"
 			}
 		]
@@ -1125,7 +1125,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/forescout-counteract-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/forescout-counteract-syslog.htm",
 				"parser": "SCNX_FORESC_FORESCOUTCOUNTERACT_NAC_SYS_CEF"
 			}
 		]
@@ -1136,7 +1136,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/forescouts-nac-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/forescouts-nac-kvp.htm",
 				"parser": "SCNX_FORESC_FORESCOUTSNAC_NAC_SYS_KEY_COMM"
 			}
 		]
@@ -1147,7 +1147,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/fortinet-fortigate-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/fortinet-fortigate-firewall-syslog.htm",
 				"parser": "SCNX_FORTIN_FORTIGATE_NGF_SYS_KEY"
 			}
 		]
@@ -1158,7 +1158,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/gigamon-network-traffic-analytics-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/gigamon-network-traffic-analytics-syslog.htm",
 				"parser": "SCNX_GIGAMO_GIGAMONNETWORKTRAFFICANALYTICS_NTA_SYS_CEF"
 			}
 		]
@@ -1169,7 +1169,7 @@
 		"methods": [
 			{
 				"type": "File/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/github-file.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/github-file.htm",
 				"parser": "SCNX_GITHUB_GITHUB_SCR_FIL_JSO_COMM"
 			}
 		]
@@ -1180,8 +1180,19 @@
 		"methods": [
 			{
 				"type": "Googlealerts (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/google-alerts-center-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/google-alerts-center-api.htm",
 				"parser": "SCNX_GOOGLE_ALERTCENTER_ITD_GOO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Gmail",
+		"methods": [
+			{
+				"type": "Bigquery/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-gmail-bigquery.htm",
+				"parser": "SCNX_GOOGLE_GMAIL_CEML_BIG_JSO"
 			}
 		]
 	},
@@ -1191,7 +1202,7 @@
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
 				"parser": "SCNX_GOOGLE_GOOGLEADMIN_CSA_GOO_DEL"
 			}
 		]
@@ -1202,7 +1213,7 @@
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
 				"parser": "SCNX_GOOGLE_GOOGLEDRIVE_CCMS_GOO_DEL"
 			}
 		]
@@ -1213,7 +1224,7 @@
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
 				"parser": "SCNX_GOOGLE_GOOGLELOGIN_CSSO_GOO_DEL"
 			}
 		]
@@ -1224,19 +1235,8 @@
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
 				"parser": "SCNX_GOOGLE_GOOGLETOKEN_APU_GOO_DEL"
-			}
-		]
-	},
-	{
-		"vendor": "Google",
-		"title": "Google Gmail",
-		"methods": [
-			{
-				"type": "Bigquery/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/google-gmail-bigquery.htm",
-				"parser": "SCNX_GOOGLE_GMAIL_CEML_BIG_JSO"
 			}
 		]
 	},
@@ -1246,7 +1246,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Delimited-space",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ha-proxy-syslog-ds.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ha-proxy-syslog-ds.htm",
 				"parser": "SCNX_HAPROX_HAPROXY_PXY_SYS_DEL"
 			}
 		]
@@ -1257,7 +1257,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-gpfs-scale-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ibm-gpfs-scale-syslog.htm",
 				"parser": "SCNX_IBM_IBMGENERALPARALLELFILESYSTEM_UNX_SYS_REG"
 			}
 		]
@@ -1268,17 +1268,17 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-guardium-database-audit-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ibm-guardium-database-audit-syslog.htm",
 				"parser": "SCNX_IBM_IBMGUARDIUM_DBA_SYS_REG"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-guardium-database-monitoring-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ibm-guardium-database-monitoring-syslog.htm",
 				"parser": "SCNX_IBM_GUARDIUM_DBM_SYS_REG"
 			},
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-guardium-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ibm-guardium-syslog-cef.htm",
 				"parser": "SCNX_IBM_IBMGUARDIUM_DBM_SYS_CEF_COMM"
 			}
 		]
@@ -1289,13 +1289,8 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-system-i-as400-iseries-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ibm-system-i-as400-iseries-syslog.htm",
 				"parser": "SCNX_IBM_IBMSYSTEMIAS400_MF_SYS_CEF"
-			},
-			{
-				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ibm-system-i-as400-iseries-syslog-regex.htm",
-				"parser": "SCNX_IBM_IBMSYSTEMIAS400_MF_SYS_REG"
 			}
 		]
 	},
@@ -1305,7 +1300,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/iboss-web-gateway-syslog-dc.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/iboss-web-gateway-syslog-dc.htm",
 				"parser": "SCNX_IBOSS_IBOSSWEBGATEWAY_PXY_SYS_DEL"
 			}
 		]
@@ -1316,7 +1311,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/imperva-database-audit-syslogcef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/imperva-database-audit-syslogcef.htm",
 				"parser": "SCNX_IMPERV_IMPERVA_DBS_SYS_CEF"
 			}
 		]
@@ -1327,12 +1322,12 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/imperva-web-application-firewall-syslogcef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/imperva-web-application-firewall-syslogcef.htm",
 				"parser": "SCNX_IMPERV_IMPERVAWEBAPPLICATIONFIREWALL_WAF_SYS_CEF_COMM"
 			},
 			{
 				"type": "Impervacloudwaf/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/imperva-web-application-firewall-cef-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/imperva-web-application-firewall-cef-api.htm",
 				"parser": "SCNX_IMPERV_IMPERVAWEBAPPLICATIONFIREWALL_WAF_IMP_CEF_COMM"
 			}
 		]
@@ -1343,7 +1338,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/imprivara-single-signon-dc.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/imprivara-single-signon-dc.htm",
 				"parser": "SCNX_IMPRIV_IMPRIVATASINGLESIGNON_CSSO_SYS_DEL"
 			}
 		]
@@ -1354,7 +1349,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/infoblox-nios-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/infoblox-nios-syslog.htm",
 				"parser": "SCNX_INFOBL_INFOBLOX_DNS_SYS_REG"
 			}
 		]
@@ -1365,7 +1360,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ivanti-virtual-traffic-manager-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ivanti-virtual-traffic-manager-syslog.htm",
 				"parser": "SCNX_IVANTI_IVANTIVIRTUALTRAFFICMANAGER_TM_SYS_REG_COMM"
 			}
 		]
@@ -1376,7 +1371,7 @@
 		"methods": [
 			{
 				"type": "Jumpcloud (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/jumpcloud-sso-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/jumpcloud-sso-api.htm",
 				"parser": "SCNX_JUMPCL_JUMPCLOUDSSO_SSO_JUM_JSO"
 			}
 		]
@@ -1387,7 +1382,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/juniper-junos-pulse-firewall-via-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/juniper-junos-pulse-firewall-via-syslog-regex.htm",
 				"parser": "SCNX_JUNIPE_JUNIPERJUNOSPULSEFIREWALL_IFW_SYS_REG"
 			}
 		]
@@ -1398,7 +1393,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/juniper-junos-pulse-secure-vpn-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/juniper-junos-pulse-secure-vpn-syslog.htm",
 				"parser": "SCNX_JUNIPE_JUNIPERJUNOSPULSEVPN_VPN_SYS_CEF_COMM"
 			}
 		]
@@ -1409,8 +1404,19 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/juniper-junos-router-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/juniper-junos-router-syslog.htm",
 				"parser": "SCNX_JUNIPE_JUNIPERJUNOSROUTER_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Secure Services Gateway",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/juniper-secure-services-gateway-syslog.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERSECURESERVICESGATEWAY_NGF_SYS_REG_COMM"
 			}
 		]
 	},
@@ -1420,7 +1426,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key Value Pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/juniper-srx-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/juniper-srx-firewall-syslog.htm",
 				"parser": "SCNX_JUNIPE_JUNIPERSRXFIREWALL_IFW_SYS_KEY_COMM"
 			}
 		]
@@ -1431,19 +1437,8 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/juniper-switch-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/juniper-switch-syslog.htm",
 				"parser": "SCNX_JUNIPE_JUNIPERSWITCH_NAC_SYS_REG_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "Juniper",
-		"title": "Juniper Secure Services Gateway",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/juniper-secure-services-gateway-syslog.htm",
-				"parser": "SCNX_JUNIPE_JUNIPERSECURESERVICESGATEWAY_NGF_SYS_REG_COMM"
 			}
 		]
 	},
@@ -1453,7 +1448,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/malwarebytes-antivirus-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/malwarebytes-antivirus-syslog.htm",
 				"parser": "SCNX_MALWAR_MALWAREBYTESANTIVIRUS_EDR_SYS_CEF"
 			}
 		]
@@ -1464,12 +1459,12 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/manageengine-ad-auditplus-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/manageengine-ad-auditplus-syslog.htm",
 				"parser": "SCNX_MANAGE_MANAGEADAUDITPLUS_WEL_SYS_REG"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/manageengine-ad-auditplus-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/manageengine-ad-auditplus-syslog.htm",
 				"parser": "SCNX_MANAGE_MANAGEADAUDITPLUS_AIM_SYS_REG_COMM"
 			}
 		]
@@ -1480,7 +1475,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/manageengine-password-manager-pro-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/manageengine-password-manager-pro-syslog.htm",
 				"parser": "SCNX_MANAGE_PASSWORDMANAGERPRO_APU_SYS_REG"
 			}
 		]
@@ -1491,18 +1486,18 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-mvision-cloud-casb.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-mvision-cloud-casb.htm",
 				"parser": "SCNX_INTEL_MCAFEECASB_CASB_SYS_CEF"
 			}
 		]
 	},
 	{
 		"vendor": "McAfee",
-		"title": "McAfee DAM",
+		"title": "McAfeeDAM",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/database-activity-monitoring-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/database-activity-monitoring-syslog.htm",
 				"parser": "SCNX_INTEL_DAM_DAM_SYS_CEF"
 			}
 		]
@@ -1513,7 +1508,7 @@
 		"methods": [
 			{
 				"type": "File/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-endpoint-dlp-file.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-endpoint-dlp-file.htm",
 				"parser": "SCNX_INTEL_MCAFEEENDPOINTDLP_EDLP_FIL_KEY_COMM"
 			}
 		]
@@ -1524,7 +1519,7 @@
 		"methods": [
 			{
 				"type": "mcafeemvisionepo/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-mvision-epo-api-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/McAfee-Mvision-EPO-API-JSON.htm",
 				"parser": "SCNX_INTEL_MCAFEEMVISIONEPO_EDLP_MCA_JSO_COMM"
 			}
 		]
@@ -1535,8 +1530,19 @@
 		"methods": [
 			{
 				"type": "Database/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-epo-hips-database.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-epo-hips-database.htm",
 				"parser": "SCNX_INTEL_MCAFEEEPOHIPS_EDR_DAT_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfeeePO VirusScan",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-epo-virusscan-cef.htm",
+				"parser": "SCNX_INTEL_MCAFEEEPOVIRUSSCAN_EDR_SYS_CEF"
 			}
 		]
 	},
@@ -1545,30 +1551,9 @@
 		"title": "McAfee ePO VirusScan",
 		"methods": [
 			{
-				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-epo-virusscan-cef.htm",
-				"parser": "SCNX_INTEL_MCAFEEEPOVIRUSSCAN_EDR_SYS_CEF"
-			},
-			{
 				"type": "Syslog/XMLPARSER",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-epo-virusscan-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-epo-virusscan-syslog.htm",
 				"parser": "SCNX_INTEL_MCAFEEEPOVIRUSSCAN_EDR_SYS_XML_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "McAfee",
-		"title": "McAfee Firewall",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-firewall-syslog-regex.htm",
-				"parser": "SCNX_INTEL_MCAFEEFIREWALL_IFW_SYS_REG"
-			},
-			{
-				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-firewall-syslog-cef.htm",
-				"parser": "SCNX_INTEL_MCAFEEFIREWALL_IFW_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -1578,8 +1563,24 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-network-security-platform.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-network-security-platform.htm",
 				"parser": "SCNX_INTEL_MCAFEENIPS_EDR_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfeeWeb Gateway",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/mcafee-web_gateway-syslog.htm",
+				"parser": "SCNX_INTEL_MCAFEEWEBGATEWAY_PXY_SYS_CEF"
+			},
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-web-gateway-syslog-delimited-comma.htm",
+				"parser": "SCNX_INTEL_MCAFEEWEBGATEWAY_PXY_SYS_DEL"
 			}
 		]
 	},
@@ -1588,18 +1589,8 @@
 		"title": "McAfee Web Gateway",
 		"methods": [
 			{
-				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/mcafee-web%20gateway-syslog.htm",
-				"parser": "SCNX_INTEL_MCAFEEWEBGATEWAY_PXY_SYS_CEF"
-			},
-			{
-				"type": "Syslog/Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-web-gateway-syslog-delimited-comma.htm",
-				"parser": "SCNX_INTEL_MCAFEEWEBGATEWAY_PXY_SYS_DEL"
-			},
-			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-web-gateway-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-web-gateway-syslog-regex.htm",
 				"parser": "SCNX_INTEL_MCAFEEWEBGATEWAY_PXY_SYS_REG"
 			}
 		]
@@ -1610,7 +1601,7 @@
 		"methods": [
 			{
 				"type": "Mcafeemvision/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mcafee-mvision-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-mvision-api.htm",
 				"parser": "SCNX_INTEL_MCAFEEMVISION_EDLP_MCA_JSO_COMM"
 			}
 		]
@@ -1621,7 +1612,7 @@
 		"methods": [
 			{
 				"type": "Office365 (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-office-o365-api.htm",
 				"parser": "SCNX_MICROS_AZUREACTIVEDIRECTORY_AIM_OFF_KEY"
 			}
 		]
@@ -1632,7 +1623,7 @@
 		"methods": [
 			{
 				"type": "Azurereport (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-ad-reporting-audit-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-azure-ad-reporting-audit-api.htm",
 				"parser": "SCNX_MICROS_AZUREACTIVEDIRECTORYAUDIT_CAAU_AZU_KEY"
 			}
 		]
@@ -1643,7 +1634,7 @@
 		"methods": [
 			{
 				"type": "Azurereport (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-ad-reporting-sign-in-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-azure-ad-reporting-sign-in-api.htm",
 				"parser": "SCNX_MICROS_AZUREACTIVEDIRECTORYSIGNIN_CSSO_AZU_KEY"
 			}
 		]
@@ -1654,7 +1645,7 @@
 		"methods": [
 			{
 				"type": "eventhub/Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-azure-application-gateway-eventhub.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/microsoft-azure-application-gateway-eventhub.htm",
 				"parser": "SCNX_MICROS_AZUREAPPLICATIONGATEWAY_TM_EVE_DEL"
 			}
 		]
@@ -1665,7 +1656,7 @@
 		"methods": [
 			{
 				"type": "eventhub/Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-azure-application-services-eventhub.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/microsoft-azure-application-services-eventhub.htm",
 				"parser": "SCNX_MICROS_AZUREAPPLICATIONSERVICE_PAAS_EVE_DEL_COMM"
 			}
 		]
@@ -1676,7 +1667,7 @@
 		"methods": [
 			{
 				"type": "Eventhub/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-azure-firewall-eventhub.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/microsoft-azure-firewall-eventhub.htm",
 				"parser": "SCNX_MICROS_AZUREFIREWALL_NGF_EVE_JSO_COMM"
 			}
 		]
@@ -1687,7 +1678,7 @@
 		"methods": [
 			{
 				"type": "Msftgraphsecurityalerts (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-identity-protection-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-azure-identity-protection-api.htm",
 				"parser": "SCNX_MICROS_AZUREIDENTITYPROTECTION_IRM_MSF_JSO"
 			}
 		]
@@ -1698,7 +1689,7 @@
 		"methods": [
 			{
 				"type": "Azurekeyvaultstorage (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-key-vault-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-azure-key-vault-api.htm",
 				"parser": "SCNX_MICROS_AZUREKEYVAULT_SKM_AZU_JSO"
 			}
 		]
@@ -1709,7 +1700,7 @@
 		"methods": [
 			{
 				"type": "Azureactivitylogs/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft%20azure%20monitor%20(api).htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft_azure_monitor_api_.htm",
 				"parser": "SCNX_MICROS_AZUREMONITOR_CPA_AZU_KVP_COMM"
 			}
 		]
@@ -1720,7 +1711,7 @@
 		"methods": [
 			{
 				"type": "Eventhub/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-front-door.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-azure-front-door.htm",
 				"parser": "SCNX_MICROS_AZUREFRONTDOORWEBAPPLICATIONFIREWALL_WAF_EVE_JSO_COMM"
 			}
 		]
@@ -1731,7 +1722,7 @@
 		"methods": [
 			{
 				"type": "Eventhub/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-azure-network-security-groups-event-hub.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/microsoft-azure-network-security-groups-event-hub.htm",
 				"parser": "SCNX_MICROS_AZURENETWORKSECURITYGROUPS_TM_EVE_JSO_COMM"
 			}
 		]
@@ -1742,7 +1733,7 @@
 		"methods": [
 			{
 				"type": "msftgraphsecurityalerts (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-azure-security-center-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-azure-security-center-api.htm",
 				"parser": "SCNX_MICROS_AZURESECURITYCENTRE_ITD_MSF_JSO_COMM"
 			}
 		]
@@ -1753,7 +1744,7 @@
 		"methods": [
 			{
 				"type": "microsoftcloudappsecurity/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-cloudapp-security-alerts-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-cloudapp-security-alerts-api.htm",
 				"parser": "SCNX_MICROS_MSCLOUDAPPSECURITYALERTS_CASB_MIC_JSO_COMM"
 			}
 		]
@@ -1764,13 +1755,24 @@
 		"methods": [
 			{
 				"type": "Msftdefenderatp (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-365-defender-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-365-defender-api.htm",
 				"parser": "SCNX_MICROS_MICROSOFTDEFENDERATP_EDR_MSF_JSO"
 			},
 			{
 				"type": "Event Hub/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-atp-eventhub.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-defender-atp-eventhub.htm",
 				"parser": "SCNX_MICROS_MICROSOFTDEFENDERATP_EDR_EVE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "ForeFront Threat Management Gateway Proxy",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/forefront-threat-management-gateway-syslog.htm",
+				"parser": "SCNX_MICROS_FOREFRONTTHREATMANAGEMENTGATEWAYPROXY_PXY_SYS_REG"
 			}
 		]
 	},
@@ -1780,8 +1782,19 @@
 		"methods": [
 			{
 				"type": "Syslog/SNARE",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-endpoint-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-defender-endpoint-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTDEFENDER_EDR_SYS_SNA_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Defender for Cloud Apps",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-defender-cloud_apps-syslog.htm",
+				"parser": "SCNX_MICROS_MCAS_CASB_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -1791,23 +1804,23 @@
 		"methods": [
 			{
 				"type": "Syslog/Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dhcp-syslog-delimited-comma.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-dhcp-syslog-delimited-comma.htm",
 				"parser": "SCNX_MICROS_MICROSOFTDHCP_DNS_SYS_DEL_COMM"
 			},
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dhcp-syslog-key-value-pair.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-dhcp-syslog-key-value-pair.htm",
 				"parser": "SCNX_MICROS_MICROSOFTDHCP_DNS_SYS_KEY"
 			}
 		]
 	},
 	{
 		"vendor": "Microsoft Corporation",
-		"title": "Microsoft Corporation DNS Server",
+		"title": "Microsoft CorporationDNS Server",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dns-server-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-dns-server-syslog-regex.htm",
 				"parser": "SCNX_MICROS_MICROSOFTDNSSERVER_DNS_SYS_REG"
 			}
 		]
@@ -1818,33 +1831,33 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-exchange-on-prem-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-exchange-on-prem-syslog-cef.htm",
 				"parser": "SCNX_MICROS_MICROSOFTEXCHANGESERVER_EML_SYS_CEF_COMM"
 			},
 			{
 				"type": "Syslog/Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-exchange-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-exchange-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTEXCHANGESERVER_EML_SYS_DEL_COMM"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-exchange-on-prem-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/microsoft-exchange-on-prem-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTEXCHANGESERVER_EML_SYS_REG"
 			}
 		]
 	},
 	{
 		"vendor": "Microsoft Corporation",
-		"title": "Microsoft Corporation IIS Server",
+		"title": "Microsoft CorporationIIS Server",
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-iis-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-iis-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTIISSERVER_WEB_SYS_KEY"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-iis-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-windows-iis-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTIISSERVER_WEB_SYS_REG"
 			}
 		]
@@ -1855,7 +1868,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Snare",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-print-service-syslog-nxlog-snare.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-print-service-syslog-nxlog-snare.htm",
 				"parser": "SCNX_MICROS_MICROSOFTPRINTSERVICE_PRN_SYS_SNA_COMM"
 			}
 		]
@@ -1866,7 +1879,7 @@
 		"methods": [
 			{
 				"type": "Azureloganalytics (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft%20windows%20applocker-azureloganalytics-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft_windows_applocker-azureloganalytics-api.htm",
 				"parser": "SCNX_MICROS_MICROSOFTWINDOWSAPPLOCKER_WEL_AZU_DEL"
 			}
 		]
@@ -1877,18 +1890,18 @@
 		"methods": [
 			{
 				"type": "Syslog/WINDOWSPOWERSHELL",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-powershell-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-windows-powershell-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTWINDOWSPOWERSHELL_PSH_SYS_WIN"
 			}
 		]
 	},
 	{
 		"vendor": "Microsoft Corporation",
-		"title": "Microsoft Corporation Windows SNARE",
+		"title": "Microsoft CorporationWindows SNARE",
 		"methods": [
 			{
 				"type": "Syslog/Snare",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-security-logs-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-windows-security-logs-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTWINDOWSSNARE_WEL_SYS_SNA"
 			}
 		]
@@ -1899,7 +1912,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Snare",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-snare-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-windows-snare-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTWINDOWSSNARE_APPLICATION_WEL_SYS_SNA"
 			}
 		]
@@ -1910,7 +1923,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Snare",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-system-monitor-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/microsoft-system-monitor-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTWINDOWSSYSMON_EMS_SYS_SNA"
 			}
 		]
@@ -1921,7 +1934,7 @@
 		"methods": [
 			{
 				"type": "Event Hub(API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-intune-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-intune-api.htm",
 				"parser": "SCNX_MICROS_MICROSOFTINTUNE_CCMS_EVE_JSO_COMM"
 			}
 		]
@@ -1932,7 +1945,7 @@
 		"methods": [
 			{
 				"type": "Syslog/WINEVENT",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-winevent-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-windows-winevent-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTWINDOWSWINEVENT_WEL_SYS_WIN"
 			}
 		]
@@ -1943,12 +1956,12 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-sql-audit-nxlog-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/microsoft-sql-audit-nxlog-syslog.htm",
 				"parser": "SCNX_MICROS_MSSQLAUDIT_DBA_SYS_REG_COMM"
 			},
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-sql-audit-integration-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-sql-audit-integration-syslog.htm",
 				"parser": "SCNX_MICROS_MSSQLAUDIT_DBA_SYS_CEF"
 			}
 		]
@@ -1959,7 +1972,7 @@
 		"methods": [
 			{
 				"type": "Outlook (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-outlook-api-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-office-o365-outlook-api-kvp.htm",
 				"parser": "SCNX_MICROS_OFFICE365OUTLOOK_CEML_OUT_KEY"
 			}
 		]
@@ -1970,7 +1983,7 @@
 		"methods": [
 			{
 				"type": "Office365 (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-office-o365-api.htm",
 				"parser": "SCNX_MICROS_OFFICE365DLP_EDLP_OFF_KVP_COMM"
 			}
 		]
@@ -1981,7 +1994,7 @@
 		"methods": [
 			{
 				"type": "Office365 (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-office-o365-api.htm",
 				"parser": "SCNX_MICROS_OFFICE365EXCHANGEAPI_CAAU_OFF_KEY"
 			}
 		]
@@ -1992,8 +2005,19 @@
 		"methods": [
 			{
 				"type": "Office365 (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-office-o365-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-office-o365-api.htm",
 				"parser": "SCNX_MICROS_O365AUDITGENERAL_O365_OFF_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "O365 Defender",
+		"methods": [
+			{
+				"type": "microsofto365defender (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-o365-defender-api.htm",
+				"parser": "SCNX_MICROS_MICROSOFTO365DEFENDER_CEDR_MIC_JSO_COMM"
 			}
 		]
 	},
@@ -2003,7 +2027,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-radius-nps-delimited-comma.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-radius-nps-delimited-comma.htm",
 				"parser": "SCNX_MICROS_RADIUS_NPS_AW_SYS_DEL"
 			}
 		]
@@ -2014,7 +2038,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/microsoft-sharepoint-on-prem-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/microsoft-sharepoint-on-prem-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTSHAREPOINT_CMS_SYS_REG"
 			}
 		]
@@ -2025,7 +2049,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-adfs-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-adfs-syslog.htm",
 				"parser": "SCNX_MICROS_WINDOWSADFS_SSO_SYS_REG_COMM"
 			}
 		]
@@ -2036,7 +2060,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-dns-server-syslog-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-dns-server-syslog-kvp.htm",
 				"parser": "SCNX_MICROS_MICROSOFTWINDOWSDNSSERVER_DNS_SYS_KEY"
 			}
 		]
@@ -2047,7 +2071,7 @@
 		"methods": [
 			{
 				"type": "Syslog/SNARE",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-mssql-snare-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-windows-mssql-snare-syslog.htm",
 				"parser": "SCNX_MICROS_WINDOWSMSSQL_DBA_SYS_SNA_COMM"
 			}
 		]
@@ -2058,30 +2082,8 @@
 		"methods": [
 			{
 				"type": "Azureloganalytics (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-windows-security-auditing-azure-log-analytics-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-windows-security-auditing-azure-log-analytics-api.htm",
 				"parser": "SCNX_MICROS_WINDOWSSECURITYAUDITING_WEL_AZU_DEL_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft Corporation",
-		"title": "Microsoft Corporation Defender for Cloud Apps",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-defender-cloud%20apps-syslog.htm",
-				"parser": "SCNX_MICROS_MCAS_CASB_SYS_CEF_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft Corporation",
-		"title": "O365 Defender",
-		"methods": [
-			{
-				"type": "microsofto365defender (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/microsoft-o365-defender-api.htm",
-				"parser": "SCNX_MICROS_MICROSOFTO365DEFENDER_CEDR_MIC_JSO_COMM"
 			}
 		]
 	},
@@ -2091,7 +2093,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mobileiron-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mobileiron-syslog.htm",
 				"parser": "SCNX_MOBILE_MOBILEIRON_CSA_SYS_REG"
 			}
 		]
@@ -2102,18 +2104,18 @@
 		"methods": [
 			{
 				"type": "Mulesoft (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/mulesoft-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mulesoft-api.htm",
 				"parser": "SCNX_MULESO_MULESOFT_AIM_MUL_JSO"
 			}
 		]
 	},
 	{
 		"vendor": "NetApp",
-		"title": "NetApp Admin",
+		"title": "NetAppAdmin",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/netapp%20admin-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/netapp_admin-syslog.htm",
 				"parser": "SCNX_NETAPP_NETAPPADMIN_CAAU_SYS_REG"
 			}
 		]
@@ -2124,7 +2126,7 @@
 		"methods": [
 			{
 				"type": "Netskope (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/netskope-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/netskope-api.htm",
 				"parser": "SCNX_NETSKO_NETSKOPEALERTS_AES_NET_KEY"
 			}
 		]
@@ -2135,7 +2137,7 @@
 		"methods": [
 			{
 				"type": "Netskope (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/netskope-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/netskope-api.htm",
 				"parser": "SCNX_NETSKO_NETSKOPEEVENTS_AES_NET_KEY"
 			}
 		]
@@ -2146,18 +2148,18 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/nozomi-networks-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/nozomi-networks-syslog.htm",
 				"parser": "SCNX_NOZOMI_NOZOMINETWORKS_OTS_SYS_CEF_COMM"
 			}
 		]
 	},
 	{
 		"vendor": "ObserveIT",
-		"title": "ObserveIT Security",
+		"title": "ObserveITSecurity",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/observeit-security-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/observeit-security-syslog-cef.htm",
 				"parser": "SCNX_OBSERV_OBSERVEITSECURITY_EDLP_SYS_CEF"
 			}
 		]
@@ -2168,7 +2170,7 @@
 		"methods": [
 			{
 				"type": "Okta (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/okta-authentication-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/okta-authentication-api.htm",
 				"parser": "SCNX_OKTA_OKTASYSTEMAUTHENTICATION_CSSO_OKT_KEY_COMM"
 			}
 		]
@@ -2178,19 +2180,19 @@
 		"title": "Auth0",
 		"methods": [
 			{
-				"type": "awssqss3\n/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/okta-auth0-api.htm",
+				"type": "awssqss3 /JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/okta-auth0-api.htm",
 				"parser": "SCNX_OKTA_AUTH0_CSSO_AWS_JSO_COMM"
 			}
 		]
 	},
 	{
 		"vendor": "One Login",
-		"title": "One Login API",
+		"title": "One LoginAPI",
 		"methods": [
 			{
 				"type": "Onelogin (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/one-login-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/one-login-api.htm",
 				"parser": "SCNX_ONELO_ONELOGINAPI_CSSO_ONE_JSO"
 			}
 		]
@@ -2201,7 +2203,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/oracle-access-managment-%20syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/oracle-access-managment-_syslog-regex.htm",
 				"parser": "SCNX_ORACLE_ORACLEACCESSMANAGEMENT_AIM_SYS_REG_COMM"
 			}
 		]
@@ -2212,7 +2214,7 @@
 		"methods": [
 			{
 				"type": "Ociaudit/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/oracle-cloud-infrastructure-ociaudit.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/oracle-cloud-infrastructure-ociaudit.htm",
 				"parser": "SCNX_ORACLE_ORACLECLOUDINFRASTRUCTURE_CSA_OCI_JSO_COMM"
 			}
 		]
@@ -2223,7 +2225,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/oracle-db-audit-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/oracle-db-audit-syslog.htm",
 				"parser": "SCNX_ORACLE_ORACLEDATABASE_DBA_FIL_CEF_COMM"
 			}
 		]
@@ -2234,7 +2236,7 @@
 		"methods": [
 			{
 				"type": "Pagerdutyincidents (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/pager-duty-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/pager-duty-api.htm",
 				"parser": "SCNX_PAGER_PAGERDUTY_IIM_PAG_JSO"
 			}
 		]
@@ -2245,7 +2247,7 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/os-query-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/os-query-syslog.htm",
 				"parser": "SCNX_OSQUER_OSQUERYLOGS_EMS_SYS_JSO"
 			}
 		]
@@ -2256,7 +2258,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/oracle-sun-solaris-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/oracle-sun-solaris-syslog.htm",
 				"parser": "SCNX_ORACLE_SUNSOLARIS_UNX_SYS_REG"
 			}
 		]
@@ -2267,7 +2269,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/oracle-sysdb-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/oracle-sysdb-syslog.htm",
 				"parser": "SCNX_ORACLE_ORACLESYSDB_DBA_SYS_CEF_COMM"
 			}
 		]
@@ -2278,7 +2280,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/palo-alto-cortex-data-lake-firewall.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/palo-alto-cortex-data-lake-firewall.htm",
 				"parser": "SCNX_PALOAL_CORTEXDATALAKEFIREWALL_NGF_SYS_CEF_COMM"
 			}
 		]
@@ -2289,12 +2291,12 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/palo-alto-next-generation-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/palo-alto-next-generation-firewall-syslog.htm",
 				"parser": "SCNX_PALOA_PALOALTONEXTGENERATIONFIREWALL_NGF_SYS_REG"
 			},
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/palo-alto-next-generation-firewall-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/palo-alto-next-generation-firewall-syslog-cef.htm",
 				"parser": "SCNX_PALOA_PALOALTONEXTGENERATIONFIREWALL_NGF_SYS_CEF_COMM"
 			}
 		]
@@ -2305,7 +2307,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/paloalto-cortex-xdr-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/paloalto-cortex-xdr-syslog.htm",
 				"parser": "SCNX_PALOA_PACORTEX_CEDR_SYS_CEF"
 			}
 		]
@@ -2316,19 +2318,30 @@
 		"methods": [
 			{
 				"type": "Prismacloud (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/prisma%20access-api-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/prisma_access-api-json.htm",
 				"parser": "SCNX_PALOA_PRISMAACCESS_CASB_BIT_JSO"
 			}
 		]
 	},
 	{
 		"vendor": "Panda Security",
-		"title": "Panda Security Endpoint Protection",
+		"title": "Panda SecurityEndpoint Protection",
 		"methods": [
 			{
 				"type": "Syslog/LEEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/panda-security-security-endpoint-protection-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/panda-security-security-endpoint-protection-syslog.htm",
 				"parser": "SCNX_PANDA_PANDASECURITYENDPOINTPROTECTION_EDR_SYS_LEE"
+			}
+		]
+	},
+	{
+		"vendor": "PingFederate",
+		"title": "PingFederate",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ping-identity-federate-syslog.htm",
+				"parser": "SCNX_PINGFE_PINGFEDERATE_SSO_SYS_REG"
 			}
 		]
 	},
@@ -2338,7 +2351,7 @@
 		"methods": [
 			{
 				"type": "Ping ID (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ping-identity-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ping-identity-api.htm",
 				"parser": "SCNX_PINGID_PINGID_AIM_PIN_JSO_COMM"
 			}
 		]
@@ -2349,19 +2362,8 @@
 		"methods": [
 			{
 				"type": "pingone(API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/pingone-audit-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/pingone-audit-api.htm",
 				"parser": "SCNX_PINGON_PINGONEAUDIT_AIM_PIN_JSO_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "PingFederate",
-		"title": "PingFederate",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/ping-identity-federate-syslog.htm",
-				"parser": "SCNX_PINGFE_PINGFEDERATE_SSO_SYS_REG"
 			}
 		]
 	},
@@ -2371,18 +2373,18 @@
 		"methods": [
 			{
 				"type": "Proofpoint (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/proofpoint-email-gateway-pod-proofpoint.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/proofpoint-email-gateway-pod-proofpoint.htm",
 				"parser": "SCNX_PROOFP_PROOFPOINTEMAILGATEWAY_EML_PRO_DEL"
 			}
 		]
 	},
 	{
 		"vendor": "Proofpoint, Inc.",
-		"title": "Proofpoint, Inc. On-Demand",
+		"title": "Proofpoint, Inc.On-Demand",
 		"methods": [
 			{
 				"type": "ProofpointPOD (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/proofpoint-ondemand-api-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/proofpoint-ondemand-api-json.htm",
 				"parser": "SCNX_PROOFP_PROOFPOINTEMAILAPI_EML_PRO_JSO"
 			}
 		]
@@ -2393,7 +2395,7 @@
 		"methods": [
 			{
 				"type": "Proofpointtap (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/proofpoint-targeted-attack-protection-api-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/proofpoint-targeted-attack-protection-api-json.htm",
 				"parser": "SCNX_PROOFP_PROOFPOINTTAP_EML_PRO_JSO"
 			}
 		]
@@ -2404,7 +2406,7 @@
 		"methods": [
 			{
 				"type": "Proofpointtrap (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/proofpoint_trap-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/proofpoint_trap-api.htm",
 				"parser": "SCNX_PROOF_PROOFPOINTTRAP_EML_PRO_JSO"
 			}
 		]
@@ -2415,7 +2417,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/pure-storage-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/pure-storage-syslog.htm",
 				"parser": "SCNX_PUREST_PURESTORAGE_CAAU_SYS_REG_COMM"
 			}
 		]
@@ -2426,7 +2428,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key Value Pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/qualys-vulnerablity-scanner-syslog-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/Qualys-Vulnerablity-Scanner-Syslog-KVP.htm",
 				"parser": "SCNX_QUALYS_QUALYSVULNERABILITYSCANNER_SCN_SYS_KEY"
 			}
 		]
@@ -2437,7 +2439,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/websense-webproxy-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/websense-webproxy-cef.htm",
 				"parser": "SCNX_RAYTHE_WEBSENSEWEBPROXY_PXY_SYS_CEF_COMM"
 			}
 		]
@@ -2448,7 +2450,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/websense-proxy-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/websense-proxy-syslog-regex.htm",
 				"parser": "SCNX_RAYTHE_WEBSENSEPROXY_PXY_SYS_REG"
 			}
 		]
@@ -2459,18 +2461,18 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/raytheon-websense-triton-dlp-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/raytheon-websense-triton-dlp-syslog.htm",
 				"parser": "SCNX_RAYTHE_WEBSENSETRITONDLP_DLP_SYS_CEF"
 			}
 		]
 	},
 	{
 		"vendor": "RSA",
-		"title": "RSA SecurID Authentication Manager",
+		"title": "RSASecurID Authentication Manager",
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/rsa-secureid-authentication%20manager-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/rsa-secureid-authentication_manager-syslog.htm",
 				"parser": "SCNX_RSASO_RSASECURIDAUTHENTICATIONMANAGER_SSO_SYS_REG"
 			}
 		]
@@ -2481,19 +2483,8 @@
 		"methods": [
 			{
 				"type": "Salesforce (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/salesforce-eventlog-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/salesforce-eventlog-api.htm",
 				"parser": "SCNX_SALESF_SALESFORCEEVENTLOGAPI_CSSO_SAL_KEY"
-			}
-		]
-	},
-	{
-		"vendor": "Secureworks",
-		"title": "Secureworks iSensor",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/dell-secureworks-isensor-syslog.htm",
-				"parser": "SCNX_DELL_SECUREWORKSISENSOR_EDR_SYS_REG"
 			}
 		]
 	},
@@ -2503,7 +2494,7 @@
 		"methods": [
 			{
 				"type": "Sentinelone (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/sentinelone-activities-api-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/sentinelone-activities-api-json.htm",
 				"parser": "SCNX_SENTIN_SENTINELONEACTIVITIES_CEDR_SEN_JSO"
 			}
 		]
@@ -2514,7 +2505,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/sentinel-one-audit-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/sentinel-one-audit-syslog.htm",
 				"parser": "SCNX_SENTIN_SENTINELONEAUDIT_CAAU_SYS_KVP_COMM"
 			}
 		]
@@ -2525,7 +2516,7 @@
 		"methods": [
 			{
 				"type": "Sentinelone (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/sentinelone-threats-api-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/sentinelone-threats-api-json.htm",
 				"parser": "SCNX_SENTIN_SENTINELONETHREATS_CEDR_SEN_JSO_COMM"
 			}
 		]
@@ -2536,7 +2527,7 @@
 		"methods": [
 			{
 				"type": "Slack (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/slack-audit-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/slack-audit-api.htm",
 				"parser": "SCNX_SLACK_SLACKIM_BCP_SLA_JSO"
 			}
 		]
@@ -2547,7 +2538,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/snort-network-ids-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/snort-network-ids-syslog-regex.htm",
 				"parser": "SCNX_SNORT_SNORTNETWORKIDS_EDR_SYS_REG"
 			}
 		]
@@ -2558,7 +2549,7 @@
 		"methods": [
 			{
 				"type": "Snowflake (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/snowflake-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/snowflake-api.htm",
 				"parser": "SCNX_SNOWFL_SNOWFLAKELOGIN_DAW_SNO_DEL"
 			}
 		]
@@ -2569,7 +2560,7 @@
 		"methods": [
 			{
 				"type": "Snowflake (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/snowflake-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/snowflake-api.htm",
 				"parser": "SCNX_SNOWFL_SNOWFLAKEJDBC_DBM_SNO_DEL"
 			}
 		]
@@ -2580,7 +2571,7 @@
 		"methods": [
 			{
 				"type": "Snowflake (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/snowflake-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/snowflake-api.htm",
 				"parser": "SCNX_SNOWFL_SNOWFLAKEQUERY_DAW_SNO_DEL"
 			}
 		]
@@ -2591,7 +2582,7 @@
 		"methods": [
 			{
 				"type": "Sophos (API)/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/sophos-events-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/sophos-events-api.htm",
 				"parser": "SCNX_SOPHOS_SOPHOSENDPOINT_EDR_SOP_KEY"
 			}
 		]
@@ -2602,7 +2593,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/sophos-utm-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/sophos-utm-syslog.htm",
 				"parser": "SCNX_SOPHOS_SOPHOSUTM_NGF_SYS_KEY"
 			}
 		]
@@ -2613,7 +2604,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/sophos-xg-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/sophos-xg-firewall-syslog.htm",
 				"parser": "SCNX_SOPHOS_SOPHOSXGFIREWALL_NGF_SYS_KEY"
 			}
 		]
@@ -2624,7 +2615,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/sophos-proxy-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/sophos-proxy-syslog.htm",
 				"parser": "SCNX_SOPHOS_SOPHOSPROXY_PXY_SYS_KVP_COMM"
 			}
 		]
@@ -2635,7 +2626,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/squid-proxy-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/squid-proxy-syslog.htm",
 				"parser": "SCNX_SQUID_SQUIDPROXY_PXY_SYS_REG"
 			}
 		]
@@ -2646,7 +2637,7 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/suricata-ids-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/suricata-ids-syslog.htm",
 				"parser": "SCNX_SURICA_SURICATAIDS_ITD_SYS_JSO_COMM"
 			}
 		]
@@ -2657,7 +2648,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-cloudasb-syslog-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/symantec-cloudasb-syslog-kvp.htm",
 				"parser": "SCNX_SYMANT_SYMANTECCASB_CASB_SYS_KEY"
 			}
 		]
@@ -2668,7 +2659,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-cloudsoc-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/symantec-cloudsoc-syslog.htm",
 				"parser": "SCNX_SYMANT_SYMANTECCLOUDSOC_CASB_SYS_CEF"
 			}
 		]
@@ -2679,7 +2670,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-data-loss-protection-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/symantec-data-loss-protection-syslog.htm",
 				"parser": "SCNX_SYMANT_SYMANTECDLP_EDLP_SYS_REG"
 			}
 		]
@@ -2690,12 +2681,12 @@
 		"methods": [
 			{
 				"type": "Syslog/Key Value Pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-protection-syslog-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/symantec-endpoint-protection-syslog-kvp.htm",
 				"parser": "SCNX_SYMANT_SYMANTECENDPOINTPROTECTION_EDR_SYS_KVP_COMM"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-protection-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/symantec-endpoint-protection-syslog.htm",
 				"parser": "SCNX_SYMANT_SYMANTECENDPOINTPROTECTION_EDR_SYS_REG"
 			}
 		]
@@ -2706,12 +2697,7 @@
 		"methods": [
 			{
 				"type": "Symantecendpoint (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-protection-api-json.htm",
-				"parser": "SCNX_SYMANT_SYMANTECENDPOINTPROTECTIONSTREM_EDR_SYM_JSO_COMM"
-			},
-			{
-				"type": "Symantecendpoint (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-endpoint-protection-api-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/symantec-endpoint-protection-api-json.htm",
 				"parser": "SCNX_SYMANT_SYMANTECENDPOINTPROTECTIONSTREAM_EDR_SYM_JSO_COMM"
 			}
 		]
@@ -2722,7 +2708,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/symantec-message-security-gateway-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/symantec-message-security-gateway-syslog-cef.htm",
 				"parser": "SCNX_SYMANT_SYMANTECMESSAGESECURITYGATEWAY_EML_SYS_CEF_COMM"
 			}
 		]
@@ -2733,7 +2719,7 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/beta-deployment-guides/tanium-endpoint-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/tanium-endpoint-syslog.htm",
 				"parser": "SCNX_TANIUM_TANIUMENDPOINT_EMS_SYS_JSO"
 			}
 		]
@@ -2744,7 +2730,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/tanium-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/tanium-syslog.htm",
 				"parser": "SCNX_TANIUM_TANIUM_EMS_SYS_KEY"
 			}
 		]
@@ -2755,7 +2741,7 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/nessus-vulnerability-scanner-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/nessus-vulnerability-scanner-syslog.htm",
 				"parser": "SCNX_TENABL_NESSUSVULNERABILITYSCANNER_SCN_FIL_JSO"
 			}
 		]
@@ -2766,18 +2752,18 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/thycotic-secret-server-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/thycotic-secret-server-syslog.htm",
 				"parser": "SCNX_THYCOT_THYCOTICSERVER_APU_SYS_CEF_COMM"
 			}
 		]
 	},
 	{
 		"vendor": "Trend Micro",
-		"title": "Trend Micro Control Manager",
+		"title": "Trend MicroControl Manager",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend%20micro-control-manager-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/trend_micro-control-manager-syslog.htm",
 				"parser": "SCNX_TREND_TRENDMICROCONTROLMANAGER_EDR_SYS_CEF"
 			}
 		]
@@ -2788,7 +2774,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend%20micro-deep-discovery-inspector-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/trend_micro-deep-discovery-inspector-cef.htm",
 				"parser": "SCNX_TREND_TRENDMICRODEEPDISCOVERYINSPECTOR_EDR_SYS_CEF"
 			}
 		]
@@ -2799,7 +2785,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend-micro-deep-security-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/trend-micro-deep-security-syslog.htm",
 				"parser": "SCNX_TREND_TRENDMICRODEEPSECURITYAGENT_EDR_SYS_CEF"
 			}
 		]
@@ -2810,7 +2796,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend-micro-deep-security-manager-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/trend-micro-deep-security-manager-cef.htm",
 				"parser": "SCNX_TREND_TRENDMICRODEEPSECURITYMANAGER_EDR_SYS_CEF"
 			}
 		]
@@ -2821,7 +2807,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend-micro-tipping-point-ips-lsm-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/trend-micro-tipping-point-ips-lsm-syslog.htm",
 				"parser": "SCNX_TREND_TIPPINGPOINTIPS_ITD_SYS_REG"
 			}
 		]
@@ -2832,7 +2818,7 @@
 		"methods": [
 			{
 				"type": "Trendmicroxdr/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/trend%20micro-version-one-alert-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/trend_micro-version-one-alert-api.htm",
 				"parser": "SCNX_TRENDM_TRENDMICROVISIONONEALERT_CEDR_TRE_JSO_COMM"
 			}
 		]
@@ -2843,7 +2829,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unifi-wireless-lan-controller-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/unifi-wireless-lan-controller-syslog.htm",
 				"parser": "SCNX_UNIFI_UNIFIWIRELESELANCONTROLLER_WEB_SYS_REG_COMM"
 			}
 		]
@@ -2854,22 +2840,22 @@
 		"methods": [
 			{
 				"type": "Azureloganalytics (API)/Delimited-pipe",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-azureloganalytics-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/unix-azureloganalytics-api.htm",
 				"parser": "SCNX_UNIX_UNIX_UNX_AZU_DEL_COMM"
 			},
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-cef-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/unix-cef-syslog.htm",
 				"parser": "SCNX_UNIX_UNIX_UNX_SYS_CEF_COMM"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/unix-syslog.htm",
 				"parser": "SCNX_UNIX_UNIX_UNX_SYS_REG"
 			},
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unixlinux-syslog-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/unixlinux-syslog-json.htm",
 				"parser": "SCNX_UNIX_UNIX_UNX_SYS_JSO_COMM"
 			}
 		]
@@ -2879,8 +2865,8 @@
 		"title": "Unix-AuditD",
 		"methods": [
 			{
-				"type": "Syslog/\nKey Value Pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/unix-auditd-kvp.htm",
+				"type": "Syslog/ Key Value Pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/unix-auditd-kvp.htm",
 				"parser": "SCNX_UNIX_UNIXAUDITD_UNX_SYS_KEY_COMM"
 			}
 		]
@@ -2891,7 +2877,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/varonis-datadvantage-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/varonis-datadvantage-syslog.htm",
 				"parser": "SCNX_VARONI_VARONISDATADVANTAGE_CMS_SYS_CEF_COMM"
 			}
 		]
@@ -2902,7 +2888,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/varonis-file-share-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/varonis-file-share-syslog.htm",
 				"parser": "SCNX_VARONI_VARONISFILESHARE_CMS_SYS_KEY"
 			}
 		]
@@ -2913,7 +2899,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vectra-brain-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/vectra-brain-syslog.htm",
 				"parser": "SCNX_VECTRA_VECTRABRAIN_ITD_SYS_CEF_COMM"
 			}
 		]
@@ -2924,7 +2910,7 @@
 		"methods": [
 			{
 				"type": "Veeva Vault Audit/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/veeva-vault-api-audit.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/veeva-vault-api-audit.htm",
 				"parser": "SCNX_VEEVA_VEEVAVAULTAUDIT_CMS_VEE_JSO_COMM"
 			}
 		]
@@ -2935,7 +2921,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/versa-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/versa-firewall-syslog.htm",
 				"parser": "SCNX_VERSAN_VERSAFIREWALL_NGF_SYS_KVP_COMM"
 			}
 		]
@@ -2946,7 +2932,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/versa-threat-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/versa-threat-syslog.htm",
 				"parser": "SCNX_VERSAN_VERSATHREAT_ITD_SYS_KVP_COMM"
 			}
 		]
@@ -2957,7 +2943,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware%20esxi-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/vmware_esxi-syslog-regex.htm",
 				"parser": "SCNX_VMWARE_VMWAREESXI_VC_SYS_REG"
 			}
 		]
@@ -2968,8 +2954,19 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-nsx-t-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/vmware-nsx-t-syslog.htm",
 				"parser": "SCNX_VMWARE_VMWARENSXT_VC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Vormetric Inc.",
+		"title": "VMware Vormetric Data Security Manager",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/vormetric-data-security-manager-syslog.htm",
+				"parser": "SCNX_VORMET_VORMETRICDATASECURITYMANAGER_SAP_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -2979,12 +2976,12 @@
 		"methods": [
 			{
 				"type": "File/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-unified-access-gateway-file.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/vmware-unified-access-gateway-file.htm",
 				"parser": "SCNX_VMWARE_UNIFIEDACCESSGATEWAY_PXY_FIL_REG"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-unified-access-gateway-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/vmware-unified-access-gateway-syslog.htm",
 				"parser": "SCNX_VMWARE_UNIFIEDACCESSGATEWAY_PXY_SYS_REG"
 			}
 		]
@@ -2995,7 +2992,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-vcenter-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/vmware-vcenter-syslog.htm",
 				"parser": "SCNX_VMWARE_VMWAREVCENTRE_VC_SYS_REG"
 			}
 		]
@@ -3006,19 +3003,8 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vmware-vcenter-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/vmware-vcenter-syslog.htm",
 				"parser": "SCNX_VMWARE_VMWAREVSPHEREFIREWALL_IFW_SYS_REG"
-			}
-		]
-	},
-	{
-		"vendor": "Vormetric Inc.",
-		"title": "VMware Vormetric Data Security Manager",
-		"methods": [
-			{
-				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/vormetric-data-security-manager-syslog.htm",
-				"parser": "SCNX_VORMET_VORMETRICDATASECURITYMANAGER_SAP_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -3027,8 +3013,8 @@
 		"title": "Watch Guard",
 		"methods": [
 			{
-				"type": "Syslog/\nLEEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/watch-guard-next-generation-leef.htm",
+				"type": "Syslog/ LEEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/watch-guard-next-generation-leef.htm",
 				"parser": "SCNX_WATCHG_WATCHGUARD_NGF_SYS_LEE_COMM"
 			}
 		]
@@ -3039,7 +3025,7 @@
 		"methods": [
 			{
 				"type": "Syslog/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zeek-syslog-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/zeek-syslog-json.htm",
 				"parser": "SCNX_BROSOF_BRONETWORKSECURITY_NTA_SYS_JSO_COMM"
 			}
 		]
@@ -3050,7 +3036,7 @@
 		"methods": [
 			{
 				"type": "Zoom (API)/JSON",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zoom-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/zoom-api.htm",
 				"parser": "SCNX_ZOOM_ZOOMAPI_BCP_ZOO_JSO"
 			}
 		]
@@ -3061,7 +3047,7 @@
 		"methods": [
 			{
 				"type": "Syslog/LEEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-ips-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/zscaler-ips-syslog.htm",
 				"parser": "SCNX_ZSCALE_ZSCALERIPS_ITD_SYS_LEE_COMM"
 			}
 		]
@@ -3072,17 +3058,17 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-internet-access-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/zscaler-internet-access-syslog.htm",
 				"parser": "SCNX_ZSCALER_ZSCALERPROXY_PXY_SYS_CEF"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-proxy-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/zscaler-proxy-syslog-regex.htm",
 				"parser": "SCNX_ZSCALE_ZSCALERPROXY_PXY_SYS_REG"
 			},
 			{
 				"type": "Syslog/Key-value pair",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-proxy-syslog-kvp.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/zscaler-proxy-syslog-kvp.htm",
 				"parser": "SCNX_ZSCALE_ZSCALERPROXY_PXY_SYS_KEY"
 			}
 		]
@@ -3093,12 +3079,12 @@
 		"methods": [
 			{
 				"type": "Syslog/Delimited-comma",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-firewall-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/zscaler-firewall-syslog.htm",
 				"parser": "SCNX_ZSCALE_ZSCALERFIREWALL_NGF_SYS_DEL_COMM"
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-firewall-syslog-regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/zscaler-firewall-syslog-regex.htm",
 				"parser": "SCNX_ZSCALE_ZSCALERFIREWALL_NGF_SYS_REG_COMM"
 			}
 		]
@@ -3109,7 +3095,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-private-access-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/zscaler-private-access-syslog.htm",
 				"parser": "SCNX_ZSCALE_ZSCALERPRIVATEACCESS_IAM_SYS_REG"
 			}
 		]
@@ -3120,8 +3106,30 @@
 		"methods": [
 			{
 				"type": "File",
-				"link": "https://legacy-documentation.securonix.com/onlinedoc/Content/Connectors/content/active-deployment-guides/zscaler-zia-nss-file-delimited-comma.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/zscaler-zia-nss-file-delimited-comma.htm",
 				"parser": "SCNX_ZSCALE_ZSCALERZIANSS_NGF_FIL_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "1Password",
+		"title": "One Password",
+		"methods": [
+			{
+				"type": "Onepassword/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/one-password-signin-attempts-json.htm",
+				"parser": "SCNX_1PASSW_ONEPASSWORD_AIM_ONE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "1Password",
+		"title": "One Password - Item Usages",
+		"methods": [
+			{
+				"type": "Onepassword/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/one-password-item-usage-json.htm",
+				"parser": "SCNX_1PASSW_ONEPASSWORDITEMUSAGES_AIM_ONE_JSO_COMM"
 			}
 		]
 	}
