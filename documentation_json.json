@@ -147,7 +147,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "file:///C:/SECURONIX/Securonix_Connectors/Content/Active-Deployment-Guides/Asus-Object-Storage-syslog-Regex.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/asus-object-storage-syslog-regex.htm",
 				"parser": "SCNX_ASUS_OBJECTSTORAGE_UNX_SYS_REG"
 			}
 		]
@@ -818,7 +818,7 @@
 		"methods": [
 			{
 				"type": "Cylance (API)/Key-value pair",
-				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/Cylance-Protect-API-KVP.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cylance-protect-api-kvp.htm",
 				"parser": "SCNX_CYLANC_CYLANCEPROTECT_CEDR_CYL_KEY"
 			},
 			{
@@ -1559,6 +1559,17 @@
 	},
 	{
 		"vendor": "McAfee",
+		"title": "McAfee Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-firewall-syslog-regex.htm",
+				"parser": "SCNX_INTEL_MCAFEEFIREWALL_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
 		"title": "McAfee NIPS",
 		"methods": [
 			{
@@ -1700,7 +1711,7 @@
 		"methods": [
 			{
 				"type": "Azureactivitylogs/Key-value pair",
-				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft_azure_monitor_api_.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-azure-monitor-api.htm",
 				"parser": "SCNX_MICROS_AZUREMONITOR_CPA_AZU_KVP_COMM"
 			}
 		]
@@ -2428,7 +2439,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key Value Pair",
-				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/Qualys-Vulnerablity-Scanner-Syslog-KVP.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/qualys-vulnerablity-scanner-syslog-kvp.htm",
 				"parser": "SCNX_QUALYS_QUALYSVULNERABILITYSCANNER_SCN_SYS_KEY"
 			}
 		]
@@ -2732,6 +2743,17 @@
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/tanium-syslog.htm",
 				"parser": "SCNX_TANIUM_TANIUM_EMS_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Tanium",
+		"title": "Tanium Detect",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/tanium-detect-syslog-cef.htm",
+				"parser": "SCNX_TANIUM_TANIUMDETECT_EDR_SYS_CEF"
 			}
 		]
 	},
