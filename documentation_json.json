@@ -665,7 +665,7 @@
 		"methods": [
 			{
 				"type": "AWS / Delimited-comma",
-				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-umbrella-dns-aws.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/cisco-umbrella-api-aws-dns-dc.htm",
 				"parser": "SCNX_CISCOS_CISCOUMBRELLADNS_DNS_AWS_DEL_COMM"
 			},
 			{
@@ -1202,7 +1202,7 @@
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
-				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-workspace.htm",
 				"parser": "SCNX_GOOGLE_GOOGLEADMIN_CSA_GOO_DEL"
 			}
 		]
@@ -1213,7 +1213,7 @@
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
-				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-workspace.htm",
 				"parser": "SCNX_GOOGLE_GOOGLEDRIVE_CCMS_GOO_DEL"
 			}
 		]
@@ -1224,7 +1224,7 @@
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
-				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-workspace.htm",
 				"parser": "SCNX_GOOGLE_GOOGLELOGIN_CSSO_GOO_DEL"
 			}
 		]
@@ -1235,7 +1235,7 @@
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
-				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/google-gsuite-audit-activity-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/Google-GSuite-Audit-Activity-API.htm",
 				"parser": "SCNX_GOOGLE_GOOGLETOKEN_APU_GOO_DEL"
 			}
 		]
@@ -1395,6 +1395,11 @@
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/beta-deployment-guides/juniper-junos-pulse-secure-vpn-syslog.htm",
 				"parser": "SCNX_JUNIPE_JUNIPERJUNOSPULSEVPN_VPN_SYS_CEF_COMM"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ivanti-connector-secure-syslog-regex.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERJUNOSPULSEVPN_VPN_SYS_REG"
 			}
 		]
 	},
@@ -1406,6 +1411,17 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/juniper-junos-router-syslog.htm",
 				"parser": "SCNX_JUNIPE_JUNIPERJUNOSROUTER_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Secure Access VPN",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/juniper-secure-access-vpn-syslog-regex.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERSECUREACCESSVPN_VPN_SYS_REG"
 			}
 		]
 	},
@@ -1565,6 +1581,17 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-firewall-syslog-regex.htm",
 				"parser": "SCNX_INTEL_MCAFEEFIREWALL_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfeeIronMail Email Gateway",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/mcafee-ironmail-email-gateway-syslog-regex.htm",
+				"parser": "SCNX_INTEL_MCAFEEIRONMAILEMAILGATEWAY_EML_SYS_REG"
 			}
 		]
 	},
@@ -1778,6 +1805,17 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "ForeFront Threat Management Gateway Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-corporation-forefront-threat-management-gateway-firewall-syslog-regex.htm",
+				"parser": "SCNX_MICROS_FOREFRONTTHREATMANAGEMENTGATEWAYFIREWALL_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "ForeFront Threat Management Gateway Proxy",
 		"methods": [
 			{
@@ -1923,7 +1961,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Snare",
-				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-windows-snare-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/microsoft-corporation-windows-snare-syslog.htm",
 				"parser": "SCNX_MICROS_MICROSOFTWINDOWSSNARE_APPLICATION_WEL_SYS_SNA"
 			}
 		]
@@ -2353,6 +2391,11 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ping-identity-federate-syslog.htm",
 				"parser": "SCNX_PINGFE_PINGFEDERATE_SSO_SYS_REG"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/ping-identity-ping-federate-syslog-cef.htm",
+				"parser": "SCNX_PINGFE_PINGFEDERATE_SSO_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -3027,6 +3070,17 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/vmware-vcenter-syslog.htm",
 				"parser": "SCNX_VMWARE_VMWAREVSPHEREFIREWALL_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Wiz",
+		"title": "Wiz - Issue",
+		"methods": [
+			{
+				"type": "Wiz/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-on-prem-user-guide/page/content/active-deployment-guides/wiz-issue-api-json.htm",
+				"parser": "SCNX_WIZ_WIZISSUE_ITD_WIZ_JSO"
 			}
 		]
 	},
