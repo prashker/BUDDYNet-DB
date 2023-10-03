@@ -367,7 +367,7 @@
 		]
 	},
 	{
-		"vendor": "Check Point Software Technologies",
+		"vendor": "Check Point Software",
 		"title": "Check Point Antimalware",
 		"methods": [
 			{
@@ -378,7 +378,7 @@
 		]
 	},
 	{
-		"vendor": "Check Point Software Technologies",
+		"vendor": "Check Point Software",
 		"title": "Check Point Antivirus",
 		"methods": [
 			{
@@ -394,7 +394,7 @@
 		]
 	},
 	{
-		"vendor": "Check Point Software Technologies",
+		"vendor": "Check Point Software",
 		"title": "Check Point Application control",
 		"methods": [
 			{
@@ -405,7 +405,7 @@
 		]
 	},
 	{
-		"vendor": "Check Point Software Technologies",
+		"vendor": "Check Point Software",
 		"title": "Check Point Next Generation Firewall",
 		"methods": [
 			{
@@ -416,7 +416,7 @@
 		]
 	},
 	{
-		"vendor": "Check Point Software Technologies",
+		"vendor": "Check Point Software",
 		"title": "Check Point Firewall",
 		"methods": [
 			{
@@ -437,7 +437,7 @@
 		]
 	},
 	{
-		"vendor": "Check Point Software Technologies",
+		"vendor": "Check Point Software",
 		"title": "Check Point Identity Awareness",
 		"methods": [
 			{
@@ -448,7 +448,7 @@
 		]
 	},
 	{
-		"vendor": "Check Point Software Technologies",
+		"vendor": "Check Point Software",
 		"title": "Check Point SmartDefense",
 		"methods": [
 			{
@@ -464,13 +464,24 @@
 		]
 	},
 	{
-		"vendor": "Check Point Software Technologies",
+		"vendor": "Check Point Software",
 		"title": "Avanan",
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-cloud-application-security-broker-kvp.htm",
 				"parser": "SCNX_AVANAN_AVANAN_CASB_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Harmony Email And Collaboration",
+		"methods": [
+			{
+				"type": "syslog/ Key Value Pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-harmony-email-and-collaboration.htm",
+				"parser": "SCNX_CHECKP_HARMONYEMAILANDCOLLABRATION_EML_SYS_KVP_COMM"
 			}
 		]
 	},
@@ -961,6 +972,17 @@
 		]
 	},
 	{
+		"vendor": "Docusign",
+		"title": "Docusign Events",
+		"methods": [
+			{
+				"type": "docusign/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/docusign-event-api.htm",
+				"parser": "SCNX_DOCUSI_DOCUSIGNEVENTS_CAAU_DOC_JSO_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "DUO Security",
 		"title": "Duo Authentication",
 		"methods": [
@@ -1081,7 +1103,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Key Value Pair",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-big-switch-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-silverline-waf-via-syslog-kvp.htm",
 				"parser": "SCNX_F5NET_F5SILVERLINEWAF_WAF_SYS_KEY_COMM"
 			}
 		]
@@ -1515,6 +1537,17 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/juniper-junos-router-syslog.htm",
 				"parser": "SCNX_JUNIPE_JUNIPERJUNOSROUTER_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Netscreen HVD VPN",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/juniper-netscreen-hvd-vpn-syslog-regex.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERNETSCREENHVDVPN_VPN_SYS_REG"
 			}
 		]
 	},
@@ -2307,6 +2340,17 @@
 		]
 	},
 	{
+		"vendor": "Mimecast",
+		"title": "Mimecast Email API",
+		"methods": [
+			{
+				"type": "mimecast/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mimecast-api.htm",
+				"parser": "SCNX_MIMECA_MIMECASTEMAILAPI_EML_MIM_JSO"
+			}
+		]
+	},
+	{
 		"vendor": "MobileIron",
 		"title": "MobileIron",
 		"methods": [
@@ -2614,6 +2658,17 @@
 		]
 	},
 	{
+		"vendor": "Postfix",
+		"title": "Postfix",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/postfix-email-security-syslog-regex.htm",
+				"parser": "SCNX_POSTFI_POSTFIX_EML_SYS_REG_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Proofpoint, Inc.",
 		"title": "Proofpoint, Inc.Email API",
 		"methods": [
@@ -2651,9 +2706,25 @@
 		"title": "Proofpoint, Inc. TAP",
 		"methods": [
 			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/proofpoint-tap-syslog-regex.htm",
+				"parser": "SCNX_PROOFP_PROOFPOINTTAP_EML_SYS_REG"
+			},
+			{
 				"type": "Proofpointtap (API)/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/proofpoint-targeted-attack-protection-api-json.htm",
 				"parser": "SCNX_PROOFP_PROOFPOINTTAP_EML_PRO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint, Inc.",
+		"title": "Proofpoint, Inc.TAP",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/proofpoint-tap-syslog-cef.htm",
+				"parser": "SCNX_PROOFP_PROOFPOINTTAP_EML_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -2687,6 +2758,17 @@
 				"type": "Syslog/Key Value Pair",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/qualys-vulnerablity-scanner-syslog-kvp.htm",
 				"parser": "SCNX_QUALYS_QUALYSVULNERABILITYSCANNER_SCN_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Rapid7",
+		"title": "Rapid 7 Threat Command Alert Activity",
+		"methods": [
+			{
+				"type": "rapid7threatcommandalerts/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/rapid7-threat-command-alert-activity.htm",
+				"parser": "SCNX_RAPID_RAPID7THREATCOMMANDALERTACTIVITY_ITD_RAP_JSO_COMM"
 			}
 		]
 	},
@@ -2857,6 +2939,17 @@
 	},
 	{
 		"vendor": "Sophos",
+		"title": "Sophos SG Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/sophos-sg-firewall-syslog-key-value-pair.htm",
+				"parser": "SCNX_SOPHOS_SOPHOSSGFIREWALL_NGF_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Sophos",
 		"title": "Sophos UTM",
 		"methods": [
 			{
@@ -2993,6 +3086,17 @@
 		]
 	},
 	{
+		"vendor": "Symantec",
+		"title": "Symantec PGP Server",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-encryption-management-server.htm",
+				"parser": "SCNX_SYMANT_SYMANTECPGPSERVER_VPN_SYS_REG"
+			}
+		]
+	},
+	{
 		"vendor": "Tanium",
 		"title": "Endpoint",
 		"methods": [
@@ -3037,12 +3141,12 @@
 		]
 	},
 	{
-		"vendor": "Thycotic",
+		"vendor": "Delinea",
 		"title": "Thycotic Server",
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/thycotic-secret-server-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/delinea-thycotic-secret-server-syslog.htm",
 				"parser": "SCNX_THYCOT_THYCOTICSERVER_APU_SYS_CEF_COMM"
 			}
 		]
@@ -3053,7 +3157,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend_micro-control-manager-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-control-manager-syslog.htm",
 				"parser": "SCNX_TREND_TRENDMICROCONTROLMANAGER_EDR_SYS_CEF"
 			}
 		]
@@ -3064,7 +3168,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend_micro-deep-discovery-inspector-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-deep-discovery-inspector-cef.htm",
 				"parser": "SCNX_TREND_TRENDMICRODEEPDISCOVERYINSPECTOR_EDR_SYS_CEF"
 			}
 		]
@@ -3108,7 +3212,7 @@
 		"methods": [
 			{
 				"type": "Trendmicroxdr/JSON",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend_micro-version-one-alert-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-vision-one-alert-api.htm",
 				"parser": "SCNX_TRENDM_TRENDMICROVISIONONEALERT_CEDR_TRE_JSO_COMM"
 			}
 		]
