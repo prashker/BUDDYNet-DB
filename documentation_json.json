@@ -22,6 +22,17 @@
 		]
 	},
 	{
+		"vendor": "ActivIdentity",
+		"title": "ActivIdentity HID Global",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/actividentity-hid-syslog-json.htm",
+				"parser": "SCNX_ACTIVI_ACTIVIDENTITYHIDGLOBAL_PHY_SYS_JSO"
+			}
+		]
+	},
+	{
 		"vendor": "Akamai Technologies",
 		"title": "Akamai Web Application Firewall",
 		"methods": [
@@ -39,6 +50,17 @@
 	},
 	{
 		"vendor": "Amazon",
+		"title": "AWS Cloudwatch",
+		"methods": [
+			{
+				"type": "Awssqss3 (API)/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-cloudwatch-api.htm",
+				"parser": "SCNX_AMAZON_AWSCLOUDWATCH_CSA_AWS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
 		"title": "AWS Cloud Trail",
 		"methods": [
 			{
@@ -49,7 +71,7 @@
 			{
 				"type": "Awssqss3 (API)/OCSF",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-security-lake-cloud-trail-logs-in-ocsf-format_.htm",
-				"parser": "SCNX_AMAZON_AWSCLOUDTRAIL_CSA_AWS_JSO_COMM"
+				"parser": "SCNX_AMAZON_AWSCLOUDTRAILOCSF_CSA_AWS_JSO_COMM"
 			}
 		]
 	},
@@ -83,6 +105,28 @@
 				"type": "awssqss3/Delimited-space",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-network-load-balancer-awssqss3.htm",
 				"parser": "SCNX_AMAZON_AWSNETWORKLOADBALANCER_TM_AWS_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS OGW",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-ogw-syslog-regex.htm",
+				"parser": "SCNX_AMAZON_AWSOGW_UNX_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS VPC FLOW",
+		"methods": [
+			{
+				"type": "Awssqss3 (API)/Delimited-space",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-vpc-flow-api.htm",
+				"parser": "SCNX_AMAZON_AWSVPCFLOW_FLW_AWS_DEL"
 			}
 		]
 	},
@@ -306,7 +350,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-app-control-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vmware-carbon-black-app-control-syslog.htm",
 				"parser": "SCNX_CARBON_CARBONBLACKAPPCONTROL_APP_SYS_CEF_COMM"
 			}
 		]
@@ -363,6 +407,17 @@
 				"type": "Syslog/Delimited-pipe",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cerner-syslog.htm",
 				"parser": "SCNX_CERNER_CERNER_HAA_SYS_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Checkmarx",
+		"title": "Checkmarx One",
+		"methods": [
+			{
+				"type": "Checkmarx One/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/checkmarx-one.htm",
+				"parser": "SCNX_CHECKM_CHECKMARXONE_AST_CHE_JSO_COMM"
 			}
 		]
 	},
@@ -813,6 +868,50 @@
 		]
 	},
 	{
+		"vendor": "Cloudflare",
+		"title": "Cloudflare Network Analytics",
+		"methods": [
+			{
+				"type": "Cloudflarefirewall (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cloudflare-network-analytics.htm",
+				"parser": "SCNX_CLOUDF_CLOUDFLARENETWORKANALYTICS_NTA_CLO_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cloudflare",
+		"title": "Cloudflare Firewall Adaptive",
+		"methods": [
+			{
+				"type": "Cloudflarefirewall (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cloudflare-firewall-adaptive-event-logs.htm",
+				"parser": "SCNX_CLOUDF_CLOUDFLAREFIREWALLADAPTIVE_IFW_CLO_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cloudflare",
+		"title": "Cloudflare Edge HTTP",
+		"methods": [
+			{
+				"type": "Cloudflarefirewall (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cloudflare-edge-http.htm",
+				"parser": "SCNX_CLOUDF_CLOUDFLAREEDGEHTTP_WEB_CLO_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cloudflare",
+		"title": "Cloudflare Audit",
+		"methods": [
+			{
+				"type": "Cloudflare(API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cloudflare-audit-logs.htm",
+				"parser": "SCNX_CLOUDF_CLOUDFLAREAUDIT_CAAU_CLO_JSO_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Corelight",
 		"title": "Network Traffic Analytics",
 		"methods": [
@@ -1236,7 +1335,7 @@
 	},
 	{
 		"vendor": "Fortinet",
-		"title": "Fortigate",
+		"title": "FortiGate",
 		"methods": [
 			{
 				"type": "Syslog/Key-value pair",
@@ -1352,6 +1451,17 @@
 				"type": "Syslog/Delimited-space",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ha-proxy-syslog-ds.htm",
 				"parser": "SCNX_HAPROX_HAPROXY_PXY_SYS_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Hewlett Packard Enterprise",
+		"title": "HPE Switch",
+		"methods": [
+			{
+				"type": "syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/hewlett-packard-enterprise-switch.htm",
+				"parser": "SCNX_HEWLET_HPESWITCH_NAC_SYS_REG_COMM"
 			}
 		]
 	},
@@ -1596,6 +1706,17 @@
 		]
 	},
 	{
+		"vendor": "KnowBe4",
+		"title": "KnowBe4",
+		"methods": [
+			{
+				"type": "knowbe4/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/knowbe4-phisher.htm",
+				"parser": "SCNX_KNOWBE_KNOWBE4_EML_KNO_JSO_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Malwarebytes",
 		"title": "MalwarebytesAntiVirus",
 		"methods": [
@@ -1672,7 +1793,7 @@
 		"methods": [
 			{
 				"type": "mcafeemvisionepo/JSON",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/McAfee-Mvision-EPO-API-JSON.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-mvision-epo-api-json.htm",
 				"parser": "SCNX_INTEL_MCAFEEMVISIONEPO_EDLP_MCA_JSO_COMM"
 			}
 		]
@@ -3152,6 +3273,61 @@
 		]
 	},
 	{
+		"vendor": "Delinea",
+		"title": "Thycotic Application Control Solution",
+		"methods": [
+			{
+				"type": "syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/delinea-thycotic-application-control-solution-syslog-cef.htm",
+				"parser": "SCNX_DELINE_THYCOTICAPPLICATIONCONTROLSOLUTION_AAC_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Email Security - Detection",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-mirco-email-security-detection.htm",
+				"parser": "SCNX_TREND_TRENDMICROEMAILSECURITYDETECTION_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Email Security - Audit",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-mirco-email-security-audit.htm",
+				"parser": "SCNX_TREND_TRENDMICROEMAILSECURITYAUDIT_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Email Security - URL Click Tracking",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-mirco-email-security-url-click-tracking.htm",
+				"parser": "SCNX_TREND_TRENDMICROEMAILSECURITYURLCLICKTRACKING_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Email Security - Mail Tracking",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-mirco-email-security-mail-tracking.htm",
+				"parser": "SCNX_TREND_TRENDMICROEMAILSECURITYMAILTRACKING_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Trend Micro",
 		"title": "Trend MicroControl Manager",
 		"methods": [
@@ -3214,6 +3390,17 @@
 				"type": "Trendmicroxdr/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-vision-one-alert-api.htm",
 				"parser": "SCNX_TRENDM_TRENDMICROVISIONONEALERT_CEDR_TRE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "TippingPoint Security Management System",
+		"methods": [
+			{
+				"type": "syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-mirco-tippingpoint-security-management-system.htm",
+				"parser": "SCNX_TRENDM_TIPPINGPOINTSECURITYMANAGEMENTSYSTEM_ITD_SYS_CEF_COMM"
 			}
 		]
 	},
@@ -3354,6 +3541,17 @@
 		]
 	},
 	{
+		"vendor": "VMware",
+		"title": "Carbon Black Protect",
+		"methods": [
+			{
+				"type": "syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vmware-carbon-black-protect-syslog-cef.htm",
+				"parser": "SCNX_VMWARE_CARBONBLACKPROTECT_AAC_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Vormetric Inc.",
 		"title": "VMware Vormetric Data Security Manager",
 		"methods": [
@@ -3410,6 +3608,39 @@
 				"type": "Wiz/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/wiz-issue-api-json.htm",
 				"parser": "SCNX_WIZ_WIZISSUE_ITD_WIZ_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Workday",
+		"title": "Workday Audit",
+		"methods": [
+			{
+				"type": "Workday (API)Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/workday-audit-logs.htm",
+				"parser": "SCNX_WORKDA_WORKDAYAUDIT_AIM_WOR_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Workday",
+		"title": "Workday Unidentified Sign-on",
+		"methods": [
+			{
+				"type": "Workdayidentitymanagement (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/workday-unidentified-sign-on.htm",
+				"parser": "SCNX_WORKDA_UNIDENTIFIEDSIGNON_HCM_WOR_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Workday",
+		"title": "Workday Account Sign-on",
+		"methods": [
+			{
+				"type": "Workdayidentitymanagement (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/workday-account-sign-on.htm",
+				"parser": "SCNX_WORKDA_WORKDAYACCOUNTSIGNON_HCM_WOR_JSO"
 			}
 		]
 	},
