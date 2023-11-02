@@ -3388,7 +3388,7 @@
 		"methods": [
 			{
 				"type": "Trendmicroxdr/JSON",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-vision-one-alert-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/old-versiontrend-micro-vision-one-alert-api.htm",
 				"parser": "SCNX_TRENDM_TRENDMICROVISIONONEALERT_CEDR_TRE_JSO_COMM"
 			}
 		]
