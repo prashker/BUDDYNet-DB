@@ -912,6 +912,17 @@
 		]
 	},
 	{
+		"vendor": "Code 42",
+		"title": "Code 42 - File Events",
+		"methods": [
+			{
+				"type": "Code42 (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/code42-file-events.htm",
+				"parser": "SCNX_CODE42_CODE42FILEEVENTS_EDLP_COD_JSO"
+			}
+		]
+	},
+	{
 		"vendor": "Corelight",
 		"title": "Network Traffic Analytics",
 		"methods": [
@@ -1230,6 +1241,17 @@
 		]
 	},
 	{
+		"vendor": "F5 Networks",
+		"title": "F5 Distributed Cloud",
+		"methods": [
+			{
+				"type": "API/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-dns-syslog.htm",
+				"parser": "SCNX_F5NETW_F5DISTRIBUTEDCLOUD_AES_F5D_JSO_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Secureworks",
 		"title": "Secureworks iSensor",
 		"methods": [
@@ -1248,6 +1270,17 @@
 				"type": "Syslog/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fastly-waf-syslog.htm",
 				"parser": "SCNX_FASTLY_FASTLYWAF_WAF_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Fastly",
+		"title": "Signal Science WAF",
+		"methods": [
+			{
+				"type": "signalsciences/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fastly-next-gen-waf.htm",
+				"parser": "SCNX_FASTLY_SIGNALSCIENCEWAF_WAF_SIG_JSO_COMM"
 			}
 		]
 	},
@@ -1724,6 +1757,28 @@
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/malwarebytes-antivirus-syslog.htm",
 				"parser": "SCNX_MALWAR_MALWAREBYTESANTIVIRUS_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Malwarebytes",
+		"title": "MalwarebytesEvents",
+		"methods": [
+			{
+				"type": "malwarebytes/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/malwarebytes-events.htm",
+				"parser": "SCNX_MALWAR_MALWAREBYTESEVENTS_EDR_MAL_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Malwarebytes",
+		"title": "MalwarebytesBytes Detection",
+		"methods": [
+			{
+				"type": "malwarebytes/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/malwarebytes-detections.htm",
+				"parser": "SCNX_MALWAR_MALWAREBYTESDETECTION_EDR_MAL_JSO_COMM"
 			}
 		]
 	},
@@ -2237,6 +2292,17 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "Microsoft CorporationSysmon",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-system-monitor-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTSYSMON_EMS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "Microsoft CorporationWindows AppLocker",
 		"methods": [
 			{
@@ -2345,7 +2411,7 @@
 		"methods": [
 			{
 				"type": "Outlook (API)/Key-value pair",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-office-o365-outlook-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-office-o365-outlook-api-kvp.htm",
 				"parser": "SCNX_MICROS_OFFICE365OUTLOOK_CEML_OUT_KEY"
 			}
 		]
@@ -2435,17 +2501,6 @@
 				"type": "Syslog/Key-value pair",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-dns-server-syslog-kvp.htm",
 				"parser": "SCNX_MICROS_MICROSOFTWINDOWSDNSSERVER_DNS_SYS_KEY"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft Corporation",
-		"title": "Windows MSSQL",
-		"methods": [
-			{
-				"type": "Syslog/SNARE",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-windows-mssql-snare-syslog.htm",
-				"parser": "SCNX_MICROS_WINDOWSMSSQL_DBA_SYS_SNA_COMM"
 			}
 		]
 	},
@@ -2549,6 +2604,17 @@
 		]
 	},
 	{
+		"vendor": "Nozomi Networks",
+		"title": "Nozomi Vantage - Vulnerabilities",
+		"methods": [
+			{
+				"type": "API/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/nozomi-networks-syslog.htm",
+				"parser": "SCNX_NOZOMI_NOZOMIVANTAGEVULNERABILITIES_SCN_NOZ_JSO_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "ObserveIT",
 		"title": "ObserveITSecurity",
 		"methods": [
@@ -2582,17 +2648,6 @@
 		]
 	},
 	{
-		"vendor": "Okta",
-		"title": "Auth0",
-		"methods": [
-			{
-				"type": "awssqss3 /JSON",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/okta-auth0-api.htm",
-				"parser": "SCNX_OKTA_AUTH0_CSSO_AWS_JSO_COMM"
-			}
-		]
-	},
-	{
 		"vendor": "One Login",
 		"title": "One LoginAPI",
 		"methods": [
@@ -2600,6 +2655,17 @@
 				"type": "Onelogin (API)/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/one-login-api.htm",
 				"parser": "SCNX_ONELO_ONELOGINAPI_CSSO_ONE_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Cloud Infrastructure Cloud Guard",
+		"methods": [
+			{
+				"type": "file/ JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/oracle-cloud-infrastructure-cloud-guard.htm",
+				"parser": "SCNX_ORACLE_ORACLECLOUDINFRASTRUCTURECLOUDGUARD_ITD_FIL_JSO_COMM"
 			}
 		]
 	},
@@ -2873,6 +2939,17 @@
 	},
 	{
 		"vendor": "Qualys",
+		"title": "Qualys File Integrity Monitorin",
+		"methods": [
+			{
+				"type": "API /JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/qualys-file-integrity-monitoring.htm",
+				"parser": "SCNX_QUALYS_QUALYSFILEINTEGRITYMONITORING_FIM_QUA_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Qualys",
 		"title": "Qualys Vulnerability Scanner",
 		"methods": [
 			{
@@ -2956,6 +3033,17 @@
 				"type": "Salesforce (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/salesforce-eventlog-api.htm",
 				"parser": "SCNX_SALESF_SALESFORCEEVENTLOGAPI_CSSO_SAL_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "SAP",
+		"title": "SAP ERP",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/sap-erp.htm",
+				"parser": "SCNX_SAP_SAPERP_AES_SYS_REG_COMM"
 			}
 		]
 	},
@@ -3189,7 +3277,7 @@
 		"title": "Symantec Endpoint Protection Stream",
 		"methods": [
 			{
-				"type": "Symantecendpoint (API)/JSON",
+				"type": "symantecendpointprotectionstream/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-endpoint-protection-api-json.htm",
 				"parser": "SCNX_SYMANT_SYMANTECENDPOINTPROTECTIONSTREAM_EDR_SYM_JSO_COMM"
 			}
@@ -3214,6 +3302,17 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-encryption-management-server.htm",
 				"parser": "SCNX_SYMANT_SYMANTECPGPSERVER_VPN_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec Integrated Cyber Defense Manager",
+		"methods": [
+			{
+				"type": "symantecendpointprotectionincidents/JSON",
+				"link": "http://symantec_integrated_cyber_defense_manager_edr_alerts/",
+				"parser": "SCNX_SYMANT_SYMANTECINTEGRATEDCYBERDEFENSEMANAGER_EDR_SYM_JSO_COMM"
 			}
 		]
 	},
@@ -3388,7 +3487,7 @@
 		"methods": [
 			{
 				"type": "Trendmicroxdr/JSON",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/old-versiontrend-micro-vision-one-alert-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-vision-one.htm",
 				"parser": "SCNX_TRENDM_TRENDMICROVISIONONEALERT_CEDR_TRE_JSO_COMM"
 			}
 		]
@@ -3493,6 +3592,17 @@
 				"type": "Veeva Vault Audit/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/veeva-vault-api-audit.htm",
 				"parser": "SCNX_VEEVA_VEEVAVAULTAUDIT_CMS_VEE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Verizon",
+		"title": "Verizon Edgecast",
+		"methods": [
+			{
+				"type": "verizonedgecast/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/verizon-edgio.htm",
+				"parser": "SCNX_VERIZO_VERIZONEDGECAST_WAF_VER_JSO_COMM"
 			}
 		]
 	},
@@ -3744,6 +3854,28 @@
 				"type": "File",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-zia-nss-file-delimited-comma.htm",
 				"parser": "SCNX_ZSCALE_ZSCALERZIANSS_NGF_FIL_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler NSS Firewall",
+		"methods": [
+			{
+				"type": "file(webhook)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-zia-nss-firewall.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERNSSFIREWALL_NGF_FIL_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler NSS Web",
+		"methods": [
+			{
+				"type": "file(webhook)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-zia-nss-web.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERNSSWEB_PXY_FIL_JSO_COMM"
 			}
 		]
 	},
