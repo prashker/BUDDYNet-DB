@@ -1516,6 +1516,17 @@
 	},
 	{
 		"vendor": "IBM",
+		"title": "IBM AIX",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ibm-aix.htm",
+				"parser": "SCNX_IBM_IBMAIX_UNX_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
 		"title": "IBM General Parallel File System",
 		"methods": [
 			{
@@ -1558,6 +1569,17 @@
 		]
 	},
 	{
+		"vendor": "IBM",
+		"title": "IBM System i/AS400",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ibm-system-i-as400-iseries-syslog.htm",
+				"parser": "SCNX_IBM_IBMSYSTEMIAS400_MF_SYS_CEF"
+			}
+		]
+	},
+	{
 		"vendor": "iboss",
 		"title": "iBoss Web Gateway",
 		"methods": [
@@ -1587,6 +1609,17 @@
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/imperva-database-audit-syslogcef.htm",
 				"parser": "SCNX_IMPERV_IMPERVA_DBS_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Imperva",
+		"title": "Imperva DAM",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/imperva-database-activity-monitoring.htm",
+				"parser": "SCNX_IMPERV_IMPERVADAM_WAF_SYS_JSO_COMM"
 			}
 		]
 	},
@@ -1625,6 +1658,17 @@
 				"type": "Syslog/Regex",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/infoblox-nios-syslog.htm",
 				"parser": "SCNX_INFOBL_INFOBLOX_DNS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Ipswitch, Inc.",
+		"title": "Ipswitch MOVEit",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/progress-moveit.htm",
+				"parser": "SCNX_IPSWIT_IPSWITCHMOVEIT_CMS_SYS_KEY_COMM"
 			}
 		]
 	},
@@ -2433,7 +2477,7 @@
 		"methods": [
 			{
 				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-sql-audit-nxlog-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-sql-audit-nxlog-syslog.htm",
 				"parser": "SCNX_MICROS_MSSQLAUDIT_DBA_SYS_REG_COMM"
 			},
 			{
@@ -2638,6 +2682,28 @@
 				"type": "Netskope (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/netskope-api.htm",
 				"parser": "SCNX_NETSKO_NETSKOPEEVENTS_AES_NET_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
+		"title": "NetskopeEvents V2 Application",
+		"methods": [
+			{
+				"type": "Netskope (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netskope-events-v2-application.htm",
+				"parser": "SCNX_NETSKO_NETSKOPEEVENTSV2APPLICATION_CASB_NET_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
+		"title": "Netskope Events V2 Page",
+		"methods": [
+			{
+				"type": "Netskope (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netskope-events-v2-page.htm",
+				"parser": "SCNX_NETSKO_NETSKOPEEVENTSV2PAGE_PXY_NET_KEY_COMM"
 			}
 		]
 	},
