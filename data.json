@@ -1,6 +1,7 @@
 {
-  "version": "1",
+  "version": "2",
   "signoff": "Samuel Prashker",
+  "available": true,
   "db": [
     {
       "element": "div#jobsByConnection > div > div > table > thead > tr > th:nth-of-type(2)",
