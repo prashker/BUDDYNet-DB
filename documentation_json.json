@@ -385,6 +385,11 @@
 				"type": "Syslog/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-protect-syslog.htm",
 				"parser": "SCNX_CARBON_CARBONBLACKPROTECT_EMS_SYS_JSO"
+			},
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbonblack-protect-json.htm",
+				"parser": "SCNX_CARBON_CARBONBLACKPROTECT_EDR_SYS_JSO_COMM"
 			}
 		]
 	},
@@ -766,6 +771,22 @@
 				"type": "Ciscoumbrella (API)/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-proxy-api-v2.htm",
 				"parser": "SCNX_CISCO_CISCOUMBRELLAPROXY_PXY_CIS_JSO"
+			},
+			{
+				"type": "AWS/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-proxy-logs-s3.htm",
+				"parser": "SCNX_CISCO_CISCOUMBRELLAPROXY_PXY_AWS_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Umbrella Admin",
+		"methods": [
+			{
+				"type": "aws/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-umbrella-admin-auditlogs-aws-s3.htm",
+				"parser": "SCNX_CISCO_CISCOUMBRELLAADMIN_CAAU_AWS_DEL_COMM"
 			}
 		]
 	},
@@ -786,7 +807,7 @@
 		"methods": [
 			{
 				"type": "AWS / Delimited-comma",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-api-aws-dns-dc.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-api-aws-dns-s3.htm",
 				"parser": "SCNX_CISCOS_CISCOUMBRELLADNS_DNS_AWS_DEL_COMM"
 			},
 			{
@@ -826,6 +847,17 @@
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-ironport-email-syslog.htm",
 				"parser": "SCNX_CISCO_IRONPORTEMAIL_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "IronPort Web Security Appliance",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-ironport-web-security-regex.htm",
+				"parser": "SCNX_CISCO_IRONPORTWEBSECURITYAPPLIANCE_PXY_SYS_REG"
 			}
 		]
 	},
@@ -2232,7 +2264,7 @@
 		"methods": [
 			{
 				"type": "Msftdefenderatp (API)/JSON",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-365-defender-api.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-365-defender-for-endpoint-api.htm",
 				"parser": "SCNX_MICROS_MICROSOFTDEFENDERATP_EDR_MSF_JSO"
 			},
 			{
@@ -2916,7 +2948,7 @@
 		"methods": [
 			{
 				"type": "Prismacloud (API)/JSON",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/prisma_access-api-json.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/prisma-cloud-api-json.htm",
 				"parser": "SCNX_PALOA_PRISMAACCESS_CASB_BIT_JSO"
 			}
 		]
@@ -3082,6 +3114,17 @@
 				"type": "Syslog/Key Value Pair",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/qualys-vulnerablity-scanner-syslog-kvp.htm",
 				"parser": "SCNX_QUALYS_QUALYSVULNERABILITYSCANNER_SCN_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Rapid7",
+		"title": "Nexpose Vulnerability Scanner",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/rapid7-nexpose-vulnerability-scanner.htm",
+				"parser": "SCNX_RAPID_NEXPOSEVULNERABILITYSCANNER_SCN_SYS_REG"
 			}
 		]
 	},
