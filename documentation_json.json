@@ -2406,17 +2406,6 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
-		"title": "Microsoft CorporationSysmon",
-		"methods": [
-			{
-				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-system-monitor-syslog.htm",
-				"parser": "SCNX_MICROS_MICROSOFTSYSMON_EMS_SYS_REG"
-			}
-		]
-	},
-	{
-		"vendor": "Microsoft Corporation",
 		"title": "Microsoft CorporationWindows AppLocker",
 		"methods": [
 			{
