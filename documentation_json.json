@@ -2362,7 +2362,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-exchange-on-prem-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-exchange-cef.htm",
 				"parser": "SCNX_MICROS_MICROSOFTEXCHANGESERVER_EML_SYS_CEF_COMM"
 			},
 			{
@@ -2372,7 +2372,7 @@
 			},
 			{
 				"type": "Syslog/Regex",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-exchange-on-prem-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-exchange-regex.htm",
 				"parser": "SCNX_MICROS_MICROSOFTEXCHANGESERVER_EML_SYS_REG"
 			}
 		]
