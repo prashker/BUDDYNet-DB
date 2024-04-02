@@ -317,7 +317,7 @@
 			},
 			{
 				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/blue-coat-proxy-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/blue-coat-proxy.htm",
 				"parser": "SCNX_SYMANT_BLUECOATPROXY_PXY_SYS_CEF_COMM"
 			}
 		]
@@ -350,7 +350,7 @@
 		"methods": [
 			{
 				"type": "Syslog/CEF",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vmware-carbon-black-app-control-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-app-control-syslog.htm",
 				"parser": "SCNX_CARBON_CARBONBLACKAPPCONTROL_APP_SYS_CEF_COMM"
 			}
 		]
@@ -966,6 +966,17 @@
 		]
 	},
 	{
+		"vendor": "Code 42",
+		"title": "Code 42 - Triggered Alerts",
+		"methods": [
+			{
+				"type": "code42/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/code42-triggered-alerts.htm",
+				"parser": "SCNX_CODE_CODE42TRIGGEREDALERTS_ITD_COD_JSO_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Corelight",
 		"title": "Network Traffic Analytics",
 		"methods": [
@@ -1169,6 +1180,17 @@
 		]
 	},
 	{
+		"vendor": "DUO Security",
+		"title": "Duo Security Administrator",
+		"methods": [
+			{
+				"type": "Duo (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/duo-security-applications-api.htm",
+				"parser": "SCNX_DUOSE_DUOSECURITYADMINISTRATOR_CAAU_DUO_JSO"
+			}
+		]
+	},
+	{
 		"vendor": "F-Secure",
 		"title": "F-Secure Endpoint Security",
 		"methods": [
@@ -1288,12 +1310,12 @@
 		"title": "F5 Distributed Cloud",
 		"methods": [
 			{
-				"type": "API/JSON",
+				"type": "f5distributedcloud/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-networks-distributed-cloud.htm",
 				"parser": "SCNX_F5_F5DISTRIBUTEDCLOUD_AES_F5D_JSO_COMM"
 			},
 			{
-				"type": "API/JSON",
+				"type": "f5distributedcloud/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-dns-syslog.htm",
 				"parser": "SCNX_F5NETW_F5DISTRIBUTEDCLOUD_AES_F5D_JSO_COMM"
 			}
@@ -1519,7 +1541,7 @@
 		"methods": [
 			{
 				"type": "Googlereport (API)/Delimited-pipe",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/Google-GSuite-Audit-Activity-API.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/google-workspace.htm",
 				"parser": "SCNX_GOOGLE_GOOGLETOKEN_APU_GOO_DEL"
 			}
 		]
@@ -2744,7 +2766,7 @@
 		"title": "Nozomi Vantage - Vulnerabilities",
 		"methods": [
 			{
-				"type": "API/JSON",
+				"type": "nozomivantage/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/nozomi-networks-vantage-vulnerabilities.htm",
 				"parser": "SCNX_NOZOMI_NOZOMIVANTAGEVULNERABILITIES_SCN_NOZ_JSO_COMM"
 			}
@@ -2755,7 +2777,7 @@
 		"title": "Nozomi Vantage - Alerts",
 		"methods": [
 			{
-				"type": "API/JSON",
+				"type": "nozomivantage/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/nozomi-networks-syslog.htm",
 				"parser": "SCNX_NOZOMI_NOZOMIVANTAGEALERTS_ITD_NOZ_JSO_COMM"
 			}
@@ -2780,17 +2802,6 @@
 				"type": "Okta (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/okta-authentication-api.htm",
 				"parser": "SCNX_OKTA_OKTASYSTEMAUTHENTICATION_CSSO_OKT_KEY_COMM"
-			}
-		]
-	},
-	{
-		"vendor": "Okta",
-		"title": "Okta System Authentications",
-		"methods": [
-			{
-				"type": "Syslog/JSON",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/okta-system-authentication-syslog-json.htm",
-				"parser": "SCNX_OKTA_OKTASYSTEMAUTHENTICATION_CSSO_SYS_JSO_COMM"
 			}
 		]
 	},
@@ -3089,7 +3100,7 @@
 		"title": "Qualys File Integrity Monitorin",
 		"methods": [
 			{
-				"type": "API /JSON",
+				"type": "qualysfim /JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/qualys-file-integrity-monitoring.htm",
 				"parser": "SCNX_QUALYS_QUALYSFILEINTEGRITYMONITORING_FIM_QUA_JSO_COMM"
 			}
@@ -3519,6 +3530,17 @@
 		]
 	},
 	{
+		"vendor": "Trellix EDR",
+		"title": "Trellix EDR",
+		"methods": [
+			{
+				"type": "trellixedr/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trellix-edr.htm",
+				"parser": "SCNX_TRELLI_TRELLIXEDR_EDR_TRE_JSO_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Delinea",
 		"title": "Thycotic Server",
 		"methods": [
@@ -3814,7 +3836,7 @@
 		"methods": [
 			{
 				"type": "syslog/CEF",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vmware-carbon-black-protect-syslog-cef.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-protect-syslog-cef.htm",
 				"parser": "SCNX_VMWARE_CARBONBLACKPROTECT_AAC_SYS_CEF_COMM"
 			}
 		]
