@@ -264,6 +264,17 @@
 	},
 	{
 		"vendor": "BeyondTrust",
+		"title": "BeyondTrust EPM",
+		"methods": [
+			{
+				"type": "beyondtrustepm/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/beyondtrust-epm.htm",
+				"parser": "SCNX_BEYOND_BEYONDTRUSTEPM_APU_BEY_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "BeyondTrust",
 		"title": "Powerbroker",
 		"methods": [
 			{
@@ -361,8 +372,19 @@
 		"methods": [
 			{
 				"type": "Carbonblack (API)/JSON",
-				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-protect-syslog.htm",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-defense.htm",
 				"parser": "SCNX_CARBON_CARBONBLACKDEFENSEV2_EMS_CAR_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black Defense - Alert",
+		"methods": [
+			{
+				"type": "Carbonblack (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-defense.htm",
+				"parser": "SCNX_CARBON_CARBONBLACKDEFENSEALERT_CEDR_CAR_JSO_COMM"
 			}
 		]
 	},
@@ -889,6 +911,17 @@
 		]
 	},
 	{
+		"vendor": "Citrix",
+		"title": "Citrix ADC",
+		"methods": [
+			{
+				"type": "syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/citrix-adc.htm",
+				"parser": "SCNX_CITRIX_CITRIXADC_TM_SYS_REG_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Claroty",
 		"title": "Claroty CTD",
 		"methods": [
@@ -1198,6 +1231,17 @@
 				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f-secure-endpoint-security-syslog.htm",
 				"parser": "SCNX_F-SECU_F-SECURE ENDPOINT SECURITY_EDR_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 FirePass SSL VPN",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-firepass-ssl-vpn.htm",
+				"parser": "SCNX_F5NET_F5FIREPASSSSLVPN_VPN_SYS_REG_COMM"
 			}
 		]
 	},
@@ -1671,9 +1715,9 @@
 		"title": "Imperva DAM",
 		"methods": [
 			{
-				"type": "Syslog/JSON",
+				"type": "syslog",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/imperva-database-activity-monitoring.htm",
-				"parser": "SCNX_IMPERV_IMPERVADAM_WAF_SYS_JSO_COMM"
+				"parser": "SCNX_IMPERV_IMPERVADAM_DBM_SYS_JSO_COMM"
 			}
 		]
 	},
@@ -2095,6 +2139,17 @@
 	},
 	{
 		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Graph Security - Alerts",
+		"methods": [
+			{
+				"type": "msftgraphsecurity/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-graph-security.htm",
+				"parser": "SCNX_MICROS_MICROSOFTGRAPHSECURITYALERTS_ITD_MSF_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
 		"title": "Office 365 Azure API",
 		"methods": [
 			{
@@ -2189,6 +2244,17 @@
 				"type": "eventhub/Delimited-comma",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-azure-application-services-eventhub.htm",
 				"parser": "SCNX_MICROS_AZUREAPPLICATIONSERVICE_PAAS_EVE_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "AZURE - NSG FLOW",
+		"methods": [
+			{
+				"type": "azurestorage/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-ngs-flow.htm",
+				"parser": "SCNX_MICROS_AZURE-NSGFLOW_F_AZU_DEL_COMM"
 			}
 		]
 	},
@@ -2652,6 +2718,17 @@
 		]
 	},
 	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Kubernetes",
+		"methods": [
+			{
+				"type": "azurekubernetesservice/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-kubernetes.htm",
+				"parser": "SCNX_MICROS_AZUREKUBERNETES_CAAS_AZU_JSO_COMM"
+			}
+		]
+	},
+	{
 		"vendor": "Mimecast",
 		"title": "Mimecast Email API",
 		"methods": [
@@ -2719,6 +2796,17 @@
 	},
 	{
 		"vendor": "Netskope",
+		"title": "Netskope Alerts V2",
+		"methods": [
+			{
+				"type": "Netskope (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netskope-alets-v2.htm",
+				"parser": "SCNX_NETSKO_NETSKOPEALERTSV2_AES_NET_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
 		"title": "NetskopeEvents",
 		"methods": [
 			{
@@ -2747,6 +2835,17 @@
 				"type": "Netskope (API)/Key-value pair",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netskope-events-v2-page.htm",
 				"parser": "SCNX_NETSKO_NETSKOPEEVENTSV2PAGE_PXY_NET_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
+		"title": "Netskope Events V2",
+		"methods": [
+			{
+				"type": "Netskope (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netskope-audit-events-v2.htm",
+				"parser": "SCNX_NETSKO_NETSKOPEEVENTSV2_AES_NET_KEY_COMM"
 			}
 		]
 	},
@@ -2950,6 +3049,17 @@
 				"type": "Prismacloud (API)/JSON",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/prisma-cloud-api-json.htm",
 				"parser": "SCNX_PALOA_PRISMAACCESS_CASB_BIT_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Palo Alto Networks",
+		"title": "Palo Alto XDR Activity",
+		"methods": [
+			{
+				"type": "paloaltoxdr/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/palo-alto-xdr-activity.htm",
+				"parser": "SCNX_PALOAL_PALOALTOXDRACTIVITY_CEDR_PAL_JSO_COMM"
 			}
 		]
 	},
@@ -4061,10 +4171,10 @@
 	},
 	{
 		"vendor": "Zscaler",
-		"title": "ZIA NSS Proxy",
+		"title": "Zscaler Deception",
 		"methods": [
 			{
-				"type": "file/CEF",
+				"type": "Syslog/CEF",
 				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-deception.htm",
 				"parser": "SCNX_ZSCALE_ZSCALERDECEPTION_ITD_SYS_CEF_COMM"
 			}
