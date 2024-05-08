@@ -1,0 +1,4205 @@
+[
+	{
+		"vendor": "Acalvio Technologies, Inc.",
+		"title": "Acalvio ShadowPlex",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/acalvio_shadowplex.htm",
+				"parser": "SCNX_ACALVI_ACALVIOSHADOWPLEX_OTS_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "ActivIdentity",
+		"title": "ActivIdentity",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/actividentity-hid-global-syslog-key-value-pair.htm",
+				"parser": "SCNX_ACTIVI_ACTIVIDENTITY_PHY_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "ActivIdentity",
+		"title": "ActivIdentity HID Global",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/actividentity-hid-syslog-json.htm",
+				"parser": "SCNX_ACTIVI_ACTIVIDENTITYHIDGLOBAL_PHY_SYS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Akamai Technologies",
+		"title": "Akamai Web Application Firewall",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/akamai-web-application-firewall-syslog.htm",
+				"parser": "SCNX_AKAMAI_AKAMAIWEBAPPLICATIONFIREWALL_WAF_SYS_CEF"
+			},
+			{
+				"type": "Akamai",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/akamai-web-application-firewall-api.htm",
+				"parser": "SCNX_AKAMAI_AKAMAIWEBAPPLICATIONFIREWALL_WAF_AKA_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS Cloudwatch",
+		"methods": [
+			{
+				"type": "Awssqss3 (API)/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-cloudwatch-api.htm",
+				"parser": "SCNX_AMAZON_AWSCLOUDWATCH_CSA_AWS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS Cloud Trail",
+		"methods": [
+			{
+				"type": "Awssqss3 (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-cloud-trail-with-direct-iam-access-api.htm",
+				"parser": "SCNX_AMAZON_AWSCLOUDTRAIL_CSA_AWS_JSO"
+			},
+			{
+				"type": "Awssqss3 (API)/OCSF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-security-lake-cloud-trail-logs-in-ocsf-format_.htm",
+				"parser": "SCNX_AMAZON_AWSCLOUDTRAILOCSF_CSA_AWS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS Elastic Load Balancer",
+		"methods": [
+			{
+				"type": "Awssqss3/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-elastic-load-balancer-api.htm",
+				"parser": "SCNX_AMAZON_AWSELASTICLOADBALANCER_TM_AWS_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS GuardDuty",
+		"methods": [
+			{
+				"type": "Awsguardduty (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-guardduty-api.htm",
+				"parser": "SCNX_AMAZON_AWSGUARDDUTY_ITD_AWS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS Network Load Balancer",
+		"methods": [
+			{
+				"type": "awssqss3/Delimited-space",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-network-load-balancer-awssqss3.htm",
+				"parser": "SCNX_AMAZON_AWSNETWORKLOADBALANCER_TM_AWS_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS OGW",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-ogw-syslog-regex.htm",
+				"parser": "SCNX_AMAZON_AWSOGW_UNX_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS VPC FLOW",
+		"methods": [
+			{
+				"type": "Awssqss3 (API)/Delimited-space",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/amazon-aws-vpc-flow-api.htm",
+				"parser": "SCNX_AMAZON_AWSVPCFLOW_FLW_AWS_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Amazon",
+		"title": "AWS WAF",
+		"methods": [
+			{
+				"type": "awssqss3 (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/amazon-aws-waf-api.htm",
+				"parser": "SCNX_AMAZON_AWSWAF_WAF_AWS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Apache Software Foundation",
+		"title": "Webserver",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/apache-web-server-syslog.htm",
+				"parser": "SCNX_APACHE_APACHEWEBSERVER_WEB_SYS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Armis",
+		"title": "Aruba Authentication",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/aruba-authentication-syslog.htm",
+				"parser": "SCNX_ARUBA_ARUBAAUTHENTICATION_AW_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Aruba Networks",
+		"title": "Aruba Clear Pass",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/aruba-clearpass-syslog.htm",
+				"parser": "SCNX_ARUBA_ARUBACLEARPASS_NAC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Aruba Networks",
+		"title": "ArubaOS-CX Switch",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/arubaos-cx-switch-syslog.htm",
+				"parser": "SCNX_ARUBA_ARUBAOSCXSWITCH_NAC_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Asus",
+		"title": "Object Storage",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/asus-flare-object-storage-syslog-regex.htm",
+				"parser": "SCNX_ASUS_OBJECTSTORAGE_UNX_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Attivo Networks",
+		"title": "Attivo BOTsink",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/attivo-botsink-via-syslog-cef.htm",
+				"parser": "SCNX_ATTIVO_ATTIVOBOTSINK_ITD_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Atlassian Corporation Plc",
+		"title": "Bitbucket",
+		"methods": [
+			{
+				"type": "File/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/atlassian-bitbucket-file.htm",
+				"parser": "SCNX_ATLASS_BITBUCKET_SCR_FIL_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Atlassian Corporation Plc",
+		"title": "Jira",
+		"methods": [
+			{
+				"type": "Jira (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/atlassian-jira-api.htm",
+				"parser": "SCNX_ATLASS_JIRA_ISM_JIR_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "AvePoint",
+		"title": "AvePoint Compliance Guardian",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/avepoint-compliance-guardian-syslog-cef.htm",
+				"parser": "SCNX_AVEPOI_AVEPOINTCOMPLIANCEGUARDIAN_CAAU_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Barracuda Networks",
+		"title": "Barracuda Email Security Gateway",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/barracuda-email-security-gateway-syslog.htm",
+				"parser": "SCNX_BARRAC_BARRACUDAEMAILGATEWAY_EML_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Barracuda Networks",
+		"title": "Barracuda WAF",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/barracuda-waf-syslog.htm",
+				"parser": "SCNX_BARRAC_BARRACUDAWAF_WAF_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "BeyondTrust",
+		"title": "BeyondTrust EPM",
+		"methods": [
+			{
+				"type": "beyondtrustepm/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/beyondtrust-epm.htm",
+				"parser": "SCNX_BEYOND_BEYONDTRUSTEPM_APU_BEY_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "BeyondTrust",
+		"title": "Powerbroker",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/beyondtrust-powerbroker-syslog.htm",
+				"parser": "SCNX_BEYOND_POWERBROKER_APU_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "BIND",
+		"title": "BIND DNS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/bind-dns-syslog.htm",
+				"parser": "SCNX_BINDD_BINDDNS_DNS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "BitDefender",
+		"title": "BitDefender Email Security Gateway",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/bitdefender-syslog-json.htm",
+				"parser": "SCNX_BITDEF_BITDEFENDEREDR_CEDR_SYS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Bluecat Networks Inc.",
+		"title": "Bluecat_DHCP",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/bluecat-dhcp-syslog.htm",
+				"parser": "SCNX_BLUECA_BLUECAT_DHCP_DNS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Blue Coat",
+		"title": "Bluecoat Proxy",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/blue-coat-proxy-syslog.htm",
+				"parser": "SCNX_SYMANT_BLUECOATPROXY_PXY_SYS_REG"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/blue-coat-proxy.htm",
+				"parser": "SCNX_SYMANT_BLUECOATPROXY_PXY_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Box",
+		"title": "Box",
+		"methods": [
+			{
+				"type": "BoxContent (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/box-api.htm",
+				"parser": "SCNX_BOXIN_BOX_CCMS_BOX_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "CA Technologies",
+		"title": "Site Minder",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ca-site-minder-syslog.htm",
+				"parser": "SCNX_CATEC_SITEMINDER_CSSO_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black App Control",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-app-control-syslog.htm",
+				"parser": "SCNX_CARBON_CARBONBLACKAPPCONTROL_APP_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black Defense V2",
+		"methods": [
+			{
+				"type": "Carbonblack (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-defense.htm",
+				"parser": "SCNX_CARBON_CARBONBLACKDEFENSEV2_EMS_CAR_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black Defense - Alert",
+		"methods": [
+			{
+				"type": "Carbonblack (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-defense.htm",
+				"parser": "SCNX_CARBON_CARBONBLACKDEFENSEALERT_CEDR_CAR_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black PROTECT",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-protection-syslog.htm",
+				"parser": "SCNX_CARBON_CARBONBLACKPROTECT_EMS_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "Carbon Black Protect",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-protect-syslog.htm",
+				"parser": "SCNX_CARBON_CARBONBLACKPROTECT_EMS_SYS_JSO"
+			},
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbonblack-protect-json.htm",
+				"parser": "SCNX_CARBON_CARBONBLACKPROTECT_EDR_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Carbon Black",
+		"title": "CarbonBlack Response",
+		"methods": [
+			{
+				"type": "Carbonblackalerts/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-response.htm",
+				"parser": "SCNX_CARBON_CARBONBLACKRESPONSE_EDR_CAR_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Cerner",
+		"title": "Cerner",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cerner-syslog.htm",
+				"parser": "SCNX_CERNER_CERNER_HAA_SYS_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Checkmarx",
+		"title": "Checkmarx One",
+		"methods": [
+			{
+				"type": "Checkmarx One/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/checkmarx-one.htm",
+				"parser": "SCNX_CHECKM_CHECKMARXONE_AST_CHE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Harmony Connect",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-harmony-connect.htm",
+				"parser": "SCNX_CHECKP_CHECKPOINTHARMONYCONNECT_SAS_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Check Point Antimalware",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-antimalware-syslog-json.htm",
+				"parser": "SCNX_CHECK_CHECKPOINTANTIMALWARE_EDR_SYS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Check Point Antivirus",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-antivirus-syslog-json.htm",
+				"parser": "SCNX_CHECK_CHECKPOINTANTIVIRUS_EDR_SYS_JSO"
+			},
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-antivirus-syslog.htm",
+				"parser": "SCNX_CHECKP_CHECKPOINTANTIVIRUS_EDR_SYS_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Check Point Application control",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-application-control-syslog-kvp.htm",
+				"parser": "SCNX_CHECK_CHECKPOINTAPPLICATIONCONTROL_EDR_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Check Point Next Generation Firewall",
+		"methods": [
+			{
+				"type": "Syslog/CHECKPOINT",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-next-generation-firewall-syslog.htm",
+				"parser": "SCNX_CHECK_CHECKPOINTNEXTGENERATIONFIREWALL_NGF_SYS_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Check Point Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-firewall-syslog.htm",
+				"parser": "SCNX_CHECK_CHECKPOINTFIREWALL_IFW_SYS_CHE_COMM"
+			},
+			{
+				"type": "Syslog/ CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-firewall-syslog-cef.htm",
+				"parser": "SCNX_CHECK_CHECKPOINTFIREWALL_IFW_SYS_CEF_COMM"
+			},
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-firewall-kvp-syslog.htm",
+				"parser": "SCNX_CHECK_CHECKPOINTFIREWALL_IFW_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Check Point Identity Awareness",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-identity-awareness-json.htm",
+				"parser": "SCNX_CHECK_CHECKPOINTIDENTITYAWARENESS_IAM_SYS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Check Point SmartDefense",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-smartdefense-syslog-json.htm",
+				"parser": "SCNX_CHECK_CHECKPOINTSMARTDEFENSE_EDR_SYS_JSO"
+			},
+			{
+				"type": "Syslog/CHECKPOINT",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-smartdefense-syslog.htm",
+				"parser": "SCNX_CHECKP_CHECKPOINTSMARTDEFENCE_ITD_SYS_CHE_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Avanan",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-cloud-application-security-broker-kvp.htm",
+				"parser": "SCNX_AVANAN_AVANAN_CASB_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Check Point Software",
+		"title": "Harmony Email And Collaboration",
+		"methods": [
+			{
+				"type": "syslog/ Key Value Pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/check-point-harmony-email-and-collaboration.htm",
+				"parser": "SCNX_CHECKP_HARMONYEMAILANDCOLLABRATION_EML_SYS_KVP_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Anyconnect",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-systems-anyconnect-syslog.htm",
+				"parser": "SCNX_CISCO_CISCOANYCONNECT_VPN_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco ASA",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-systems-asa-syslog.htm",
+				"parser": "SCNX_CISCO_CISCOASA_NGF_SYS_REG"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-asa-syslog-cef.htm",
+				"parser": "SCNX_CISCO_CISCOASA_NGF_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco ASA FirePower URL",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-asa-firepower-url-syslog.htm",
+				"parser": "SCNX_CISCO_CISCOASAFIREPOWERURL_NGF_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco FireAMP",
+		"methods": [
+			{
+				"type": "Fireamp (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-systems-fireamp-api.htm",
+				"parser": "SCNX_CISCO_CISCOFIREAMP_EDR_FIR_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "FTD",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-firepower-threat-defense-syslog.htm",
+				"parser": "SCNX_CISCO_CISCOFTD_NGF_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Identity Service Engine",
+		"methods": [
+			{
+				"type": "Ciscoise/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-identity-services-engine-ciscoise.htm",
+				"parser": "SCNX_CISCO_CISCOIDENTITYSERVICEENGINE_NAC_CIS_KEY"
+			},
+			{
+				"type": "File/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-identity-services-engine-file.htm",
+				"parser": "SCNX_CISCO_CISCOIDENTITYSERVICEENGINE_NAC_FIL_KEY"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-identity-service-engine-syslog.htm",
+				"parser": "SCNX_CISCO_CISCOIDENTITYSERVICEENGINE_NAC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Meraki Switch",
+		"methods": [
+			{
+				"type": "Syslog/CEF[Syslog]",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-meraki-switch-syslog.htm",
+				"parser": "SCNX_CISCO_CISCOMERAKISWITCH_NAC_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Meraki - Network",
+		"methods": [
+			{
+				"type": "ciscomeraki/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-meraki-network-events-api.htm",
+				"parser": "SCNX_CISCO_CISCOMERAKINETWORK_NAC_CIS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Meraki Configuration",
+		"methods": [
+			{
+				"type": "ciscomeraki/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-meraki-configuration-change-events-api.htm",
+				"parser": "SCNX_CISCO_CISCOMERAKICONFIGURATION_NGF_CIS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Meraki - Security",
+		"methods": [
+			{
+				"type": "ciscomeraki/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-meraki-security-events-api.htm",
+				"parser": "SCNX_CISCO_CISCOMERAKISECURITY_ITD_CIS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Meraki Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-systems-meraki-firewall-syslog.htm",
+				"parser": "SCNX_CISCO_CISCOMERAKIFIREWALL_NGF_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco NX-OS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-nxos-syslog.htm",
+				"parser": "SCNX_CISCO_CISCONXOS_NAC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Prime Infrastructure",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-prime-infrastructure-syslog.htm",
+				"parser": "SCNX_CISCO_CISCOPRIMEINFRASTRUCTURE_AW_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Router and Switch",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-systems-router-and-switch-syslog.htm",
+				"parser": "SCNX_CISCO_CISCOROUTERANDSWITCH_NAC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Secure ACS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-secure-acs-syslog-regex.htm",
+				"parser": "SCNX_CISCO_CISCOSECUREACS_NAC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Sourcefire Intrusion Sensor",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-sourcefire-intrusion-sensor.htm",
+				"parser": "SCNX_CISCO_SOURCEFIREINTRUSIONSENSOR_EDR_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Umbrella",
+		"methods": [
+			{
+				"type": "Ciscoumbrella (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-api.htm",
+				"parser": "SCNX_CISCO_CISCOUMBRELLA_DNS_CIS_JSO"
+			},
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-syslog-json.htm",
+				"parser": "SCNX_CISCO_CISCOUMBRELLA_DNS_SYS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Umbrella - Proxy",
+		"methods": [
+			{
+				"type": "Ciscoumbrella (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-proxy-api-v2.htm",
+				"parser": "SCNX_CISCO_CISCOUMBRELLAPROXY_PXY_CIS_JSO"
+			},
+			{
+				"type": "AWS/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-proxy-logs-s3.htm",
+				"parser": "SCNX_CISCO_CISCOUMBRELLAPROXY_PXY_AWS_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Umbrella Admin",
+		"methods": [
+			{
+				"type": "aws/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-umbrella-admin-auditlogs-aws-s3.htm",
+				"parser": "SCNX_CISCO_CISCOUMBRELLAADMIN_CAAU_AWS_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Umbrella - Firewall",
+		"methods": [
+			{
+				"type": "Ciscoumbrella (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-firewall-api.htm",
+				"parser": "CISCO_CISCOUMBRELLAFIREWALL_IFW_CIS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Umbrella DNS",
+		"methods": [
+			{
+				"type": "AWS / Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-api-aws-dns-s3.htm",
+				"parser": "SCNX_CISCOS_CISCOUMBRELLADNS_DNS_AWS_DEL_COMM"
+			},
+			{
+				"type": "Ciscoumbrella (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-umbrella-dns-api.htm",
+				"parser": "CISCO_CISCOUMBRELLADNS_DNS_CIS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Unified Communications",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-systems-unified-communications-syslog.htm",
+				"parser": "SCNX_CISCO_CISCOUNIFIEDCOMMUNICATIONS_IP_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "Cisco Wireless LAN Controller TRAP",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-wireless-lan-controller.htm",
+				"parser": "SCNX_CISCO_CISCOWIRELESSLANCONTROLLERTRAP_NAC_FIL_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "IronPort Email",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-ironport-email-syslog.htm",
+				"parser": "SCNX_CISCO_IRONPORTEMAIL_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cisco",
+		"title": "IronPort Web Security Appliance",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cisco-ironport-web-security-regex.htm",
+				"parser": "SCNX_CISCO_IRONPORTWEBSECURITYAPPLIANCE_PXY_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Citrix",
+		"title": "Citrix Sharefile",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/citrix-sharefile-syslog-regex.htm",
+				"parser": "SCNX_CITRIX_CITRIXSHAREFILE_CCMS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Citrix",
+		"title": "Netscaler VPN",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/citrix-netscaler-vpn-syslog.htm",
+				"parser": "SCNX_CITRIX_NETSCALERVPN_VPN_SYS_REG"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/citrix-gateway-vpn-syslog-cef.htm",
+				"parser": "SCNX_CITRIX_NETSCALERVPN_VPN_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Citrix",
+		"title": "Citrix ADC",
+		"methods": [
+			{
+				"type": "syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/citrix-adc.htm",
+				"parser": "SCNX_CITRIX_CITRIXADC_TM_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Claroty",
+		"title": "Claroty CTD",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/claroty-ctd-syslog.htm",
+				"parser": "SCNX_CLAROT_CLAROTYCTD_OTS_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cloudflare",
+		"title": "Cloudflare",
+		"methods": [
+			{
+				"type": "Cloudflarefirewall (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cloudflare-api.htm",
+				"parser": "SCNX_CLOUDF_CLOUDFLARE_IFW_CLO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Cloudflare",
+		"title": "Cloudflare Network Analytics",
+		"methods": [
+			{
+				"type": "Cloudflarefirewall (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cloudflare-network-analytics.htm",
+				"parser": "SCNX_CLOUDF_CLOUDFLARENETWORKANALYTICS_NTA_CLO_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cloudflare",
+		"title": "Cloudflare Firewall Adaptive",
+		"methods": [
+			{
+				"type": "Cloudflarefirewall (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cloudflare-firewall-adaptive-event-logs.htm",
+				"parser": "SCNX_CLOUDF_CLOUDFLAREFIREWALLADAPTIVE_IFW_CLO_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cloudflare",
+		"title": "Cloudflare Edge HTTP",
+		"methods": [
+			{
+				"type": "Cloudflarefirewall (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cloudflare-edge-http.htm",
+				"parser": "SCNX_CLOUDF_CLOUDFLAREEDGEHTTP_WEB_CLO_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cloudflare",
+		"title": "Cloudflare Audit",
+		"methods": [
+			{
+				"type": "Cloudflare(API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cloudflare-audit-logs.htm",
+				"parser": "SCNX_CLOUDF_CLOUDFLAREAUDIT_CAAU_CLO_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Code 42",
+		"title": "Code 42 - File Events",
+		"methods": [
+			{
+				"type": "Code42 (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/code42-file-events.htm",
+				"parser": "SCNX_CODE42_CODE42FILEEVENTS_EDLP_COD_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Code 42",
+		"title": "Code 42 - Triggered Alerts",
+		"methods": [
+			{
+				"type": "code42/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/code42-triggered-alerts.htm",
+				"parser": "SCNX_CODE_CODE42TRIGGEREDALERTS_ITD_COD_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Corelight",
+		"title": "Network Traffic Analytics",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/corelight-network-traffic-analytics-syslog.htm",
+				"parser": "SCNX_CORELI_NETWORKTRAFFICANALYTICS_NTA_SYS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "CrowdStrike",
+		"title": "Alerts Streaming",
+		"methods": [
+			{
+				"type": "Crowdstrikestreaming (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/crowdstrike-falcon-streaming-api.htm",
+				"parser": "SCNX_CROWDS_CROWDSTRIKEALERTSSTREAMING_CEDR_CRO_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "CrowdStrike",
+		"title": "Crowdstrike Falcon",
+		"methods": [
+			{
+				"type": "Awssqss3 (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/crowdstrike-falcon-data-replicator-api.htm",
+				"parser": "SCNX_CROWDS_CROWDSTRIKEFALCON_EMS_AWS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "CyberArk",
+		"title": "CyberArk Enterprise Password Vault",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cyberark-vault-syslog.htm",
+				"parser": "SCNX_CYBERA_CYBERARKENTERPRISEPASSWORDVAULT_APU_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Cyber X Inc.",
+		"title": "CyberX",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-defender-iot-syslog-regex.htm",
+				"parser": "SCNX_CYBERX_CYBERX_OTS_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cylance",
+		"title": "CylancePROTECT",
+		"methods": [
+			{
+				"type": "Cylance (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cylance-protect-api-kvp.htm",
+				"parser": "SCNX_CYLANC_CYLANCEPROTECT_CEDR_CYL_KEY"
+			},
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cylanceprotect-syslog.htm",
+				"parser": "SCNX_CYLANC_CYLANCEPROTECT_CEDR_SYS_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cynerio",
+		"title": "Cynerio",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cynerio-syslog.htm",
+				"parser": "SCNX_CYNERI_CYNERIO_HAA_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Cynet",
+		"title": "Cynet EDR",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/cynet-edr-syslog-cef.htm",
+				"parser": "SCNX_CYNET_CYNETEDR_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Darktrace",
+		"title": "Darktrace",
+		"methods": [
+			{
+				"type": "Syslog/LEEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/darktrace-syslog.htm",
+				"parser": "SCNX_DARKTR_DARKTRACE_ITD_SYS_LEE"
+			}
+		]
+	},
+	{
+		"vendor": "Dell/Secureworks Inc.",
+		"title": "Powerconnect",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/powerconnect-syslog.htm",
+				"parser": "SCNX_DELL_POWERCONNECT_NAC_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Dell/Secureworks Inc.",
+		"title": "SonicWall Global Management System",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/dell-sonicwall-global-management-system-syslog.htm",
+				"parser": "SCNX_DELL_SONICWALLGLOBALMANAGEMENTSYSTEM_NGF_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Dell/Secureworks Inc.",
+		"title": "Dell Switch",
+		"methods": [
+			{
+				"type": "Syslog /Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/dell-switch-syslog-regex.htm",
+				"parser": "SCNX_DELL_DELLSWITCH_NAC_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Digital Guardian",
+		"title": "Digital Guardian",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fortra-digital-guardian-regex.htm",
+				"parser": "SCNX_DIGITA_DIGITALGUARDIAN_EDLP_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Dropbox",
+		"title": "Dropbox API",
+		"methods": [
+			{
+				"type": "Dropbox (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/dropbox-api.htm",
+				"parser": "SCNX_DROPBO_DROPBOXAPI_CCMS_DRO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Docusign",
+		"title": "Docusign Events",
+		"methods": [
+			{
+				"type": "docusign/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/docusign-event-api.htm",
+				"parser": "SCNX_DOCUSI_DOCUSIGNEVENTS_CAAU_DOC_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "DUO Security",
+		"title": "Duo Authentication",
+		"methods": [
+			{
+				"type": "Duo (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/duo-security-applications-api.htm",
+				"parser": "SCNX_DUOSE_DUOSECURITYAUTHENTICATION_CSSO_DUO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "DUO Security",
+		"title": "Duo Telephony",
+		"methods": [
+			{
+				"type": "Duo (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/duo-security-applications-api.htm",
+				"parser": "SCNX_DUOSE_DUOSECURITYTELEPHONY_CAAU_DUO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "DUO Security",
+		"title": "Duo MFA Authentication",
+		"methods": [
+			{
+				"type": "File/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/duo-mfa-authentication-file.htm",
+				"parser": "SCNX_DUOSEC_DUOMFAAUTHENTICATION_CSSO_FIL_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "DUO Security",
+		"title": "Duo Security Administrator",
+		"methods": [
+			{
+				"type": "Duo (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/duo-security-applications-api.htm",
+				"parser": "SCNX_DUOSE_DUOSECURITYADMINISTRATOR_CAAU_DUO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "F-Secure",
+		"title": "F-Secure Endpoint Security",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f-secure-endpoint-security-syslog.htm",
+				"parser": "SCNX_F-SECU_F-SECURE ENDPOINT SECURITY_EDR_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 FirePass SSL VPN",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-firepass-ssl-vpn.htm",
+				"parser": "SCNX_F5NET_F5FIREPASSSSLVPN_VPN_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 ASM Audit",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-asm-audit-syslog-regex.htm",
+				"parser": "SCNX_F5NET_F5ASMAUDIT_AA_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 ASM Web Application Firewall",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-big-ip-asm-syslog.htm",
+				"parser": "SCNX_F5NET_F5ASMWEBAPPLICATIONFIREWALL_WAF_SYS_CEF"
+			},
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-asm-web-application-firewall-syslog.htm",
+				"parser": "SCNX_F5NET_F5ASMWEBAPPLICATIONFIREWALL_WAF_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 Big-IP APM",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/f5-big-ip-apm-syslog-regex.htm",
+				"parser": "SCNX_F5NETW_F5BIGIPAPM_APU_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 Big-IP DNS",
+		"methods": [
+			{
+				"type": "File/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-big-ip-dns-file.htm",
+				"parser": "SCNX_F5NET_F5BIGIPGTM_TM_FIL_REG"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 Big-IP Load Balancer",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-big-ip-ltm-syslog.htm",
+				"parser": "SCNX_F5NET_F5BIGIPLOADBALANCER_TM_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 Big Switch",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-big-switch-syslog.htm",
+				"parser": "SCNX_F5NETW_F5BIGSWITCH_NAC_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 Silverline WAF",
+		"methods": [
+			{
+				"type": "Syslog/Key Value Pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-silverline-waf-via-syslog-kvp.htm",
+				"parser": "SCNX_F5NET_F5SILVERLINEWAF_WAF_SYS_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 Big-IP Traffic Manager - RSA",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-big-ip-traffic-manager-syslog.htm",
+				"parser": "SCNX_F5NET_F5BIGIPTRAFFICMANAGERRSA_TM_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 DNS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-dns-syslog.htm",
+				"parser": "SCNX_F5NET_F5DNS_DNS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "F5 Networks",
+		"title": "F5 Distributed Cloud",
+		"methods": [
+			{
+				"type": "f5distributedcloud/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-networks-distributed-cloud.htm",
+				"parser": "SCNX_F5_F5DISTRIBUTEDCLOUD_AES_F5D_JSO_COMM"
+			},
+			{
+				"type": "f5distributedcloud/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/f5-dns-syslog.htm",
+				"parser": "SCNX_F5NETW_F5DISTRIBUTEDCLOUD_AES_F5D_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Secureworks",
+		"title": "Secureworks iSensor",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/dell-secureworks-isensor-syslog.htm",
+				"parser": "SCNX_DELL_SECUREWORKSISENSOR_EDR_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Fastly",
+		"title": "Fastly WAF",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fastly-waf-syslog.htm",
+				"parser": "SCNX_FASTLY_FASTLYWAF_WAF_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Fastly",
+		"title": "Signal Science WAF",
+		"methods": [
+			{
+				"type": "signalsciences/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fastly-next-gen-waf.htm",
+				"parser": "SCNX_FASTLY_SIGNALSCIENCEWAF_WAF_SIG_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Fidelis Cybersecurity",
+		"title": "Fidelis Network DLP",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fidelis-dlp-syslog.htm",
+				"parser": "SCNX_FIDELI_FIDELISNETWORKDLP_DLP_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "FireEye",
+		"title": "FireEye Email Security",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fireeye-email-security-cef.htm",
+				"parser": "SCNX_FIREEY_FIREEYEEMAILSECURITY_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "FireEye",
+		"title": "FireEye Endpoint Security",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/fireeye-endpoint-security-hx-syslog.htm",
+				"parser": "SCNX_FIREEY_FIREEYEENDPOINTSECURITY_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "FireEye",
+		"title": "FireEye Network Security",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fireeye-network-security-nx-syslog.htm",
+				"parser": "SCNX_FIREEY_FIREEYENETWORKSECURITY_EDR_SYS_CEF"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fireeye-network-security-syslog-cef.htm",
+				"parser": "SCNX_FIREEY_FIREEYENETWORKSECURITY_ITD_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Forcepoint / Websense",
+		"title": "Forcepoint DLP",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/forcepoint-dlp-syslog.htm",
+				"parser": "SCNX_RAYTHE_FORCEPOINTDLP_EDLP_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "ForeScout Technologies",
+		"title": "CounterACT",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/forescout-counteract-syslog.htm",
+				"parser": "SCNX_FORESC_FORESCOUTCOUNTERACT_NAC_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "ForeScout Technologies",
+		"title": "Forescouts NAC",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/forescouts-nac-kvp.htm",
+				"parser": "SCNX_FORESC_FORESCOUTSNAC_NAC_SYS_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Fortinet",
+		"title": "FortiGate",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fortinet-fortigate-firewall-syslog.htm",
+				"parser": "SCNX_FORTIN_FORTIGATE_NGF_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Fortinet",
+		"title": "Fortiweb",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/fortinet-fortiweb-syslog-keyvaluepair.htm",
+				"parser": "SCNX_FORTIW_FORTIWEB_WAF_SYS_KVP_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Gigamon",
+		"title": "Gigamon Network Traffic Analytics",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/gigamon-network-traffic-analytics-syslog.htm",
+				"parser": "SCNX_GIGAMO_GIGAMONNETWORKTRAFFICANALYTICS_NTA_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "GitHub",
+		"title": "GitHub",
+		"methods": [
+			{
+				"type": "File/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/github-file.htm",
+				"parser": "SCNX_GITHUB_GITHUB_SCR_FIL_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Alert Center",
+		"methods": [
+			{
+				"type": "Googlealerts (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/google-alerts-center-api.htm",
+				"parser": "SCNX_GOOGLE_ALERTCENTER_ITD_GOO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Gmail",
+		"methods": [
+			{
+				"type": "Bigquery/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/google-gmail-bigquery.htm",
+				"parser": "SCNX_GOOGLE_GMAIL_CEML_BIG_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Admin",
+		"methods": [
+			{
+				"type": "Googlereport (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/google-workspace.htm",
+				"parser": "SCNX_GOOGLE_GOOGLEADMIN_CSA_GOO_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Drive",
+		"methods": [
+			{
+				"type": "Googlereport (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/google-workspace.htm",
+				"parser": "SCNX_GOOGLE_GOOGLEDRIVE_CCMS_GOO_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Login",
+		"methods": [
+			{
+				"type": "Googlereport (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/google-workspace.htm",
+				"parser": "SCNX_GOOGLE_GOOGLELOGIN_CSSO_GOO_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Google",
+		"title": "Google Token",
+		"methods": [
+			{
+				"type": "Googlereport (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/google-workspace.htm",
+				"parser": "SCNX_GOOGLE_GOOGLETOKEN_APU_GOO_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "HAProxy",
+		"title": "HA Proxy",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-space",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ha-proxy-syslog-ds.htm",
+				"parser": "SCNX_HAPROX_HAPROXY_PXY_SYS_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Hewlett Packard Enterprise",
+		"title": "HPE Switch",
+		"methods": [
+			{
+				"type": "syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/hewlett-packard-enterprise-switch.htm",
+				"parser": "SCNX_HEWLET_HPESWITCH_NAC_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "IBM AIX",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ibm-aix.htm",
+				"parser": "SCNX_IBM_IBMAIX_UNX_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "IBM General Parallel File System",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ibm-gpfs-scale-syslog.htm",
+				"parser": "SCNX_IBM_IBMGENERALPARALLELFILESYSTEM_UNX_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "IBM Guardium",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ibm-guardium-database-audit-syslog.htm",
+				"parser": "SCNX_IBM_IBMGUARDIUM_DBA_SYS_REG"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ibm-guardium-database-monitoring-syslog.htm",
+				"parser": "SCNX_IBM_GUARDIUM_DBM_SYS_REG"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ibm-guardium-syslog-cef.htm",
+				"parser": "SCNX_IBM_IBMGUARDIUM_DBM_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "IBM IDS/IPS",
+		"methods": [
+			{
+				"type": "Syslog/LEEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ibm-idsips-syslog-leef.htm",
+				"parser": "SCNX_IBM_IBMIDSIPS_EDR_SYS_LEE"
+			}
+		]
+	},
+	{
+		"vendor": "IBM",
+		"title": "IBM System i/AS400",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ibm-system-i-as400-iseries-syslog.htm",
+				"parser": "SCNX_IBM_IBMSYSTEMIAS400_MF_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "iboss",
+		"title": "iBoss Web Gateway",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/iboss-web-gateway-syslog-dc.htm",
+				"parser": "SCNX_IBOSS_IBOSSWEBGATEWAY_PXY_SYS_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Illumio",
+		"title": "Illumio Core",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/illumio-core-endpoint-management-systems.htm",
+				"parser": "SCNX_ILLUMI_ILLUMIOCORE_EMS_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Imperva",
+		"title": "Imperva",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/imperva-database-audit-syslogcef.htm",
+				"parser": "SCNX_IMPERV_IMPERVA_DBS_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Imperva",
+		"title": "Imperva DAM",
+		"methods": [
+			{
+				"type": "syslog",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/imperva-database-activity-monitoring.htm",
+				"parser": "SCNX_IMPERV_IMPERVADAM_DBM_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Imperva",
+		"title": "Imperva Web Application Firewall",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/imperva-web-application-firewall-syslogcef.htm",
+				"parser": "SCNX_IMPERV_IMPERVAWEBAPPLICATIONFIREWALL_WAF_SYS_CEF_COMM"
+			},
+			{
+				"type": "Impervacloudwaf/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/imperva-web-application-firewall-cef-api.htm",
+				"parser": "SCNX_IMPERV_IMPERVAWEBAPPLICATIONFIREWALL_WAF_IMP_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Imprivata",
+		"title": "Imprivata Single Sign-On",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/imprivara-single-signon-dc.htm",
+				"parser": "SCNX_IMPRIV_IMPRIVATASINGLESIGNON_CSSO_SYS_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Infoblox",
+		"title": "Infoblox",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/infoblox-nios-syslog.htm",
+				"parser": "SCNX_INFOBL_INFOBLOX_DNS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Ipswitch, Inc.",
+		"title": "Ipswitch MOVEit",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/progress-moveit.htm",
+				"parser": "SCNX_IPSWIT_IPSWITCHMOVEIT_CMS_SYS_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Ivanti",
+		"title": "Ivanti Virtual Traffic Manager",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ivanti-virtual-traffic-manager-syslog.htm",
+				"parser": "SCNX_IVANTI_IVANTIVIRTUALTRAFFICMANAGER_TM_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "JumpCloud",
+		"title": "JumpCloud SSO",
+		"methods": [
+			{
+				"type": "Jumpcloud (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/jumpcloud-sso-api.htm",
+				"parser": "SCNX_JUMPCL_JUMPCLOUDSSO_SSO_JUM_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Junos Pulse Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/juniper-junos-pulse-firewall-via-syslog-regex.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERJUNOSPULSEFIREWALL_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Junos Pulse VPN",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/juniper-junos-pulse-secure-vpn-syslog.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERJUNOSPULSEVPN_VPN_SYS_CEF_COMM"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ivanti-connector-secure-syslog-regex.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERJUNOSPULSEVPN_VPN_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Junos Router",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/juniper-junos-router-syslog.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERJUNOSROUTER_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Netscreen HVD VPN",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/juniper-netscreen-hvd-vpn-syslog-regex.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERNETSCREENHVDVPN_VPN_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Secure Access VPN",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/juniper-secure-access-vpn-syslog-regex.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERSECUREACCESSVPN_VPN_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Secure Services Gateway",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/juniper-secure-services-gateway-syslog.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERSECURESERVICESGATEWAY_NGF_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper SRX Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Key Value Pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/juniper-srx-firewall-syslog.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERSRXFIREWALL_IFW_SYS_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Juniper",
+		"title": "Juniper Switch",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/juniper-switch-syslog.htm",
+				"parser": "SCNX_JUNIPE_JUNIPERSWITCH_NAC_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "KnowBe4",
+		"title": "KnowBe4",
+		"methods": [
+			{
+				"type": "knowbe4/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/knowbe4-phisher.htm",
+				"parser": "SCNX_KNOWBE_KNOWBE4_EML_KNO_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Malwarebytes",
+		"title": "MalwarebytesAntiVirus",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/malwarebytes-antivirus-syslog.htm",
+				"parser": "SCNX_MALWAR_MALWAREBYTESANTIVIRUS_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Malwarebytes",
+		"title": "MalwarebytesEvents",
+		"methods": [
+			{
+				"type": "malwarebytes/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/malwarebytes-events.htm",
+				"parser": "SCNX_MALWAR_MALWAREBYTESEVENTS_EDR_MAL_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Malwarebytes",
+		"title": "MalwarebytesBytes Detection",
+		"methods": [
+			{
+				"type": "malwarebytes/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/malwarebytes-detections.htm",
+				"parser": "SCNX_MALWAR_MALWAREBYTESDETECTION_EDR_MAL_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "ManageEngine",
+		"title": "Manage AD AuditPlus",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/manageengine-ad-auditplus-syslog.htm",
+				"parser": "SCNX_MANAGE_MANAGEADAUDITPLUS_WEL_SYS_REG"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/manageengine-ad-auditplus-syslog.htm",
+				"parser": "SCNX_MANAGE_MANAGEADAUDITPLUS_AIM_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "ManageEngine",
+		"title": "Password Manager Pro",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/manageengine-password-manager-pro-syslog.htm",
+				"parser": "SCNX_MANAGE_PASSWORDMANAGERPRO_APU_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfeeATD",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-atd-syslog.htm",
+				"parser": "SCNX_INTEL_MCAFEEATD_ITD_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee CASB",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-mvision-cloud-casb.htm",
+				"parser": "SCNX_INTEL_MCAFEECASB_CASB_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfeeDAM",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/database-activity-monitoring-syslog.htm",
+				"parser": "SCNX_INTEL_DAM_DAM_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee Endpoint DLP",
+		"methods": [
+			{
+				"type": "File/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-endpoint-dlp-file.htm",
+				"parser": "SCNX_INTEL_MCAFEEENDPOINTDLP_EDLP_FIL_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee Mvision ePO",
+		"methods": [
+			{
+				"type": "mcafeemvisionepo/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-mvision-epo-api-json.htm",
+				"parser": "SCNX_INTEL_MCAFEEMVISIONEPO_EDLP_MCA_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee ePO Hips",
+		"methods": [
+			{
+				"type": "Database/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-epo-hips-database.htm",
+				"parser": "SCNX_INTEL_MCAFEEEPOHIPS_EDR_DAT_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfeeePO VirusScan",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-epo-virusscan-cef.htm",
+				"parser": "SCNX_INTEL_MCAFEEEPOVIRUSSCAN_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee ePO VirusScan",
+		"methods": [
+			{
+				"type": "Syslog/XMLPARSER",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-epo-virusscan-syslog.htm",
+				"parser": "SCNX_INTEL_MCAFEEEPOVIRUSSCAN_EDR_SYS_XML_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-firewall-syslog-regex.htm",
+				"parser": "SCNX_INTEL_MCAFEEFIREWALL_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfeeIronMail Email Gateway",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-ironmail-email-gateway-syslog-regex.htm",
+				"parser": "SCNX_INTEL_MCAFEEIRONMAILEMAILGATEWAY_EML_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee NIPS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-network-security-platform.htm",
+				"parser": "SCNX_INTEL_MCAFEENIPS_EDR_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfeeWeb Gateway",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/mcafee-web_gateway-syslog.htm",
+				"parser": "SCNX_INTEL_MCAFEEWEBGATEWAY_PXY_SYS_CEF"
+			},
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-web-gateway-syslog-delimited-comma.htm",
+				"parser": "SCNX_INTEL_MCAFEEWEBGATEWAY_PXY_SYS_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee Web Gateway",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-web-gateway-syslog-regex.htm",
+				"parser": "SCNX_INTEL_MCAFEEWEBGATEWAY_PXY_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee SkyHigh CASB",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-skyhigh-casb-syslog-regex.htm",
+				"parser": "SCNX_INTEL_SKYHIGHCASB_CASB_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "McAfee",
+		"title": "McAfee McAfee MVISION",
+		"methods": [
+			{
+				"type": "Mcafeemvision/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mcafee-mvision-api.htm",
+				"parser": "SCNX_INTEL_MCAFEEMVISION_EDLP_MCA_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Mellanox Technologies",
+		"title": "Mellanox Switch",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mellanox-switch-syslog-regex.htm",
+				"parser": "SCNX_MELLAN_MELLANOXSWITCH_NAC_FIL_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Graph Security - Alerts",
+		"methods": [
+			{
+				"type": "msftgraphsecurity/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-graph-security.htm",
+				"parser": "SCNX_MICROS_MICROSOFTGRAPHSECURITYALERTS_ITD_MSF_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Office 365 Azure API",
+		"methods": [
+			{
+				"type": "Office365 (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-office-o365-api.htm",
+				"parser": "SCNX_MICROS_OFFICE365AZUREAPI_CSA_OFF_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Active Directory",
+		"methods": [
+			{
+				"type": "Office365 (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-office-o365-api.htm",
+				"parser": "SCNX_MICROS_AZUREACTIVEDIRECTORY_AIM_OFF_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Office 365 SharePoint API",
+		"methods": [
+			{
+				"type": "office365/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-office-o365-api.htm",
+				"parser": "SCNX_MICROS_OFFICE365SHAREPOINTAPI_CCMS_OFF_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Graph Identity Protection Risky Detection",
+		"methods": [
+			{
+				"type": "microsoftgraphidentityprotection/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-graph-identity-protection-risky-detections.htm",
+				"parser": "SCNX_MICROS_AZUREGRAPHINDENTITYPROTECTIONRISKYDETECTION_CSSO_MIC_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Graph Identity Protection Risky User",
+		"methods": [
+			{
+				"type": "microsoftgraphidentityprotection/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-graph-identity-protection-risky-users.htm",
+				"parser": "SCNX_MICROS_AZUREGRAPHINDENTITYPROTECTIONRISKYUSER_CSSO_MIC_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Active Directory - Audit",
+		"methods": [
+			{
+				"type": "Azurereport (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-ad-reporting-audit-api.htm",
+				"parser": "SCNX_MICROS_AZUREACTIVEDIRECTORYAUDIT_CAAU_AZU_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Active Directory Sign In",
+		"methods": [
+			{
+				"type": "Azurereport (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-ad-reporting-sign-in-api.htm",
+				"parser": "SCNX_MICROS_AZUREACTIVEDIRECTORYSIGNIN_CSSO_AZU_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Application Gateway",
+		"methods": [
+			{
+				"type": "eventhub/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-azure-application-gateway-eventhub.htm",
+				"parser": "SCNX_MICROS_AZUREAPPLICATIONGATEWAY_TM_EVE_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Application Service",
+		"methods": [
+			{
+				"type": "eventhub/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-azure-application-services-eventhub.htm",
+				"parser": "SCNX_MICROS_AZUREAPPLICATIONSERVICE_PAAS_EVE_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "AZURE - NSG FLOW",
+		"methods": [
+			{
+				"type": "azurestorage/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-ngs-flow.htm",
+				"parser": "SCNX_MICROS_AZURE-NSGFLOW_F_AZU_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Firewall",
+		"methods": [
+			{
+				"type": "Eventhub/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-azure-firewall-eventhub.htm",
+				"parser": "SCNX_MICROS_AZUREFIREWALL_NGF_EVE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Identity Protection",
+		"methods": [
+			{
+				"type": "Msftgraphsecurityalerts (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-identity-protection-api.htm",
+				"parser": "SCNX_MICROS_AZUREIDENTITYPROTECTION_IRM_MSF_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Key Vault",
+		"methods": [
+			{
+				"type": "Azurekeyvaultstorage (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-key-vault-api.htm",
+				"parser": "SCNX_MICROS_AZUREKEYVAULT_SKM_AZU_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Monitor",
+		"methods": [
+			{
+				"type": "Azureactivitylogs/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-monitor-api.htm",
+				"parser": "SCNX_MICROS_AZUREMONITOR_CPA_AZU_KVP_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Front Door Web Application Firewall",
+		"methods": [
+			{
+				"type": "Eventhub/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-front-door.htm",
+				"parser": "SCNX_MICROS_AZUREFRONTDOORWEBAPPLICATIONFIREWALL_WAF_EVE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Network Security Groups",
+		"methods": [
+			{
+				"type": "Eventhub/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-azure-network-security-groups-event-hub.htm",
+				"parser": "SCNX_MICROS_AZURENETWORKSECURITYGROUPS_TM_EVE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Security Centre",
+		"methods": [
+			{
+				"type": "msftgraphsecurityalerts (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-security-center-api.htm",
+				"parser": "SCNX_MICROS_AZURESECURITYCENTRE_ITD_MSF_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Cloudapp Security - Alerts",
+		"methods": [
+			{
+				"type": "microsoftcloudappsecurity/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-cloudapp-security-alerts-api.htm",
+				"parser": "SCNX_MICROS_MSCLOUDAPPSECURITYALERTS_CASB_MIC_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Defender ATP",
+		"methods": [
+			{
+				"type": "Msftdefenderatp (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-365-defender-for-endpoint-api.htm",
+				"parser": "SCNX_MICROS_MICROSOFTDEFENDERATP_EDR_MSF_JSO"
+			},
+			{
+				"type": "Event Hub/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-defender-atp-eventhub.htm",
+				"parser": "SCNX_MICROS_MICROSOFTDEFENDERATP_EDR_EVE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Defender for Identity Security",
+		"methods": [
+			{
+				"type": "syslog /CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-defender-for-identity-security-syslog-cef.htm",
+				"parser": "SCNX_MICROS_MICROSOFTDEFENDERFORIDENTITYSECURITY_ITD_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "ForeFront Threat Management Gateway Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-corporation-forefront-threat-management-gateway-firewall-syslog-regex.htm",
+				"parser": "SCNX_MICROS_FOREFRONTTHREATMANAGEMENTGATEWAYFIREWALL_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "ForeFront Threat Management Gateway Proxy",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/forefront-threat-management-gateway-syslog.htm",
+				"parser": "SCNX_MICROS_FOREFRONTTHREATMANAGEMENTGATEWAYPROXY_PXY_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Defender for Endpoint",
+		"methods": [
+			{
+				"type": "Syslog/SNARE",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-defender-endpoint-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTDEFENDER_EDR_SYS_SNA_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Defender for Cloud Apps",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-defender-cloud_apps-syslog.htm",
+				"parser": "SCNX_MICROS_MCAS_CASB_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation DHCP",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-dhcp-syslog-delimited-comma.htm",
+				"parser": "SCNX_MICROS_MICROSOFTDHCP_DNS_SYS_DEL_COMM"
+			},
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-dhcp-syslog-key-value-pair.htm",
+				"parser": "SCNX_MICROS_MICROSOFTDHCP_DNS_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft CorporationDNS Server",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-dns-server-syslog-regex.htm",
+				"parser": "SCNX_MICROS_MICROSOFTDNSSERVER_DNS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Exchange Server",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-exchange-cef.htm",
+				"parser": "SCNX_MICROS_MICROSOFTEXCHANGESERVER_EML_SYS_CEF_COMM"
+			},
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-exchange-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTEXCHANGESERVER_EML_SYS_DEL_COMM"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-exchange-regex.htm",
+				"parser": "SCNX_MICROS_MICROSOFTEXCHANGESERVER_EML_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft CorporationIIS Server",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-iis-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTIISSERVER_WEB_SYS_KEY"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-windows-iis-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTIISSERVER_WEB_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Print Service",
+		"methods": [
+			{
+				"type": "Syslog/Snare",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-print-service-syslog-nxlog-snare.htm",
+				"parser": "SCNX_MICROS_MICROSOFTPRINTSERVICE_PRN_SYS_SNA_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft CorporationWindows AppLocker",
+		"methods": [
+			{
+				"type": "Azureloganalytics (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft_windows_applocker-azureloganalytics-api.htm",
+				"parser": "SCNX_MICROS_MICROSOFTWINDOWSAPPLOCKER_WEL_AZU_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Windows Powershell",
+		"methods": [
+			{
+				"type": "Syslog/WINDOWSPOWERSHELL",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-windows-powershell-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTWINDOWSPOWERSHELL_PSH_SYS_WIN"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft CorporationWindows SNARE",
+		"methods": [
+			{
+				"type": "Syslog/Snare",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-windows-security-logs-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTWINDOWSSNARE_WEL_SYS_SNA"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Windows SNARE - Application",
+		"methods": [
+			{
+				"type": "Syslog/Snare",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-corporation-windows-snare-syslog-application.htm",
+				"parser": "SCNX_MICROS_MICROSOFTWINDOWSSNARE_APPLICATION_WEL_SYS_SNA"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft CorporationWindows SNARE - System",
+		"methods": [
+			{
+				"type": "Syslog/Snare",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-corporation-windows-snare-syslog-system.htm",
+				"parser": "SCNX_MICROS_MICROSOFTWINDOWSSNARE_SYSTEM_WEL_SYS_SNA"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Windows Sysmon",
+		"methods": [
+			{
+				"type": "Syslog/Snare",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-system-monitor-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTWINDOWSSYSMON_EMS_SYS_SNA"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Intune",
+		"methods": [
+			{
+				"type": "Event Hub(API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-intune-api.htm",
+				"parser": "SCNX_MICROS_MICROSOFTINTUNE_CCMS_EVE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Microsoft Corporation Windows WINEVENT",
+		"methods": [
+			{
+				"type": "Syslog/WINEVENT",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-windows-winevent-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTWINDOWSWINEVENT_WEL_SYS_WIN"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "MSSQL Audit",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-sql-audit-nxlog-syslog.htm",
+				"parser": "SCNX_MICROS_MSSQLAUDIT_DBA_SYS_REG_COMM"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-sql-audit-integration-syslog.htm",
+				"parser": "SCNX_MICROS_MSSQLAUDIT_DBA_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Office 365 Outlook",
+		"methods": [
+			{
+				"type": "Outlook (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-office-o365-outlook-api-kvp.htm",
+				"parser": "SCNX_MICROS_OFFICE365OUTLOOK_CEML_OUT_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Office 365 DLP",
+		"methods": [
+			{
+				"type": "Office365 (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-office-o365-api.htm",
+				"parser": "SCNX_MICROS_OFFICE365DLP_EDLP_OFF_KVP_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Office 365 Exchange API",
+		"methods": [
+			{
+				"type": "Office365 (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-office-o365-api.htm",
+				"parser": "SCNX_MICROS_OFFICE365EXCHANGEAPI_CAAU_OFF_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "O365 Audit General",
+		"methods": [
+			{
+				"type": "Office365 (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-office-o365-api.htm",
+				"parser": "SCNX_MICROS_O365AUDITGENERAL_O365_OFF_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "O365 Defender",
+		"methods": [
+			{
+				"type": "microsofto365defender (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-o365-defender-api.htm",
+				"parser": "SCNX_MICROS_MICROSOFTO365DEFENDER_CEDR_MIC_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "RADIUS_NPS",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-radius-nps-delimited-comma.htm",
+				"parser": "SCNX_MICROS_RADIUS_NPS_AW_SYS_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "SharePoint",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/microsoft-sharepoint-on-prem-syslog.htm",
+				"parser": "SCNX_MICROS_MICROSOFTSHAREPOINT_CMS_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Windows ADFS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-adfs-syslog.htm",
+				"parser": "SCNX_MICROS_WINDOWSADFS_SSO_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Windows DNS Server",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-dns-server-syslog-kvp.htm",
+				"parser": "SCNX_MICROS_MICROSOFTWINDOWSDNSSERVER_DNS_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Windows MSSQL",
+		"methods": [
+			{
+				"type": "Syslog/SNARE",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-windows-mssql-snare-syslog.htm",
+				"parser": "SCNX_MICROS_WINDOWSMSSQL_DBA_SYS_SNA_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Windows Security Auditing",
+		"methods": [
+			{
+				"type": "Azureloganalytics (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-windows-security-auditing-azure-log-analytics-api.htm",
+				"parser": "SCNX_MICROS_WINDOWSSECURITYAUDITING_WEL_AZU_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Microsoft Corporation",
+		"title": "Azure Kubernetes",
+		"methods": [
+			{
+				"type": "azurekubernetesservice/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/microsoft-azure-kubernetes.htm",
+				"parser": "SCNX_MICROS_AZUREKUBERNETES_CAAS_AZU_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Mimecast",
+		"title": "Mimecast Email API",
+		"methods": [
+			{
+				"type": "mimecast/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mimecast-api.htm",
+				"parser": "SCNX_MIMECA_MIMECASTEMAILAPI_EML_MIM_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "MobileIron",
+		"title": "MobileIron",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mobileiron-syslog.htm",
+				"parser": "SCNX_MOBILE_MOBILEIRON_CSA_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Mulesoft",
+		"title": "Mulesoft",
+		"methods": [
+			{
+				"type": "Mulesoft (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/mulesoft-api.htm",
+				"parser": "SCNX_MULESO_MULESOFT_AIM_MUL_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "NetApp",
+		"title": "NetAppAdmin",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netapp_admin-syslog.htm",
+				"parser": "SCNX_NETAPP_NETAPPADMIN_CAAU_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Netgate",
+		"title": "Pfsense Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netgate-pfsense-firewall-syslog-regex.htm",
+				"parser": "SCNX_NETGAT_PFSENSEFIREWALL_NGF_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
+		"title": "Netskope Alerts",
+		"methods": [
+			{
+				"type": "Netskope (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/netskope-api.htm",
+				"parser": "SCNX_NETSKO_NETSKOPEALERTS_AES_NET_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
+		"title": "Netskope Alerts V2",
+		"methods": [
+			{
+				"type": "Netskope (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netskope-alets-v2.htm",
+				"parser": "SCNX_NETSKO_NETSKOPEALERTSV2_AES_NET_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
+		"title": "NetskopeEvents",
+		"methods": [
+			{
+				"type": "Netskope (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/netskope-api.htm",
+				"parser": "SCNX_NETSKO_NETSKOPEEVENTS_AES_NET_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
+		"title": "NetskopeEvents V2 Application",
+		"methods": [
+			{
+				"type": "Netskope (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netskope-events-v2-application.htm",
+				"parser": "SCNX_NETSKO_NETSKOPEEVENTSV2APPLICATION_CASB_NET_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
+		"title": "Netskope Events V2 Page",
+		"methods": [
+			{
+				"type": "Netskope (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netskope-events-v2-page.htm",
+				"parser": "SCNX_NETSKO_NETSKOPEEVENTSV2PAGE_PXY_NET_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Netskope",
+		"title": "Netskope Events V2",
+		"methods": [
+			{
+				"type": "Netskope (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/netskope-audit-events-v2.htm",
+				"parser": "SCNX_NETSKO_NETSKOPEEVENTSV2_AES_NET_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Nozomi Networks",
+		"title": "Nozomi Networks",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/nozomi-networks-syslog.htm",
+				"parser": "SCNX_NOZOMI_NOZOMINETWORKS_OTS_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Nozomi Networks",
+		"title": "Nozomi Vantage - Vulnerabilities",
+		"methods": [
+			{
+				"type": "nozomivantage/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/nozomi-networks-vantage-vulnerabilities.htm",
+				"parser": "SCNX_NOZOMI_NOZOMIVANTAGEVULNERABILITIES_SCN_NOZ_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Nozomi Networks",
+		"title": "Nozomi Vantage - Alerts",
+		"methods": [
+			{
+				"type": "nozomivantage/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/nozomi-networks-syslog.htm",
+				"parser": "SCNX_NOZOMI_NOZOMIVANTAGEALERTS_ITD_NOZ_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "ObserveIT",
+		"title": "ObserveITSecurity",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/observeit-security-syslog-cef.htm",
+				"parser": "SCNX_OBSERV_OBSERVEITSECURITY_EDLP_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Okta",
+		"title": "Okta System Authentication",
+		"methods": [
+			{
+				"type": "Okta (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/okta-authentication-api.htm",
+				"parser": "SCNX_OKTA_OKTASYSTEMAUTHENTICATION_CSSO_OKT_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "One Login",
+		"title": "One LoginAPI",
+		"methods": [
+			{
+				"type": "Onelogin (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/one-login-api.htm",
+				"parser": "SCNX_ONELO_ONELOGINAPI_CSSO_ONE_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Cloud Infrastructure Cloud Guard",
+		"methods": [
+			{
+				"type": "file/ JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/oracle-cloud-infrastructure-cloud-guard.htm",
+				"parser": "SCNX_ORACLE_ORACLECLOUDINFRASTRUCTURECLOUDGUARD_ITD_FIL_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Access Management",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/oracle-access-managment-_syslog-regex.htm",
+				"parser": "SCNX_ORACLE_ORACLEACCESSMANAGEMENT_AIM_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Cloud Infrastructure",
+		"methods": [
+			{
+				"type": "Ociaudit/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/oracle-cloud-infrastructure-ociaudit.htm",
+				"parser": "SCNX_ORACLE_ORACLECLOUDINFRASTRUCTURE_CSA_OCI_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Database",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/oracle-db-audit-syslog.htm",
+				"parser": "SCNX_ORACLE_ORACLEDATABASE_DBA_FIL_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Pager Duty",
+		"methods": [
+			{
+				"type": "Pagerdutyincidents (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/pager-duty-api.htm",
+				"parser": "SCNX_PAGER_PAGERDUTY_IIM_PAG_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "OS Query Logs",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/os-query-syslog.htm",
+				"parser": "SCNX_OSQUER_OSQUERYLOGS_EMS_SYS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "Oracle Sun Solaris",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/oracle-sun-solaris-syslog.htm",
+				"parser": "SCNX_ORACLE_SUNSOLARIS_UNX_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Oracle Corporation",
+		"title": "SysDB",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/oracle-sysdb-syslog.htm",
+				"parser": "SCNX_ORACLE_ORACLESYSDB_DBA_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Palo Alto Networks",
+		"title": "Cortex Data Lake - Firewall",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/palo-alto-cortex-data-lake-firewall.htm",
+				"parser": "SCNX_PALOAL_CORTEXDATALAKEFIREWALL_NGF_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Palo Alto Networks",
+		"title": "Palo Alto Next-Generation Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/palo-alto-next-generation-firewall-syslog.htm",
+				"parser": "SCNX_PALOA_PALOALTONEXTGENERATIONFIREWALL_NGF_SYS_REG"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/palo-alto-next-generation-firewall-syslog-cef.htm",
+				"parser": "SCNX_PALOA_PALOALTONEXTGENERATIONFIREWALL_NGF_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Palo Alto Networks",
+		"title": "PA Cortex",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/paloalto-cortex-xdr-syslog.htm",
+				"parser": "SCNX_PALOA_PACORTEX_CEDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Palo Alto Networks",
+		"title": "Prisma Access",
+		"methods": [
+			{
+				"type": "Prismacloud (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/prisma-cloud-api-json.htm",
+				"parser": "SCNX_PALOA_PRISMAACCESS_CASB_BIT_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Palo Alto Networks",
+		"title": "Palo Alto XDR Activity",
+		"methods": [
+			{
+				"type": "paloaltoxdr/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/palo-alto-xdr-activity.htm",
+				"parser": "SCNX_PALOAL_PALOALTOXDRACTIVITY_CEDR_PAL_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Panda Security",
+		"title": "Panda SecurityEndpoint Protection",
+		"methods": [
+			{
+				"type": "Syslog/LEEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/panda-security-security-endpoint-protection-syslog.htm",
+				"parser": "SCNX_PANDA_PANDASECURITYENDPOINTPROTECTION_EDR_SYS_LEE"
+			}
+		]
+	},
+	{
+		"vendor": "PingFederate",
+		"title": "PingFederate",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ping-identity-federate-syslog.htm",
+				"parser": "SCNX_PINGFE_PINGFEDERATE_SSO_SYS_REG"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ping-identity-ping-federate-syslog-cef.htm",
+				"parser": "SCNX_PINGFE_PINGFEDERATE_SSO_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Ping Identity",
+		"title": "Ping ID",
+		"methods": [
+			{
+				"type": "Ping ID (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/ping-identity-api.htm",
+				"parser": "SCNX_PINGID_PINGID_AIM_PIN_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Ping Identity",
+		"title": "PingOne",
+		"methods": [
+			{
+				"type": "pingone(API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/pingone-audit-api.htm",
+				"parser": "SCNX_PINGON_PINGONEAUDIT_AIM_PIN_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Postfix",
+		"title": "Postfix",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/postfix-email-security-syslog-regex.htm",
+				"parser": "SCNX_POSTFI_POSTFIX_EML_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint, Inc.",
+		"title": "Proofpoint, Inc.Email API",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/proofpoint-email-api-syslog-json.htm",
+				"parser": "SCNX_PROOFP_PROOFPOINTEMAILAPI_EML_SYS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint, Inc.",
+		"title": "Proofpoint, Inc. Email Gateway",
+		"methods": [
+			{
+				"type": "Proofpoint (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/proofpoint-email-gateway-pod-proofpoint.htm",
+				"parser": "SCNX_PROOFP_PROOFPOINTEMAILGATEWAY_EML_PRO_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint, Inc.",
+		"title": "Proofpoint Email API",
+		"methods": [
+			{
+				"type": "ProofpointPOD (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/proofpoint-ondemand-api-json.htm",
+				"parser": "SCNX_PROOFP_PROOFPOINTEMAILAPI_EML_PRO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint, Inc.",
+		"title": "Proofpoint, Inc. TAP",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/proofpoint-tap-syslog-regex.htm",
+				"parser": "SCNX_PROOFP_PROOFPOINTTAP_EML_SYS_REG"
+			},
+			{
+				"type": "Proofpointtap (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/proofpoint-targeted-attack-protection-api-json.htm",
+				"parser": "SCNX_PROOFP_PROOFPOINTTAP_EML_PRO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint, Inc.",
+		"title": "Proofpoint, Inc.TAP",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/proofpoint-tap-syslog-cef.htm",
+				"parser": "SCNX_PROOFP_PROOFPOINTTAP_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Proofpoint, Inc.",
+		"title": "Proofpoint, Inc. TRAP",
+		"methods": [
+			{
+				"type": "Proofpointtrap (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/proofpoint_trap-api.htm",
+				"parser": "SCNX_PROOF_PROOFPOINTTRAP_EML_PRO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Pure Storage",
+		"title": "Pure Storage",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/pure-storage-syslog.htm",
+				"parser": "SCNX_PUREST_PURESTORAGE_CAAU_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Qualys",
+		"title": "Qualys File Integrity Monitorin",
+		"methods": [
+			{
+				"type": "qualysfim /JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/qualys-file-integrity-monitoring.htm",
+				"parser": "SCNX_QUALYS_QUALYSFILEINTEGRITYMONITORING_FIM_QUA_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Qualys",
+		"title": "Qualys Vulnerability Scanner",
+		"methods": [
+			{
+				"type": "Syslog/Key Value Pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/qualys-vulnerablity-scanner-syslog-kvp.htm",
+				"parser": "SCNX_QUALYS_QUALYSVULNERABILITYSCANNER_SCN_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Rapid7",
+		"title": "Nexpose Vulnerability Scanner",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/rapid7-nexpose-vulnerability-scanner.htm",
+				"parser": "SCNX_RAPID_NEXPOSEVULNERABILITYSCANNER_SCN_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Rapid7",
+		"title": "Rapid 7 Threat Command Alert Activity",
+		"methods": [
+			{
+				"type": "rapid7threatcommandalerts/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/rapid7-threat-command-alert-activity.htm",
+				"parser": "SCNX_RAPID_RAPID7THREATCOMMANDALERTACTIVITY_ITD_RAP_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Raytheon",
+		"title": "Forcepoint Email Security",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/forcepoint-websense-email-security-syslog-delimited-comma.htm",
+				"parser": "SCNX_RAYTHE_FORCEPOINTEMAILSECURITY_EML_SYS_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Raytheon",
+		"title": "Websense Web Proxy",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/websense-webproxy-cef.htm",
+				"parser": "SCNX_RAYTHE_WEBSENSEWEBPROXY_PXY_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Raytheon",
+		"title": "Websense Proxy",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/websense-proxy-syslog-regex.htm",
+				"parser": "SCNX_RAYTHE_WEBSENSEPROXY_PXY_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Raytheon",
+		"title": "Websense Triton DLP",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/raytheon-websense-triton-dlp-syslog.htm",
+				"parser": "SCNX_RAYTHE_WEBSENSETRITONDLP_DLP_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "RSA",
+		"title": "RSASecurID Authentication Manager",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/rsa-secureid-authentication_manager-syslog.htm",
+				"parser": "SCNX_RSASO_RSASECURIDAUTHENTICATIONMANAGER_SSO_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Salesforce",
+		"title": "Salesforce EventLog API",
+		"methods": [
+			{
+				"type": "Salesforce (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/salesforce-eventlog-api.htm",
+				"parser": "SCNX_SALESF_SALESFORCEEVENTLOGAPI_CSSO_SAL_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "SAP",
+		"title": "SAP ERP",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/sap-erp.htm",
+				"parser": "SCNX_SAP_SAPERP_AES_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "SentinelOne",
+		"title": "SentinelOne Activities",
+		"methods": [
+			{
+				"type": "Sentinelone (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/sentinelone-activities-api-json.htm",
+				"parser": "SCNX_SENTIN_SENTINELONEACTIVITIES_CEDR_SEN_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "SentinelOne",
+		"title": "Sentinel One - Audit",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/sentinel-one-audit-syslog.htm",
+				"parser": "SCNX_SENTIN_SENTINELONEAUDIT_CAAU_SYS_KVP_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "SentinelOne",
+		"title": "SentinelOne Threat",
+		"methods": [
+			{
+				"type": "Sentinelone (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/sentinelone-threats-api-json.htm",
+				"parser": "SCNX_SENTIN_SENTINELONETHREATS_CEDR_SEN_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Slack",
+		"title": "Slack IM",
+		"methods": [
+			{
+				"type": "Slack (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/slack-audit-api.htm",
+				"parser": "SCNX_SLACK_SLACKIM_BCP_SLA_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Snort",
+		"title": "Snort Network IDS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/snort-network-ids-syslog-regex.htm",
+				"parser": "SCNX_SNORT_SNORTNETWORKIDS_EDR_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Snowflake",
+		"title": "Snowflake - Login",
+		"methods": [
+			{
+				"type": "Snowflake (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/snowflake-api.htm",
+				"parser": "SCNX_SNOWFL_SNOWFLAKELOGIN_DAW_SNO_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Snowflake",
+		"title": "Snowflake - JDBC",
+		"methods": [
+			{
+				"type": "Snowflake (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/snowflake-api.htm",
+				"parser": "SCNX_SNOWFL_SNOWFLAKEJDBC_DBM_SNO_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Snowflake",
+		"title": "Snowflake - Query",
+		"methods": [
+			{
+				"type": "Snowflake (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/snowflake-api.htm",
+				"parser": "SCNX_SNOWFL_SNOWFLAKEQUERY_DAW_SNO_DEL"
+			}
+		]
+	},
+	{
+		"vendor": "Sophos",
+		"title": "Sophos Endpoint",
+		"methods": [
+			{
+				"type": "Sophos (API)/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/sophos-events-api.htm",
+				"parser": "SCNX_SOPHOS_SOPHOSENDPOINT_EDR_SOP_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Sophos",
+		"title": "Sophos SG Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/sophos-sg-firewall-syslog-key-value-pair.htm",
+				"parser": "SCNX_SOPHOS_SOPHOSSGFIREWALL_NGF_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Sophos",
+		"title": "Sophos UTM",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/sophos-utm-syslog.htm",
+				"parser": "SCNX_SOPHOS_SOPHOSUTM_NGF_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Sophos",
+		"title": "Sophos XG Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/sophos-xg-firewall-syslog.htm",
+				"parser": "SCNX_SOPHOS_SOPHOSXGFIREWALL_NGF_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Sophos",
+		"title": "Sophos Proxy",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/sophos-proxy-syslog.htm",
+				"parser": "SCNX_SOPHOS_SOPHOSPROXY_PXY_SYS_KVP_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Squid",
+		"title": "Squid Proxy",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/squid-proxy-syslog.htm",
+				"parser": "SCNX_SQUID_SQUIDPROXY_PXY_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Suricata",
+		"title": "Suricata IDS",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/suricata-ids-syslog.htm",
+				"parser": "SCNX_SURICA_SURICATAIDS_ITD_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec CASB",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-cloudasb-syslog-kvp.htm",
+				"parser": "SCNX_SYMANT_SYMANTECCASB_CASB_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec CloudSOC",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-cloudsoc-syslog.htm",
+				"parser": "SCNX_SYMANT_SYMANTECCLOUDSOC_CASB_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec DLP",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-data-loss-protection-syslog.htm",
+				"parser": "SCNX_SYMANT_SYMANTECDLP_EDLP_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec DLP Endpoint",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-data-loss-protection-syslog-cef.htm",
+				"parser": "SCNX_SYMANT_SYMANTECDLPENDPOINT_EDLP_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec Endpoint Protection",
+		"methods": [
+			{
+				"type": "Syslog/Key Value Pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-endpoint-protection-syslog-kvp.htm",
+				"parser": "SCNX_SYMANT_SYMANTECENDPOINTPROTECTION_EDR_SYS_KVP_COMM"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-endpoint-protection-syslog.htm",
+				"parser": "SCNX_SYMANT_SYMANTECENDPOINTPROTECTION_EDR_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec Endpoint Protection Stream",
+		"methods": [
+			{
+				"type": "symantecendpointprotectionstream/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-endpoint-protection-api-json.htm",
+				"parser": "SCNX_SYMANT_SYMANTECENDPOINTPROTECTIONSTREAM_EDR_SYM_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec Message Security Gateway",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-message-security-gateway-syslog-cef.htm",
+				"parser": "SCNX_SYMANT_SYMANTECMESSAGESECURITYGATEWAY_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec PGP Server",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/symantec-encryption-management-server.htm",
+				"parser": "SCNX_SYMANT_SYMANTECPGPSERVER_VPN_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Symantec",
+		"title": "Symantec Integrated Cyber Defense Manager",
+		"methods": [
+			{
+				"type": "symantecendpointprotectionincidents/JSON",
+				"link": "http://symantec_integrated_cyber_defense_manager_edr_alerts/",
+				"parser": "SCNX_SYMANT_SYMANTECINTEGRATEDCYBERDEFENSEMANAGER_EDR_SYM_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Tanium",
+		"title": "Endpoint",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/beta-deployment-guides/tanium-endpoint-syslog.htm",
+				"parser": "SCNX_TANIUM_TANIUMENDPOINT_EMS_SYS_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Tanium",
+		"title": "Tanium",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/tanium-syslog.htm",
+				"parser": "SCNX_TANIUM_TANIUM_EMS_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Tanium",
+		"title": "Tanium Detect",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/tanium-detect-syslog-cef.htm",
+				"parser": "SCNX_TANIUM_TANIUMDETECT_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Tenable",
+		"title": "Nessus Vulnerability Scanner",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/nessus-vulnerability-scanner-syslog.htm",
+				"parser": "SCNX_TENABL_NESSUSVULNERABILITYSCANNER_SCN_FIL_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Trellix EDR",
+		"title": "Trellix EDR",
+		"methods": [
+			{
+				"type": "trellixedr/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trellix-edr.htm",
+				"parser": "SCNX_TRELLI_TRELLIXEDR_EDR_TRE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Delinea",
+		"title": "Thycotic Server",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/delinea-thycotic-secret-server-syslog.htm",
+				"parser": "SCNX_THYCOT_THYCOTICSERVER_APU_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Delinea",
+		"title": "Thycotic Application Control Solution",
+		"methods": [
+			{
+				"type": "syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/delinea-thycotic-application-control-solution-syslog-cef.htm",
+				"parser": "SCNX_DELINE_THYCOTICAPPLICATIONCONTROLSOLUTION_AAC_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Email Security - Detection",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-mirco-email-security-detection.htm",
+				"parser": "SCNX_TREND_TRENDMICROEMAILSECURITYDETECTION_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Email Security - Audit",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-mirco-email-security-audit.htm",
+				"parser": "SCNX_TREND_TRENDMICROEMAILSECURITYAUDIT_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Email Security - URL Click Tracking",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-mirco-email-security-url-click-tracking.htm",
+				"parser": "SCNX_TREND_TRENDMICROEMAILSECURITYURLCLICKTRACKING_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Email Security - Mail Tracking",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-mirco-email-security-mail-tracking.htm",
+				"parser": "SCNX_TREND_TRENDMICROEMAILSECURITYMAILTRACKING_EML_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend MicroControl Manager",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-control-manager-syslog.htm",
+				"parser": "SCNX_TREND_TRENDMICROCONTROLMANAGER_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Deep Discovery Inspector",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-deep-discovery-inspector-cef.htm",
+				"parser": "SCNX_TREND_TRENDMICRODEEPDISCOVERYINSPECTOR_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Deep Security Agent",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-deep-security-syslog.htm",
+				"parser": "SCNX_TREND_TRENDMICRODEEPSECURITYAGENT_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Deep Security Manager",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-deep-security-manager-cef.htm",
+				"parser": "SCNX_TREND_TRENDMICRODEEPSECURITYMANAGER_EDR_SYS_CEF"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "TippingPoint IPS",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-tipping-point-ips-lsm-syslog.htm",
+				"parser": "SCNX_TREND_TIPPINGPOINTIPS_ITD_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "Trend Micro Vision One Alert",
+		"methods": [
+			{
+				"type": "Trendmicroxdr/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-micro-vision-one.htm",
+				"parser": "SCNX_TRENDM_TRENDMICROVISIONONEALERT_CEDR_TRE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Trend Micro",
+		"title": "TippingPoint Security Management System",
+		"methods": [
+			{
+				"type": "syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/trend-mirco-tippingpoint-security-management-system.htm",
+				"parser": "SCNX_TRENDM_TIPPINGPOINTSECURITYMANAGEMENTSYSTEM_ITD_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "UniFi",
+		"title": "Unifi Wireless LAN Controller",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/unifi-wireless-lan-controller-syslog.htm",
+				"parser": "SCNX_UNIFI_UNIFIWIRELESELANCONTROLLER_WEB_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Unix",
+		"title": "Unix",
+		"methods": [
+			{
+				"type": "Azureloganalytics (API)/Delimited-pipe",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/unix-azureloganalytics-api.htm",
+				"parser": "SCNX_UNIX_UNIX_UNX_AZU_DEL_COMM"
+			},
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/unix-cef-syslog.htm",
+				"parser": "SCNX_UNIX_UNIX_UNX_SYS_CEF_COMM"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/unix-syslog.htm",
+				"parser": "SCNX_UNIX_UNIX_UNX_SYS_REG"
+			},
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/unixlinux-syslog-json.htm",
+				"parser": "SCNX_UNIX_UNIX_UNX_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Unix",
+		"title": "Unix-AuditD",
+		"methods": [
+			{
+				"type": "Syslog/ Key Value Pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/unix-auditd-kvp.htm",
+				"parser": "SCNX_UNIX_UNIXAUDITD_UNX_SYS_KEY_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Varonis Systems",
+		"title": "Varonis DatAdvantage",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/varonis-datadvantage-syslog.htm",
+				"parser": "SCNX_VARONI_VARONISDATADVANTAGE_CMS_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Varonis Systems",
+		"title": "Varonis File Share",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/varonis-file-share-syslog.htm",
+				"parser": "SCNX_VARONI_VARONISFILESHARE_CMS_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Vectra",
+		"title": "Vectra Brain",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vectra-brain-syslog.htm",
+				"parser": "SCNX_VECTRA_VECTRABRAIN_ITD_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Veeva",
+		"title": "Veeva Vault Audit",
+		"methods": [
+			{
+				"type": "Veeva Vault Audit/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/veeva-vault-api-audit.htm",
+				"parser": "SCNX_VEEVA_VEEVAVAULTAUDIT_CMS_VEE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Verizon",
+		"title": "Verizon Edgecast",
+		"methods": [
+			{
+				"type": "verizonedgecast/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/verizon-edgio.htm",
+				"parser": "SCNX_VERIZO_VERIZONEDGECAST_WAF_VER_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Versa Networks, Inc.",
+		"title": "Versa Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/versa-firewall-syslog.htm",
+				"parser": "SCNX_VERSAN_VERSAFIREWALL_NGF_SYS_KVP_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Versa Networks, Inc.",
+		"title": "Versa Threat",
+		"methods": [
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/versa-threat-syslog.htm",
+				"parser": "SCNX_VERSAN_VERSATHREAT_ITD_SYS_KVP_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "VMware ESXi",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vmware_esxi-syslog-regex.htm",
+				"parser": "SCNX_VMWARE_VMWAREESXI_VC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "VMware NSX-T",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vmware-nsx-t-syslog.htm",
+				"parser": "SCNX_VMWARE_VMWARENSXT_VC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "Carbon Black Protect",
+		"methods": [
+			{
+				"type": "syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/carbon-black-protect-syslog-cef.htm",
+				"parser": "SCNX_VMWARE_CARBONBLACKPROTECT_AAC_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Vormetric Inc.",
+		"title": "VMware Vormetric Data Security Manager",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vormetric-data-security-manager-syslog.htm",
+				"parser": "SCNX_VORMET_VORMETRICDATASECURITYMANAGER_SAP_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "VMware Unified Access Gateway",
+		"methods": [
+			{
+				"type": "File/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vmware-unified-access-gateway-file.htm",
+				"parser": "SCNX_VMWARE_UNIFIEDACCESSGATEWAY_PXY_FIL_REG"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vmware-unified-access-gateway-syslog.htm",
+				"parser": "SCNX_VMWARE_UNIFIEDACCESSGATEWAY_PXY_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "VMware Vcentre",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vmware-vcenter-syslog.htm",
+				"parser": "SCNX_VMWARE_VMWAREVCENTRE_VC_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "VMware",
+		"title": "VMware vSphere Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/vmware-vcenter-syslog.htm",
+				"parser": "SCNX_VMWARE_VMWAREVSPHEREFIREWALL_IFW_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Wiz",
+		"title": "Wiz - Issue",
+		"methods": [
+			{
+				"type": "Wiz/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/wiz-issue-api-json.htm",
+				"parser": "SCNX_WIZ_WIZISSUE_ITD_WIZ_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Workday",
+		"title": "Workday Audit",
+		"methods": [
+			{
+				"type": "Workday (API)Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/workday-audit-logs.htm",
+				"parser": "SCNX_WORKDA_WORKDAYAUDIT_AIM_WOR_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Workday",
+		"title": "Workday Unidentified Sign-on",
+		"methods": [
+			{
+				"type": "Workdayidentitymanagement (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/workday-unidentified-sign-on.htm",
+				"parser": "SCNX_WORKDA_UNIDENTIFIEDSIGNON_HCM_WOR_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Workday",
+		"title": "Workday Account Sign-on",
+		"methods": [
+			{
+				"type": "Workdayidentitymanagement (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/workday-account-sign-on.htm",
+				"parser": "SCNX_WORKDA_WORKDAYACCOUNTSIGNON_HCM_WOR_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Watch Guard Technologies",
+		"title": "Watch Guard",
+		"methods": [
+			{
+				"type": "Syslog/ LEEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/watch-guard-next-generation-leef.htm",
+				"parser": "SCNX_WATCHG_WATCHGUARD_NGF_SYS_LEE_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Zeek",
+		"title": "Bro Network Security",
+		"methods": [
+			{
+				"type": "Syslog/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zeek-syslog-json.htm",
+				"parser": "SCNX_BROSOF_BRONETWORKSECURITY_NTA_SYS_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Zoom",
+		"title": "Zoom API",
+		"methods": [
+			{
+				"type": "Zoom (API)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zoom-api.htm",
+				"parser": "SCNX_ZOOM_ZOOMAPI_BCP_ZOO_JSO"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler IPS",
+		"methods": [
+			{
+				"type": "Syslog/LEEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-ips-syslog.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERIPS_ITD_SYS_LEE_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler Proxy",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-internet-access-syslog.htm",
+				"parser": "SCNX_ZSCALER_ZSCALERPROXY_PXY_SYS_CEF"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-proxy-syslog-regex.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERPROXY_PXY_SYS_REG"
+			},
+			{
+				"type": "Syslog/Key-value pair",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-proxy-syslog-kvp.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERPROXY_PXY_SYS_KEY"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler Firewall",
+		"methods": [
+			{
+				"type": "Syslog/Delimited-comma",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-firewall-syslog.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERFIREWALL_NGF_SYS_DEL_COMM"
+			},
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-firewall-syslog-regex.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERFIREWALL_NGF_SYS_REG_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler Private Access",
+		"methods": [
+			{
+				"type": "Syslog/Regex",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-private-access-syslog.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERPRIVATEACCESS_IAM_SYS_REG"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler ZIA NSS",
+		"methods": [
+			{
+				"type": "File",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-zia-nss-file-delimited-comma.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERZIANSS_NGF_FIL_DEL_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler NSS Firewall",
+		"methods": [
+			{
+				"type": "file(webhook)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-zia-nss-firewall.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERNSSFIREWALL_NGF_FIL_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler NSS Web",
+		"methods": [
+			{
+				"type": "file(webhook)/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-zia-nss-web.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERNSSWEB_PXY_FIL_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "Zscaler",
+		"title": "Zscaler Deception",
+		"methods": [
+			{
+				"type": "Syslog/CEF",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/zscaler-deception.htm",
+				"parser": "SCNX_ZSCALE_ZSCALERDECEPTION_ITD_SYS_CEF_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "1Password",
+		"title": "One Password",
+		"methods": [
+			{
+				"type": "Onepassword/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/one-password-signin-attempts-json.htm",
+				"parser": "SCNX_1PASSW_ONEPASSWORD_AIM_ONE_JSO_COMM"
+			}
+		]
+	},
+	{
+		"vendor": "1Password",
+		"title": "One Password - Item Usages",
+		"methods": [
+			{
+				"type": "Onepassword/JSON",
+				"link": "https://documentation.securonix.com/bundle/securonix-cloud-user-guide/page/content/active-deployment-guides/one-password-item-usage-json.htm",
+				"parser": "SCNX_1PASSW_ONEPASSWORDITEMUSAGES_AIM_ONE_JSO_COMM"
+			}
+		]
+	}
+]
